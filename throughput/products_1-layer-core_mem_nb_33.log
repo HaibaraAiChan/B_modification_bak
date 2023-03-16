@@ -1,0 +1,3882 @@
+main start at this time 1674792888.9702654
+-----------------------------------------before load data 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  100
+----------------------------------------- after block subtensor loading 
+ Nvidia-smi: 1.6796875 GB
+    Memory Allocated: 0.3182086944580078  GigaBytes
+Max Memory Allocated: 0.3182086944580078  GigaBytes
+
+------------------------------------ before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 1.787109375 GB
+    Memory Allocated: 0.34946632385253906  GigaBytes
+Max Memory Allocated: 0.34947919845581055  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 1.787109375 GB
+    Memory Allocated: 0.34946680068969727  GigaBytes
+Max Memory Allocated: 0.34947919845581055  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 2.513671875 GB
+    Memory Allocated: 1.0760293006896973  GigaBytes
+Max Memory Allocated: 1.0760293006896973  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 2.513671875 GB
+    Memory Allocated: 1.0760293006896973  GigaBytes
+Max Memory Allocated: 1.0760293006896973  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 2.515625 GB
+    Memory Allocated: 1.0774941444396973  GigaBytes
+Max Memory Allocated: 1.0774941444396973  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 2.515625 GB
+    Memory Allocated: 1.0774941444396973  GigaBytes
+Max Memory Allocated: 1.0774941444396973  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 2.515625 GB
+    Memory Allocated: 1.0774941444396973  GigaBytes
+Max Memory Allocated: 1.0774941444396973  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0016794204711914062
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 2.515625 GB
+    Memory Allocated: 1.0810699462890625  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+len node_bkt:  173
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 2.515625 GB
+    Memory Allocated: 1.0811176300048828  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 2.515625 GB
+    Memory Allocated: 1.0811176300048828  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+len eid_bkt:  173
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 2.595703125 GB
+    Memory Allocated: 1.0811176300048828  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 2.595703125 GB
+    Memory Allocated: 1.0811824798583984  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 2.595703125 GB
+    Memory Allocated: 1.0811824798583984  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 2.607421875 GB
+    Memory Allocated: 1.0822806358337402  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+len node_bkt:  221
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 2.607421875 GB
+    Memory Allocated: 1.0822806358337402  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 2.607421875 GB
+    Memory Allocated: 1.0822806358337402  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+len eid_bkt:  442
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 2.607421875 GB
+    Memory Allocated: 1.0822806358337402  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 2.607421875 GB
+    Memory Allocated: 1.0824456214904785  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 2.607421875 GB
+    Memory Allocated: 1.0824456214904785  GigaBytes
+Max Memory Allocated: 1.0845870971679688  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 2.609375 GB
+    Memory Allocated: 1.0850000381469727  GigaBytes
+Max Memory Allocated: 1.08524751663208  GigaBytes
+
+len node_bkt:  374
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 2.609375 GB
+    Memory Allocated: 1.0850000381469727  GigaBytes
+Max Memory Allocated: 1.08524751663208  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 2.609375 GB
+    Memory Allocated: 1.0850000381469727  GigaBytes
+Max Memory Allocated: 1.08524751663208  GigaBytes
+
+len eid_bkt:  1122
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 2.609375 GB
+    Memory Allocated: 1.0850000381469727  GigaBytes
+Max Memory Allocated: 1.08524751663208  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 2.609375 GB
+    Memory Allocated: 1.0854182243347168  GigaBytes
+Max Memory Allocated: 1.0854310989379883  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 2.609375 GB
+    Memory Allocated: 1.0854182243347168  GigaBytes
+Max Memory Allocated: 1.0854310989379883  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 2.6171875 GB
+    Memory Allocated: 1.0916924476623535  GigaBytes
+Max Memory Allocated: 1.0922503471374512  GigaBytes
+
+len node_bkt:  456
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 2.6171875 GB
+    Memory Allocated: 1.0916924476623535  GigaBytes
+Max Memory Allocated: 1.0922503471374512  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 2.6171875 GB
+    Memory Allocated: 1.0916924476623535  GigaBytes
+Max Memory Allocated: 1.0922503471374512  GigaBytes
+
+len eid_bkt:  1824
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 2.6171875 GB
+    Memory Allocated: 1.0916924476623535  GigaBytes
+Max Memory Allocated: 1.0922503471374512  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 2.6171875 GB
+    Memory Allocated: 1.092371940612793  GigaBytes
+Max Memory Allocated: 1.092392921447754  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 2.6171875 GB
+    Memory Allocated: 1.092371940612793  GigaBytes
+Max Memory Allocated: 1.092392921447754  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 2.62890625 GB
+    Memory Allocated: 1.10239839553833  GigaBytes
+Max Memory Allocated: 1.103248119354248  GigaBytes
+
+len node_bkt:  445
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 2.62890625 GB
+    Memory Allocated: 1.10239839553833  GigaBytes
+Max Memory Allocated: 1.103248119354248  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 2.62890625 GB
+    Memory Allocated: 1.10239839553833  GigaBytes
+Max Memory Allocated: 1.103248119354248  GigaBytes
+
+len eid_bkt:  2225
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 2.62890625 GB
+    Memory Allocated: 1.10239839553833  GigaBytes
+Max Memory Allocated: 1.103248119354248  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 2.62890625 GB
+    Memory Allocated: 1.1032276153564453  GigaBytes
+Max Memory Allocated: 1.10325288772583  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 2.62890625 GB
+    Memory Allocated: 1.1032276153564453  GigaBytes
+Max Memory Allocated: 1.10325288772583  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 2.64453125 GB
+    Memory Allocated: 1.1153340339660645  GigaBytes
+Max Memory Allocated: 1.1163291931152344  GigaBytes
+
+len node_bkt:  550
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 2.64453125 GB
+    Memory Allocated: 1.1153340339660645  GigaBytes
+Max Memory Allocated: 1.1163291931152344  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 2.64453125 GB
+    Memory Allocated: 1.1153340339660645  GigaBytes
+Max Memory Allocated: 1.1163291931152344  GigaBytes
+
+len eid_bkt:  3300
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 2.64453125 GB
+    Memory Allocated: 1.1153340339660645  GigaBytes
+Max Memory Allocated: 1.1163291931152344  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 2.64453125 GB
+    Memory Allocated: 1.1165637969970703  GigaBytes
+Max Memory Allocated: 1.1166009902954102  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 2.64453125 GB
+    Memory Allocated: 1.1165637969970703  GigaBytes
+Max Memory Allocated: 1.1166009902954102  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 2.662109375 GB
+    Memory Allocated: 1.1343936920166016  GigaBytes
+Max Memory Allocated: 1.1358284950256348  GigaBytes
+
+len node_bkt:  655
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 2.662109375 GB
+    Memory Allocated: 1.1343936920166016  GigaBytes
+Max Memory Allocated: 1.1358284950256348  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 2.662109375 GB
+    Memory Allocated: 1.1343936920166016  GigaBytes
+Max Memory Allocated: 1.1358284950256348  GigaBytes
+
+len eid_bkt:  4585
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 2.662109375 GB
+    Memory Allocated: 1.1343936920166016  GigaBytes
+Max Memory Allocated: 1.1358284950256348  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 2.662109375 GB
+    Memory Allocated: 1.1367087364196777  GigaBytes
+Max Memory Allocated: 1.1367602348327637  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 2.662109375 GB
+    Memory Allocated: 1.1367087364196777  GigaBytes
+Max Memory Allocated: 1.1367602348327637  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 2.705078125 GB
+    Memory Allocated: 1.1613569259643555  GigaBytes
+Max Memory Allocated: 1.1633095741271973  GigaBytes
+
+len node_bkt:  512
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 2.705078125 GB
+    Memory Allocated: 1.1613569259643555  GigaBytes
+Max Memory Allocated: 1.1633095741271973  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 2.705078125 GB
+    Memory Allocated: 1.1613569259643555  GigaBytes
+Max Memory Allocated: 1.1633095741271973  GigaBytes
+
+len eid_bkt:  4096
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 2.705078125 GB
+    Memory Allocated: 1.1613569259643555  GigaBytes
+Max Memory Allocated: 1.1633095741271973  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 2.705078125 GB
+    Memory Allocated: 1.1628828048706055  GigaBytes
+Max Memory Allocated: 1.1633095741271973  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 2.705078125 GB
+    Memory Allocated: 1.1628828048706055  GigaBytes
+Max Memory Allocated: 1.1633095741271973  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 2.728515625 GB
+    Memory Allocated: 1.1848173141479492  GigaBytes
+Max Memory Allocated: 1.1865339279174805  GigaBytes
+
+len node_bkt:  576
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 2.728515625 GB
+    Memory Allocated: 1.1848173141479492  GigaBytes
+Max Memory Allocated: 1.1865339279174805  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 2.728515625 GB
+    Memory Allocated: 1.1848173141479492  GigaBytes
+Max Memory Allocated: 1.1865339279174805  GigaBytes
+
+len eid_bkt:  5184
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 2.728515625 GB
+    Memory Allocated: 1.1848173141479492  GigaBytes
+Max Memory Allocated: 1.1865339279174805  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 2.728515625 GB
+    Memory Allocated: 1.1867485046386719  GigaBytes
+Max Memory Allocated: 1.1868066787719727  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 2.728515625 GB
+    Memory Allocated: 1.1867485046386719  GigaBytes
+Max Memory Allocated: 1.1868066787719727  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 2.755859375 GB
+    Memory Allocated: 1.2144289016723633  GigaBytes
+Max Memory Allocated: 1.2165746688842773  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 2.755859375 GB
+    Memory Allocated: 1.214402198791504  GigaBytes
+Max Memory Allocated: 1.2165746688842773  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 2.755859375 GB
+    Memory Allocated: 1.214402198791504  GigaBytes
+Max Memory Allocated: 1.2165746688842773  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 2.904296875 GB
+    Memory Allocated: 1.289151668548584  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+invoke_udf_reduce time:  0.3433799743652344
+------------------------------------- after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 2.904296875 GB
+    Memory Allocated: 0.6248698234558105  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0948)
+------------------------------------- after loss backward 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 0.3849453926086426  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 0.350527286529541  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 0.350527286529541  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 1.077089786529541  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 1.077089786529541  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 1.078554630279541  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 1.078554630279541  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 1.078554630279541  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010561943054199219
+tmp = F.gather_row(idx, eqidx)  2.6226043701171875e-05
+N = math.ceil(len(tmp)/num_split)  1.811981201171875e-05
+unique_val = np.asarray(list([degree.item()]))  3.814697265625e-05
+step:  0
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 1.0842089653015137  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 1.0842771530151367  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 1.0842771530151367  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 1.0842771530151367  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 1.106703758239746  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 2.9140625 GB
+    Memory Allocated: 1.106703758239746  GigaBytes
+Max Memory Allocated: 1.3623805046081543  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.1328125 GB
+    Memory Allocated: 1.4278335571289062  GigaBytes
+Max Memory Allocated: 1.4525032043457031  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.1328125 GB
+    Memory Allocated: 1.4278335571289062  GigaBytes
+Max Memory Allocated: 1.4525032043457031  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.1328125 GB
+    Memory Allocated: 1.4278335571289062  GigaBytes
+Max Memory Allocated: 1.4525032043457031  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.503373622894287  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+invoke_udf_reduce time:  0.10100507736206055
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 0.8361930847167969  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1461)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010156631469726562
+tmp = F.gather_row(idx, eqidx)  2.574920654296875e-05
+N = math.ceil(len(tmp)/num_split)  1.8358230590820312e-05
+unique_val = np.asarray(list([degree.item()]))  3.170967102050781e-05
+step:  1
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.28125 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.5766024589538574  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08910846710205078
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1452)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010347366333007812
+tmp = F.gather_row(idx, eqidx)  2.5987625122070312e-05
+N = math.ceil(len(tmp)/num_split)  1.9311904907226562e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  2
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08849477767944336
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1463)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010466575622558594
+tmp = F.gather_row(idx, eqidx)  2.6226043701171875e-05
+N = math.ceil(len(tmp)/num_split)  2.002716064453125e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  3
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08870792388916016
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1486)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010538101196289062
+tmp = F.gather_row(idx, eqidx)  2.47955322265625e-05
+N = math.ceil(len(tmp)/num_split)  1.9311904907226562e-05
+unique_val = np.asarray(list([degree.item()]))  3.075599670410156e-05
+step:  4
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08825969696044922
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1463)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0001010894775390625
+tmp = F.gather_row(idx, eqidx)  2.6464462280273438e-05
+N = math.ceil(len(tmp)/num_split)  1.9550323486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.075599670410156e-05
+step:  5
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09504127502441406
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1466)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010442733764648438
+tmp = F.gather_row(idx, eqidx)  2.574920654296875e-05
+N = math.ceil(len(tmp)/num_split)  1.8596649169921875e-05
+unique_val = np.asarray(list([degree.item()]))  3.0040740966796875e-05
+step:  6
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09395742416381836
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1492)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010466575622558594
+tmp = F.gather_row(idx, eqidx)  2.7894973754882812e-05
+N = math.ceil(len(tmp)/num_split)  1.9073486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.24249267578125e-05
+step:  7
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09552884101867676
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1468)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0001010894775390625
+tmp = F.gather_row(idx, eqidx)  2.4318695068359375e-05
+N = math.ceil(len(tmp)/num_split)  2.002716064453125e-05
+unique_val = np.asarray(list([degree.item()]))  3.0994415283203125e-05
+step:  8
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09310102462768555
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1524)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010395050048828125
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  1.9073486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.0994415283203125e-05
+step:  9
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09505367279052734
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1445)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00012350082397460938
+tmp = F.gather_row(idx, eqidx)  2.6941299438476562e-05
+N = math.ceil(len(tmp)/num_split)  2.0265579223632812e-05
+unique_val = np.asarray(list([degree.item()]))  3.218650817871094e-05
+step:  10
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09166145324707031
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1483)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010704994201660156
+tmp = F.gather_row(idx, eqidx)  2.7179718017578125e-05
+N = math.ceil(len(tmp)/num_split)  1.811981201171875e-05
+unique_val = np.asarray(list([degree.item()]))  3.1948089599609375e-05
+step:  11
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08802008628845215
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1448)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010275840759277344
+tmp = F.gather_row(idx, eqidx)  3.647804260253906e-05
+N = math.ceil(len(tmp)/num_split)  1.9311904907226562e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  12
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08887934684753418
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1470)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010609626770019531
+tmp = F.gather_row(idx, eqidx)  2.574920654296875e-05
+N = math.ceil(len(tmp)/num_split)  1.8358230590820312e-05
+unique_val = np.asarray(list([degree.item()]))  3.24249267578125e-05
+step:  13
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08864474296569824
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1446)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010824203491210938
+tmp = F.gather_row(idx, eqidx)  2.765655517578125e-05
+N = math.ceil(len(tmp)/num_split)  1.9073486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  14
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08865761756896973
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1475)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010371208190917969
+tmp = F.gather_row(idx, eqidx)  2.6464462280273438e-05
+N = math.ceil(len(tmp)/num_split)  1.811981201171875e-05
+unique_val = np.asarray(list([degree.item()]))  3.147125244140625e-05
+step:  15
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08825850486755371
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1473)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010275840759277344
+tmp = F.gather_row(idx, eqidx)  2.5987625122070312e-05
+N = math.ceil(len(tmp)/num_split)  1.9550323486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.147125244140625e-05
+step:  16
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09229302406311035
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1480)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010657310485839844
+tmp = F.gather_row(idx, eqidx)  2.6226043701171875e-05
+N = math.ceil(len(tmp)/num_split)  1.8835067749023438e-05
+unique_val = np.asarray(list([degree.item()]))  3.266334533691406e-05
+step:  17
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09512138366699219
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1479)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010442733764648438
+tmp = F.gather_row(idx, eqidx)  2.7418136596679688e-05
+N = math.ceil(len(tmp)/num_split)  1.7881393432617188e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  18
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09246706962585449
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1457)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010371208190917969
+tmp = F.gather_row(idx, eqidx)  2.5987625122070312e-05
+N = math.ceil(len(tmp)/num_split)  1.9311904907226562e-05
+unique_val = np.asarray(list([degree.item()]))  3.0517578125e-05
+step:  19
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.0894160270690918
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1459)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010204315185546875
+tmp = F.gather_row(idx, eqidx)  3.504753112792969e-05
+N = math.ceil(len(tmp)/num_split)  1.9788742065429688e-05
+unique_val = np.asarray(list([degree.item()]))  3.147125244140625e-05
+step:  20
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08889603614807129
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1457)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00011301040649414062
+tmp = F.gather_row(idx, eqidx)  2.574920654296875e-05
+N = math.ceil(len(tmp)/num_split)  2.002716064453125e-05
+unique_val = np.asarray(list([degree.item()]))  3.218650817871094e-05
+step:  21
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09507441520690918
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1452)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010275840759277344
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  1.8596649169921875e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  22
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08935332298278809
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1466)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010466575622558594
+tmp = F.gather_row(idx, eqidx)  2.5987625122070312e-05
+N = math.ceil(len(tmp)/num_split)  1.9073486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  23
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09256362915039062
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1460)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010132789611816406
+tmp = F.gather_row(idx, eqidx)  2.6941299438476562e-05
+N = math.ceil(len(tmp)/num_split)  1.8596649169921875e-05
+unique_val = np.asarray(list([degree.item()]))  3.2901763916015625e-05
+step:  24
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09271740913391113
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1451)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010347366333007812
+tmp = F.gather_row(idx, eqidx)  2.6464462280273438e-05
+N = math.ceil(len(tmp)/num_split)  2.0265579223632812e-05
+unique_val = np.asarray(list([degree.item()]))  3.1948089599609375e-05
+step:  25
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09395647048950195
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1471)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010418891906738281
+tmp = F.gather_row(idx, eqidx)  2.5987625122070312e-05
+N = math.ceil(len(tmp)/num_split)  1.9311904907226562e-05
+unique_val = np.asarray(list([degree.item()]))  3.170967102050781e-05
+step:  26
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09418272972106934
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1476)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010919570922851562
+tmp = F.gather_row(idx, eqidx)  2.7179718017578125e-05
+N = math.ceil(len(tmp)/num_split)  2.0265579223632812e-05
+unique_val = np.asarray(list([degree.item()]))  3.266334533691406e-05
+step:  27
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.09119939804077148
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1475)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010418891906738281
+tmp = F.gather_row(idx, eqidx)  2.6941299438476562e-05
+N = math.ceil(len(tmp)/num_split)  1.8835067749023438e-05
+unique_val = np.asarray(list([degree.item()]))  3.1948089599609375e-05
+step:  28
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08787083625793457
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1477)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010538101196289062
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  1.9550323486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.337860107421875e-05
+step:  29
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08806371688842773
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1465)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131415367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146063804626465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010275840759277344
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  1.8596649169921875e-05
+unique_val = np.asarray(list([degree.item()]))  3.266334533691406e-05
+step:  30
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1202607154846191  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  6020
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  60200
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203289031982422  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1427555084228516  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4636759757995605  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5392160415649414  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.08776211738586426
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8376178741455078  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1475)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865790367126465  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------- before batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865785598754883  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.3865785598754883  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata gen 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131410598754883  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+
+current graph nodes  848910
+current graph dst nodes  196571
+current graph edges  1949041
+---------- degree  tensor(10)
+----------------------------------------start invoke_udf_reduce() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1131410598754883  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146059036254883  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after msgdata = Frame(msgdata) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146059036254883  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1146059036254883  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010395050048828125
+tmp = F.gather_row(idx, eqidx)  2.6226043701171875e-05
+N = math.ceil(len(tmp)/num_split)  1.9311904907226562e-05
+unique_val = np.asarray(list([degree.item()]))  3.2901763916015625e-05
+step:  31
+----------------------------------------after _bucketing() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.120260238647461  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len node_bkt:  5989
+----------------------------------------start msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203274726867676  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after ndata_bkt = dstdata.subframe(node_bkt) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203274726867676  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+len eid_bkt:  59890
+----------------------------------------after msgdata_bkt generation 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1203274726867676  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------before NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1426386833190918  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after NodeBatch() 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.1426386833190918  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after reduce func(NodeBatch) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4623746871948242  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------Before Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4623746871948242  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after Frame()  
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.4623746871948242  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+----------------------------------------after merge nodes 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 1.5379018783569336  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+invoke_udf_reduce time:  0.0895075798034668
+------------------------------------after batch_pred = model(blocks, batch_inputs, deg.to(device)) 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.8363170623779297  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+degree: tensor(10) # of output: 5989 ratio: 0.030467362937564545 bucket_loss : tensor(0.1455)
+------------------------------------ after loss backward 
+ Nvidia-smi: 3.35546875 GB
+    Memory Allocated: 0.38611602783203125  GigaBytes
+Max Memory Allocated: 1.6124448776245117  GigaBytes
+
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.7918)
+

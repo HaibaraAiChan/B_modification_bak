@@ -1,0 +1,2143 @@
+main start at this time 1672977479.6745353
+-----------------------------------------before load data 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  100
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0823814868927002
+bucketing time:  0.0013272762298583984
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0948)
+preparing time:  0.2527458667755127
+model forward time:  0.11343169212341309
+loss calculation time:  0.0001614093780517578
+loss backward time:  0.018937110900878906
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08332228660583496
+step:  0
+bucketing time:  0.0006833076477050781
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1461)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08339428901672363
+step:  1
+bucketing time:  0.0007178783416748047
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1452)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08165669441223145
+step:  2
+bucketing time:  0.0006597042083740234
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1463)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0818014144897461
+step:  3
+bucketing time:  0.0006668567657470703
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1486)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0817708969116211
+step:  4
+bucketing time:  0.0006620883941650391
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1463)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08333253860473633
+step:  5
+bucketing time:  0.0006728172302246094
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1466)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08207392692565918
+step:  6
+bucketing time:  0.0006666183471679688
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1492)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08167886734008789
+step:  7
+bucketing time:  0.0006625652313232422
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1468)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08842945098876953
+step:  8
+bucketing time:  0.000675201416015625
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1524)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0873258113861084
+step:  9
+bucketing time:  0.0006635189056396484
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1445)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0822758674621582
+step:  10
+bucketing time:  0.0006566047668457031
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1483)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08182835578918457
+step:  11
+bucketing time:  0.0006768703460693359
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1448)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0822744369506836
+step:  12
+bucketing time:  0.0006597042083740234
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1470)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0830233097076416
+step:  13
+bucketing time:  0.0006611347198486328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1446)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08200669288635254
+step:  14
+bucketing time:  0.0006589889526367188
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1475)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08410048484802246
+step:  15
+bucketing time:  0.0006594657897949219
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1473)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08174562454223633
+step:  16
+bucketing time:  0.0006618499755859375
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1480)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08179283142089844
+step:  17
+bucketing time:  0.0006697177886962891
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1479)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08389878273010254
+step:  18
+bucketing time:  0.0006661415100097656
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1457)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08168435096740723
+step:  19
+bucketing time:  0.00066375732421875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1459)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08157038688659668
+step:  20
+bucketing time:  0.0006680488586425781
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1457)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08217573165893555
+step:  21
+bucketing time:  0.0006563663482666016
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1452)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08704471588134766
+step:  22
+bucketing time:  0.0006685256958007812
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1466)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08198165893554688
+step:  23
+bucketing time:  0.0006694793701171875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1460)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08208727836608887
+step:  24
+bucketing time:  0.0006618499755859375
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1451)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08220791816711426
+step:  25
+bucketing time:  0.0006589889526367188
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1471)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08624863624572754
+step:  26
+bucketing time:  0.0006654262542724609
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1476)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08196496963500977
+step:  27
+bucketing time:  0.0006649494171142578
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1475)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08212494850158691
+step:  28
+bucketing time:  0.0006594657897949219
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1477)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08180117607116699
+step:  29
+bucketing time:  0.0006606578826904297
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1465)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08153128623962402
+step:  30
+bucketing time:  0.0006549358367919922
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1475)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08196330070495605
+step:  31
+bucketing time:  0.0006718635559082031
+degree: tensor(10) # of output: 5989 ratio: 0.030467362937564545 bucket_loss : tensor(0.1455)
+split  buckets total input  1963463
+preparing time:  0.14767718315124512
+model forward time :  2.7834126949310303
+model forward time + loss calculation time:  2.787553548812866
+loss backward time:  0.16730880737304688
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.7918)
+
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0820760726928711
+bucketing time:  0.0011835098266601562
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0937)
+preparing time:  0.020653247833251953
+model forward time:  0.09898018836975098
+loss calculation time:  6.461143493652344e-05
+loss backward time:  0.016241073608398438
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.09351491928100586
+step:  0
+bucketing time:  0.0006768703460693359
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1479)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08275747299194336
+step:  1
+bucketing time:  0.000659942626953125
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1440)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08332204818725586
+step:  2
+bucketing time:  0.0008285045623779297
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1431)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08348774909973145
+step:  3
+bucketing time:  0.0007305145263671875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1454)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08304595947265625
+step:  4
+bucketing time:  0.0006618499755859375
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1450)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08334660530090332
+step:  5
+bucketing time:  0.0006589889526367188
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1449)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08383941650390625
+step:  6
+bucketing time:  0.0006613731384277344
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1461)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08651375770568848
+step:  7
+bucketing time:  0.0007967948913574219
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1448)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08351826667785645
+step:  8
+bucketing time:  0.0006601810455322266
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1446)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08321356773376465
+step:  9
+bucketing time:  0.0006570816040039062
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1435)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08548998832702637
+step:  10
+bucketing time:  0.0006825923919677734
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1451)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08356547355651855
+step:  11
+bucketing time:  0.0006594657897949219
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1453)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08334994316101074
+step:  12
+bucketing time:  0.0006859302520751953
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1439)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08341479301452637
+step:  13
+bucketing time:  0.0006589889526367188
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1441)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0836482048034668
+step:  14
+bucketing time:  0.0006651878356933594
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1473)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08413362503051758
+step:  15
+bucketing time:  0.0006623268127441406
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1431)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08337187767028809
+step:  16
+bucketing time:  0.0006682872772216797
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1450)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08562874794006348
+step:  17
+bucketing time:  0.0006730556488037109
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1462)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08427143096923828
+step:  18
+bucketing time:  0.0006663799285888672
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1443)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0833439826965332
+step:  19
+bucketing time:  0.0006704330444335938
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1468)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08333611488342285
+step:  20
+bucketing time:  0.0006635189056396484
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1461)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08329367637634277
+step:  21
+bucketing time:  0.0006687641143798828
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1433)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0834035873413086
+step:  22
+bucketing time:  0.0006663799285888672
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1435)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08348512649536133
+step:  23
+bucketing time:  0.0006692409515380859
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1437)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08326840400695801
+step:  24
+bucketing time:  0.0006625652313232422
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1450)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08366632461547852
+step:  25
+bucketing time:  0.0006728172302246094
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1446)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08355379104614258
+step:  26
+bucketing time:  0.0006716251373291016
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1446)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0843503475189209
+step:  27
+bucketing time:  0.0006704330444335938
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1456)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08361244201660156
+step:  28
+bucketing time:  0.0006859302520751953
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1459)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08392643928527832
+step:  29
+bucketing time:  0.0006780624389648438
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1418)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08383750915527344
+step:  30
+bucketing time:  0.0006632804870605469
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1447)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08389639854431152
+step:  31
+bucketing time:  0.0006918907165527344
+degree: tensor(10) # of output: 5989 ratio: 0.030467362937564545 bucket_loss : tensor(0.1445)
+split  buckets total input  1963927
+preparing time:  0.1422426700592041
+model forward time :  2.821272373199463
+model forward time + loss calculation time:  2.824967622756958
+loss backward time:  0.13057398796081543
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.7273)
+
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+----------- core.py torch.sort() replace to OrderedDict time:  0.07793903350830078
+bucketing time:  0.0011677742004394531
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0926)
+preparing time:  0.020359039306640625
+model forward time:  0.09374403953552246
+loss calculation time:  6.341934204101562e-05
+loss backward time:  0.009653091430664062
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08279275894165039
+step:  0
+bucketing time:  0.0006864070892333984
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1416)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0827324390411377
+step:  1
+bucketing time:  0.0006787776947021484
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1444)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08298325538635254
+step:  2
+bucketing time:  0.0006835460662841797
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1427)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08445429801940918
+step:  3
+bucketing time:  0.0006866455078125
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1432)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08703279495239258
+step:  4
+bucketing time:  0.0006897449493408203
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1436)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08702850341796875
+step:  5
+bucketing time:  0.0006914138793945312
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1424)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08333635330200195
+step:  6
+bucketing time:  0.0006897449493408203
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1418)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08362460136413574
+step:  7
+bucketing time:  0.0006783008575439453
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1429)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0866093635559082
+step:  8
+bucketing time:  0.0006811618804931641
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1420)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08331608772277832
+step:  9
+bucketing time:  0.0007064342498779297
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1415)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08386611938476562
+step:  10
+bucketing time:  0.0006830692291259766
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1433)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08526134490966797
+step:  11
+bucketing time:  0.0006916522979736328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1422)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08504247665405273
+step:  12
+bucketing time:  0.000682830810546875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1429)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08509516716003418
+step:  13
+bucketing time:  0.0006930828094482422
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1480)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08549308776855469
+step:  14
+bucketing time:  0.0006868839263916016
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1430)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08522772789001465
+step:  15
+bucketing time:  0.0006883144378662109
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1417)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08526897430419922
+step:  16
+bucketing time:  0.0006887912750244141
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1441)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08520340919494629
+step:  17
+bucketing time:  0.0006833076477050781
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1425)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08536887168884277
+step:  18
+bucketing time:  0.0006835460662841797
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1423)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08620166778564453
+step:  19
+bucketing time:  0.0006852149963378906
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1419)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08578753471374512
+step:  20
+bucketing time:  0.0006966590881347656
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1451)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0850982666015625
+step:  21
+bucketing time:  0.0006852149963378906
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1422)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08887362480163574
+step:  22
+bucketing time:  0.0008437633514404297
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1429)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08524751663208008
+step:  23
+bucketing time:  0.0006856918334960938
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1416)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08530688285827637
+step:  24
+bucketing time:  0.0006814002990722656
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1418)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0872030258178711
+step:  25
+bucketing time:  0.0007402896881103516
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1422)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08518767356872559
+step:  26
+bucketing time:  0.000682830810546875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1412)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08534741401672363
+step:  27
+bucketing time:  0.0006968975067138672
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1458)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08587026596069336
+step:  28
+bucketing time:  0.0006768703460693359
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1429)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08527994155883789
+step:  29
+bucketing time:  0.0008120536804199219
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1442)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08532381057739258
+step:  30
+bucketing time:  0.00067901611328125
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1424)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08501601219177246
+step:  31
+bucketing time:  0.0006840229034423828
+degree: tensor(10) # of output: 5989 ratio: 0.030467362937564545 bucket_loss : tensor(0.1408)
+split  buckets total input  1962939
+preparing time:  0.14755702018737793
+model forward time :  2.859645366668701
+model forward time + loss calculation time:  2.8634605407714844
+loss backward time:  0.11963939666748047
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.6635)
+
+full batch graph loading time:  0.06825137138366699
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+----------- core.py torch.sort() replace to OrderedDict time:  0.07922816276550293
+bucketing time:  0.0011832714080810547
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0915)
+preparing time:  0.02055644989013672
+model forward time:  0.09511899948120117
+loss calculation time:  6.413459777832031e-05
+loss backward time:  0.012198686599731445
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08734560012817383
+step:  0
+bucketing time:  0.0006852149963378906
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1408)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08321928977966309
+step:  1
+bucketing time:  0.0007009506225585938
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1392)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08522415161132812
+step:  2
+bucketing time:  0.0006909370422363281
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1399)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08377337455749512
+step:  3
+bucketing time:  0.0006847381591796875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1421)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08368992805480957
+step:  4
+bucketing time:  0.0007030963897705078
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1399)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08416533470153809
+step:  5
+bucketing time:  0.0006844997406005859
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1414)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08352422714233398
+step:  6
+bucketing time:  0.0006773471832275391
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1412)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08548164367675781
+step:  7
+bucketing time:  0.0006799697875976562
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1392)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08408951759338379
+step:  8
+bucketing time:  0.0006842613220214844
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1410)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08403515815734863
+step:  9
+bucketing time:  0.0006926059722900391
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1411)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08416295051574707
+step:  10
+bucketing time:  0.0006797313690185547
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1413)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08575677871704102
+step:  11
+bucketing time:  0.0006816387176513672
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1404)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08476972579956055
+step:  12
+bucketing time:  0.0006861686706542969
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1408)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08402705192565918
+step:  13
+bucketing time:  0.000690460205078125
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1415)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08440446853637695
+step:  14
+bucketing time:  0.0006859302520751953
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1390)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08550596237182617
+step:  15
+bucketing time:  0.0006864070892333984
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1431)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08426475524902344
+step:  16
+bucketing time:  0.0006811618804931641
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1412)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08393549919128418
+step:  17
+bucketing time:  0.0006916522979736328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1390)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0843207836151123
+step:  18
+bucketing time:  0.0006849765777587891
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1401)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08439302444458008
+step:  19
+bucketing time:  0.0006906986236572266
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1394)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08440327644348145
+step:  20
+bucketing time:  0.0006864070892333984
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1402)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08462691307067871
+step:  21
+bucketing time:  0.0006837844848632812
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1394)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08547139167785645
+step:  22
+bucketing time:  0.0006885528564453125
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1412)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08417463302612305
+step:  23
+bucketing time:  0.000682830810546875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1412)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08458495140075684
+step:  24
+bucketing time:  0.0006802082061767578
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1407)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08425259590148926
+step:  25
+bucketing time:  0.0006759166717529297
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1397)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08507800102233887
+step:  26
+bucketing time:  0.0006883144378662109
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1434)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0845797061920166
+step:  27
+bucketing time:  0.0006811618804931641
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1414)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08428788185119629
+step:  28
+bucketing time:  0.0006771087646484375
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1429)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08474445343017578
+step:  29
+bucketing time:  0.0006880760192871094
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1441)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08466029167175293
+step:  30
+bucketing time:  0.0007121562957763672
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1417)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08453059196472168
+step:  31
+bucketing time:  0.0006871223449707031
+degree: tensor(10) # of output: 5989 ratio: 0.030467362937564545 bucket_loss : tensor(0.1397)
+split  buckets total input  1963467
+preparing time:  0.1414027214050293
+model forward time :  2.835609197616577
+model forward time + loss calculation time:  2.839319944381714
+loss backward time:  0.12409114837646484
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.5988)
+
+pure train time 3.0707929134368896
+full batch graph loading time:  0.06154465675354004
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0783381462097168
+bucketing time:  0.0012333393096923828
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0904)
+preparing time:  0.020703792572021484
+model forward time:  0.09411287307739258
+loss calculation time:  6.318092346191406e-05
+loss backward time:  0.012073278427124023
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.09221673011779785
+step:  0
+bucketing time:  0.0006976127624511719
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1386)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08355545997619629
+step:  1
+bucketing time:  0.0006780624389648438
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1394)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08411312103271484
+step:  2
+bucketing time:  0.0006887912750244141
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1377)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08585190773010254
+step:  3
+bucketing time:  0.0007030963897705078
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1377)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0843651294708252
+step:  4
+bucketing time:  0.0006761550903320312
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1387)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.10733604431152344
+step:  5
+bucketing time:  0.0006973743438720703
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1401)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08454036712646484
+step:  6
+bucketing time:  0.0006868839263916016
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1376)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0845346450805664
+step:  7
+bucketing time:  0.0006856918334960938
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1397)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08460855484008789
+step:  8
+bucketing time:  0.0006890296936035156
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1376)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08485054969787598
+step:  9
+bucketing time:  0.0006833076477050781
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1384)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.09261775016784668
+step:  10
+bucketing time:  0.0006842613220214844
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1398)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08452105522155762
+step:  11
+bucketing time:  0.0006856918334960938
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1400)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08932232856750488
+step:  12
+bucketing time:  0.0006952285766601562
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1438)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08455204963684082
+step:  13
+bucketing time:  0.00067901611328125
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1389)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08460783958435059
+step:  14
+bucketing time:  0.0006844997406005859
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1378)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0845937728881836
+step:  15
+bucketing time:  0.0006814002990722656
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1387)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08698153495788574
+step:  16
+bucketing time:  0.0006806850433349609
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1379)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08655881881713867
+step:  17
+bucketing time:  0.0006890296936035156
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1374)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08672213554382324
+step:  18
+bucketing time:  0.0006906986236572266
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1389)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08660244941711426
+step:  19
+bucketing time:  0.0006847381591796875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1385)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08651614189147949
+step:  20
+bucketing time:  0.0006916522979736328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1391)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0865790843963623
+step:  21
+bucketing time:  0.000690460205078125
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1374)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08670496940612793
+step:  22
+bucketing time:  0.0006923675537109375
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1401)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08945775032043457
+step:  23
+bucketing time:  0.0008349418640136719
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1383)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08624768257141113
+step:  24
+bucketing time:  0.0006871223449707031
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1395)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0865941047668457
+step:  25
+bucketing time:  0.0006835460662841797
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1382)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08661341667175293
+step:  26
+bucketing time:  0.0006873607635498047
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1432)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08641219139099121
+step:  27
+bucketing time:  0.0007097721099853516
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1391)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08664107322692871
+step:  28
+bucketing time:  0.000682830810546875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1380)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08646321296691895
+step:  29
+bucketing time:  0.0006849765777587891
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1381)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08687257766723633
+step:  30
+bucketing time:  0.0007770061492919922
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1381)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08682107925415039
+step:  31
+bucketing time:  0.0006861686706542969
+degree: tensor(10) # of output: 5989 ratio: 0.030467362937564545 bucket_loss : tensor(0.1388)
+split  buckets total input  1963026
+preparing time:  0.15015935897827148
+model forward time :  2.9179186820983887
+model forward time + loss calculation time:  2.921717405319214
+loss backward time:  0.14158964157104492
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.5354)
+
+pure train time 3.1695563793182373
+full batch graph loading time:  0.06451702117919922
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+----------- core.py torch.sort() replace to OrderedDict time:  0.07841300964355469
+bucketing time:  0.0011904239654541016
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0893)
+preparing time:  0.024255990982055664
+model forward time:  0.09428834915161133
+loss calculation time:  6.437301635742188e-05
+loss backward time:  0.011718988418579102
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08627700805664062
+step:  0
+bucketing time:  0.0006940364837646484
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1388)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08464980125427246
+step:  1
+bucketing time:  0.0006856918334960938
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1365)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08502650260925293
+step:  2
+bucketing time:  0.0007050037384033203
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1370)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08740377426147461
+step:  3
+bucketing time:  0.0006847381591796875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1384)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08573055267333984
+step:  4
+bucketing time:  0.0006823539733886719
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1362)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08554601669311523
+step:  5
+bucketing time:  0.0006844997406005859
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1367)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08578777313232422
+step:  6
+bucketing time:  0.0006763935089111328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1368)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08707118034362793
+step:  7
+bucketing time:  0.0006756782531738281
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1382)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08577656745910645
+step:  8
+bucketing time:  0.0006844997406005859
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1388)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0858004093170166
+step:  9
+bucketing time:  0.0006778240203857422
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1362)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08565187454223633
+step:  10
+bucketing time:  0.0007007122039794922
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1352)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08597111701965332
+step:  11
+bucketing time:  0.0006768703460693359
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1359)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0853271484375
+step:  12
+bucketing time:  0.0006890296936035156
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1387)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08602714538574219
+step:  13
+bucketing time:  0.0006768703460693359
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1367)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08627843856811523
+step:  14
+bucketing time:  0.0006783008575439453
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1355)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08645224571228027
+step:  15
+bucketing time:  0.0006804466247558594
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1385)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08616280555725098
+step:  16
+bucketing time:  0.0006957054138183594
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1354)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08781075477600098
+step:  17
+bucketing time:  0.0006983280181884766
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1358)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08625626564025879
+step:  18
+bucketing time:  0.0006809234619140625
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1381)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08603787422180176
+step:  19
+bucketing time:  0.0006768703460693359
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1366)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08628153800964355
+step:  20
+bucketing time:  0.0006859302520751953
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1380)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08631348609924316
+step:  21
+bucketing time:  0.0006792545318603516
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1367)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08671903610229492
+step:  22
+bucketing time:  0.0007090568542480469
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1358)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08713221549987793
+step:  23
+bucketing time:  0.0006926059722900391
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1371)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08686447143554688
+step:  24
+bucketing time:  0.0006732940673828125
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1380)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08638620376586914
+step:  25
+bucketing time:  0.0006747245788574219
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1376)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08630561828613281
+step:  26
+bucketing time:  0.0006773471832275391
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1352)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.09456086158752441
+step:  27
+bucketing time:  0.0006873607635498047
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1370)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08583664894104004
+step:  28
+bucketing time:  0.0006899833679199219
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1378)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08758878707885742
+step:  29
+bucketing time:  0.0007059574127197266
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1345)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08607077598571777
+step:  30
+bucketing time:  0.0006814002990722656
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1376)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0988609790802002
+step:  31
+bucketing time:  0.0006809234619140625
+degree: tensor(10) # of output: 5989 ratio: 0.030467362937564545 bucket_loss : tensor(0.1358)
+split  buckets total input  1963094
+preparing time:  0.15018367767333984
+model forward time :  2.9136579036712646
+model forward time + loss calculation time:  2.917423725128174
+loss backward time:  0.16279983520507812
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.4706)
+
+pure train time 3.1862952709198
+full batch graph loading time:  0.06854653358459473
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0808408260345459
+bucketing time:  0.0011632442474365234
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0882)
+preparing time:  0.023907899856567383
+model forward time:  0.09661293029785156
+loss calculation time:  6.270408630371094e-05
+loss backward time:  0.015977144241333008
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08760762214660645
+step:  0
+bucketing time:  0.0006763935089111328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1338)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08608341217041016
+step:  1
+bucketing time:  0.0006763935089111328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1363)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08659601211547852
+step:  2
+bucketing time:  0.0006797313690185547
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1343)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08727836608886719
+step:  3
+bucketing time:  0.0006783008575439453
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1332)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08669090270996094
+step:  4
+bucketing time:  0.0006768703460693359
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1356)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08713793754577637
+step:  5
+bucketing time:  0.0006725788116455078
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1355)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08662939071655273
+step:  6
+bucketing time:  0.0006799697875976562
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1345)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08749628067016602
+step:  7
+bucketing time:  0.0006763935089111328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1351)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08736586570739746
+step:  8
+bucketing time:  0.0006799697875976562
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1351)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08732891082763672
+step:  9
+bucketing time:  0.0006773471832275391
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1345)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.09370946884155273
+step:  10
+bucketing time:  0.0006785392761230469
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1344)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08754897117614746
+step:  11
+bucketing time:  0.0006773471832275391
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1344)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08742594718933105
+step:  12
+bucketing time:  0.0006756782531738281
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1335)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08732366561889648
+step:  13
+bucketing time:  0.0006725788116455078
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1351)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08726286888122559
+step:  14
+bucketing time:  0.0006768703460693359
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1348)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08852100372314453
+step:  15
+bucketing time:  0.0006701946258544922
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1348)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08777236938476562
+step:  16
+bucketing time:  0.0006754398345947266
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1344)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08778500556945801
+step:  17
+bucketing time:  0.0006701946258544922
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1352)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08756041526794434
+step:  18
+bucketing time:  0.0006818771362304688
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1370)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08766555786132812
+step:  19
+bucketing time:  0.0006783008575439453
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1356)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.09303879737854004
+step:  20
+bucketing time:  0.0006847381591796875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1354)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08599615097045898
+step:  21
+bucketing time:  0.0006721019744873047
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1349)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08580517768859863
+step:  22
+bucketing time:  0.0006840229034423828
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1352)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08882880210876465
+step:  23
+bucketing time:  0.0008127689361572266
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1338)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08587193489074707
+step:  24
+bucketing time:  0.0006711483001708984
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1369)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0862128734588623
+step:  25
+bucketing time:  0.0006711483001708984
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1362)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08555722236633301
+step:  26
+bucketing time:  0.0006773471832275391
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1340)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08747458457946777
+step:  27
+bucketing time:  0.0007607936859130859
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1323)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08587360382080078
+step:  28
+bucketing time:  0.0006692409515380859
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1371)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08607006072998047
+step:  29
+bucketing time:  0.0006744861602783203
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1337)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08596611022949219
+step:  30
+bucketing time:  0.0006823539733886719
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1362)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08571076393127441
+step:  31
+bucketing time:  0.0006747245788574219
+degree: tensor(10) # of output: 5989 ratio: 0.030467362937564545 bucket_loss : tensor(0.1337)
+split  buckets total input  1963369
+preparing time:  0.16340112686157227
+model forward time :  2.928335189819336
+model forward time + loss calculation time:  2.9320712089538574
+loss backward time:  0.14419245719909668
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.4048)
+
+pure train time 3.1889164447784424
+full batch graph loading time:  0.0545654296875
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08020448684692383
+bucketing time:  0.0011913776397705078
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0871)
+preparing time:  0.02076864242553711
+model forward time:  0.09613633155822754
+loss calculation time:  8.344650268554688e-05
+loss backward time:  0.011451482772827148
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08593201637268066
+step:  0
+bucketing time:  0.0006949901580810547
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1334)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08523941040039062
+step:  1
+bucketing time:  0.0006842613220214844
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1330)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08509278297424316
+step:  2
+bucketing time:  0.0006711483001708984
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1335)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0847330093383789
+step:  3
+bucketing time:  0.0006756782531738281
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1322)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08493685722351074
+step:  4
+bucketing time:  0.0006861686706542969
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1321)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0856935977935791
+step:  5
+bucketing time:  0.0006778240203857422
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1330)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08545613288879395
+step:  6
+bucketing time:  0.0006780624389648438
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1333)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08544659614562988
+step:  7
+bucketing time:  0.0006763935089111328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1322)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08588123321533203
+step:  8
+bucketing time:  0.0006685256958007812
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1327)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08567428588867188
+step:  9
+bucketing time:  0.0006806850433349609
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1352)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08524250984191895
+step:  10
+bucketing time:  0.0006806850433349609
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1334)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08608603477478027
+step:  11
+bucketing time:  0.0006754398345947266
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1335)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08571696281433105
+step:  12
+bucketing time:  0.0006823539733886719
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1318)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08551692962646484
+step:  13
+bucketing time:  0.0007035732269287109
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1314)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08489584922790527
+step:  14
+bucketing time:  0.0006852149963378906
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1328)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0854792594909668
+step:  15
+bucketing time:  0.0006825923919677734
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1306)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08574795722961426
+step:  16
+bucketing time:  0.0006706714630126953
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1315)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08551692962646484
+step:  17
+bucketing time:  0.0006794929504394531
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1332)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0860891342163086
+step:  18
+bucketing time:  0.0006773471832275391
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1317)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08592534065246582
+step:  19
+bucketing time:  0.0006701946258544922
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1340)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08586359024047852
+step:  20
+bucketing time:  0.0006747245788574219
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1328)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08546042442321777
+step:  21
+bucketing time:  0.0006785392761230469
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1337)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08548617362976074
+step:  22
+bucketing time:  0.0006775856018066406
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1311)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08627176284790039
+step:  23
+bucketing time:  0.0006747245788574219
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1333)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08552765846252441
+step:  24
+bucketing time:  0.0006775856018066406
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1323)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08535051345825195
+step:  25
+bucketing time:  0.0006716251373291016
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1337)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08631753921508789
+step:  26
+bucketing time:  0.0006785392761230469
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1320)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08569836616516113
+step:  27
+bucketing time:  0.000675201416015625
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1321)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0855247974395752
+step:  28
+bucketing time:  0.0006704330444335938
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1322)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08570528030395508
+step:  29
+bucketing time:  0.0006706714630126953
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1356)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08556723594665527
+step:  30
+bucketing time:  0.0006759166717529297
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1347)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08597612380981445
+step:  31
+bucketing time:  0.0006873607635498047
+degree: tensor(10) # of output: 5989 ratio: 0.030467362937564545 bucket_loss : tensor(0.1332)
+split  buckets total input  1962804
+preparing time:  0.14043045043945312
+model forward time :  2.868828058242798
+model forward time + loss calculation time:  2.872544765472412
+loss backward time:  0.16447234153747559
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.3381)
+
+pure train time 3.144688367843628
+full batch graph loading time:  0.04528307914733887
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08064699172973633
+bucketing time:  0.0011911392211914062
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0859)
+preparing time:  0.021272897720336914
+model forward time:  0.0964958667755127
+loss calculation time:  6.4849853515625e-05
+loss backward time:  0.015639543533325195
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.09162783622741699
+step:  0
+bucketing time:  0.0006818771362304688
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1307)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08738422393798828
+step:  1
+bucketing time:  0.0006916522979736328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1317)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08475542068481445
+step:  2
+bucketing time:  0.0006840229034423828
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1313)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08500528335571289
+step:  3
+bucketing time:  0.0006818771362304688
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1324)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08484101295471191
+step:  4
+bucketing time:  0.0006709098815917969
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1296)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08530473709106445
+step:  5
+bucketing time:  0.00067901611328125
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1317)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08514738082885742
+step:  6
+bucketing time:  0.0006737709045410156
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1305)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08549737930297852
+step:  7
+bucketing time:  0.0006737709045410156
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1304)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08589911460876465
+step:  8
+bucketing time:  0.0006780624389648438
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1322)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08574628829956055
+step:  9
+bucketing time:  0.0006768703460693359
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1313)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08583641052246094
+step:  10
+bucketing time:  0.0006763935089111328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1334)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.09307670593261719
+step:  11
+bucketing time:  0.0006763935089111328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1333)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08565735816955566
+step:  12
+bucketing time:  0.0006809234619140625
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1293)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08586621284484863
+step:  13
+bucketing time:  0.0006780624389648438
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1310)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08556509017944336
+step:  14
+bucketing time:  0.0006833076477050781
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1304)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08615946769714355
+step:  15
+bucketing time:  0.0006768703460693359
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1307)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08564472198486328
+step:  16
+bucketing time:  0.0006718635559082031
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1311)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0855247974395752
+step:  17
+bucketing time:  0.0006740093231201172
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1294)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08563828468322754
+step:  18
+bucketing time:  0.0006735324859619141
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1301)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08587026596069336
+step:  19
+bucketing time:  0.0006735324859619141
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1300)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08565688133239746
+step:  20
+bucketing time:  0.0006742477416992188
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1304)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08556461334228516
+step:  21
+bucketing time:  0.0006761550903320312
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1295)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08608794212341309
+step:  22
+bucketing time:  0.0006701946258544922
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1294)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08554983139038086
+step:  23
+bucketing time:  0.0006814002990722656
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1295)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08580851554870605
+step:  24
+bucketing time:  0.0006778240203857422
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1323)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08597230911254883
+step:  25
+bucketing time:  0.0006735324859619141
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1305)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08601832389831543
+step:  26
+bucketing time:  0.0006833076477050781
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1309)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0859527587890625
+step:  27
+bucketing time:  0.0006766319274902344
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1296)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08626961708068848
+step:  28
+bucketing time:  0.0006775856018066406
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1294)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08667683601379395
+step:  29
+bucketing time:  0.0006768703460693359
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1297)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08563876152038574
+step:  30
+bucketing time:  0.000690460205078125
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1328)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08577656745910645
+step:  31
+bucketing time:  0.0006744861602783203
+degree: tensor(10) # of output: 5989 ratio: 0.030467362937564545 bucket_loss : tensor(0.1303)
+split  buckets total input  1962796
+preparing time:  0.16131114959716797
+model forward time :  2.8858468532562256
+model forward time + loss calculation time:  2.889544725418091
+loss backward time:  0.13164615631103516
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.2706)
+
+pure train time 3.1333911418914795
+full batch graph loading time:  0.07066631317138672
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08256220817565918
+bucketing time:  0.0011479854583740234
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0848)
+preparing time:  0.022959232330322266
+model forward time:  0.0987393856048584
+loss calculation time:  8.845329284667969e-05
+loss backward time:  0.01263117790222168
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08817148208618164
+step:  0
+bucketing time:  0.0006809234619140625
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1292)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08629131317138672
+step:  1
+bucketing time:  0.0006814002990722656
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1281)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08652472496032715
+step:  2
+bucketing time:  0.0006797313690185547
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1275)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08426594734191895
+step:  3
+bucketing time:  0.0007441043853759766
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1268)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08491396903991699
+step:  4
+bucketing time:  0.0006725788116455078
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1287)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0853269100189209
+step:  5
+bucketing time:  0.0006725788116455078
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1293)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0858309268951416
+step:  6
+bucketing time:  0.0006690025329589844
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1281)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0857093334197998
+step:  7
+bucketing time:  0.0006742477416992188
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1303)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08536219596862793
+step:  8
+bucketing time:  0.0006773471832275391
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1293)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08536410331726074
+step:  9
+bucketing time:  0.0006723403930664062
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1296)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08646893501281738
+step:  10
+bucketing time:  0.0006692409515380859
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1299)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08586955070495605
+step:  11
+bucketing time:  0.0006706714630126953
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1274)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08611941337585449
+step:  12
+bucketing time:  0.0006763935089111328
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1289)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08561158180236816
+step:  13
+bucketing time:  0.0007066726684570312
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1269)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08584785461425781
+step:  14
+bucketing time:  0.0006690025329589844
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1316)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08575701713562012
+step:  15
+bucketing time:  0.0006694793701171875
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1273)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08608150482177734
+step:  16
+bucketing time:  0.0006690025329589844
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1279)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08582830429077148
+step:  17
+bucketing time:  0.0006668567657470703
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1304)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08623647689819336
+step:  18
+bucketing time:  0.0007731914520263672
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1297)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08620834350585938
+step:  19
+bucketing time:  0.0006773471832275391
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1288)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08642029762268066
+step:  20
+bucketing time:  0.0006842613220214844
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1280)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08633136749267578
+step:  21
+bucketing time:  0.0006737709045410156
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1282)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08621716499328613
+step:  22
+bucketing time:  0.0006780624389648438
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1267)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08645343780517578
+step:  23
+bucketing time:  0.0006678104400634766
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1290)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08620452880859375
+step:  24
+bucketing time:  0.0006711483001708984
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1272)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08607244491577148
+step:  25
+bucketing time:  0.0006771087646484375
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1283)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08661985397338867
+step:  26
+bucketing time:  0.0006797313690185547
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1286)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.0864107608795166
+step:  27
+bucketing time:  0.0006730556488037109
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1267)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08625650405883789
+step:  28
+bucketing time:  0.0006732940673828125
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1308)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08642101287841797
+step:  29
+bucketing time:  0.0006690025329589844
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1274)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08657193183898926
+step:  30
+bucketing time:  0.000675201416015625
+degree: tensor(10) # of output: 6020 ratio: 0.030625066769767666 bucket_loss : tensor(0.1291)
+
+---------- degree  tensor(10)
+----------- core.py torch.sort() replace to OrderedDict time:  0.08569765090942383
+step:  31
+bucketing time:  0.0006639957427978516
+degree: tensor(10) # of output: 5989 ratio: 0.030467362937564545 bucket_loss : tensor(0.1284)
+split  buckets total input  1962690
+preparing time:  0.16618728637695312
+model forward time :  2.8869943618774414
+model forward time + loss calculation time:  2.8907477855682373
+loss backward time:  0.1510181427001953
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.1990)
+
+pure train time 3.1532249450683594
+
+avg epoch time:  5.131423916135516
+avg pure train time:  3.149552209036691
+avg block subtensor loading time:  0.15272307395935059
+avg preparing time:  0.19809729712350027
+avg block to device time:  0.01734992436000279
+avg grouping time:  0.1322321891784668
+avg splitting time:  4.554689850125994
+avg optimizing time:  0.0011097363063267299
+
+avg input nodes number :  1981199.142857143
+avg input nodes number/pure train time :  629041.5307841823
+avg input nodes number/avg epoch time :  386091.49726011866

@@ -1,0 +1,3484 @@
+main start at this time 1673149288.6333125
+-----------------------------------------before load data 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  100
+group buckets input  848910
+
+---------- degree  tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10], device='cuda:0',
+       dtype=torch.int32)
+get ready time :  0.00025773048400878906
+----------- core.py torch.sort() replace to OrderedDict time:  0.09014177322387695
+bucketing time:  0.09158110618591309
+----NodeBatch generation time:  0.05090641975402832
+----Frame generation time:  2.0742416381835938e-05
+---- merge nodes time:  0.00022792816162109375
+invoke_udf_reduce time:  0.1483290195465088
+preparing time:  1.32277250289917
+model forward time:  0.15140128135681152
+loss calculation time:  0.00020432472229003906
+partial loss calculation time:  0.053766489028930664
+loss backward time:  0.02468585968017578
+
+---------- degree  tensor(10)
+get ready time :  0.000171661376953125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08101701736450195
+step:  0
+bucketing time:  0.08163833618164062
+----NodeBatch generation time:  0.0018117427825927734
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016427040100097656
+invoke_udf_reduce time:  0.08395838737487793
+
+---------- degree  tensor(10)
+get ready time :  0.00022220611572265625
+----------- core.py torch.sort() replace to OrderedDict time:  0.0833275318145752
+step:  1
+bucketing time:  0.0839376449584961
+----NodeBatch generation time:  0.0018608570098876953
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.000164031982421875
+invoke_udf_reduce time:  0.08636069297790527
+
+---------- degree  tensor(10)
+get ready time :  0.00020384788513183594
+----------- core.py torch.sort() replace to OrderedDict time:  0.0856618881225586
+step:  2
+bucketing time:  0.08626413345336914
+----NodeBatch generation time:  0.001875162124633789
+----Frame generation time:  1.6450881958007812e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.08867716789245605
+
+---------- degree  tensor(10)
+get ready time :  0.0001995563507080078
+----------- core.py torch.sort() replace to OrderedDict time:  0.08366012573242188
+step:  3
+bucketing time:  0.08426427841186523
+----NodeBatch generation time:  0.00186920166015625
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.08667111396789551
+
+---------- degree  tensor(10)
+get ready time :  0.00019621849060058594
+----------- core.py torch.sort() replace to OrderedDict time:  0.08356952667236328
+step:  4
+bucketing time:  0.08417224884033203
+----NodeBatch generation time:  0.0018546581268310547
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.0001659393310546875
+invoke_udf_reduce time:  0.08656001091003418
+
+---------- degree  tensor(10)
+get ready time :  0.0001971721649169922
+----------- core.py torch.sort() replace to OrderedDict time:  0.08367037773132324
+step:  5
+bucketing time:  0.08427286148071289
+----NodeBatch generation time:  0.001836538314819336
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016570091247558594
+invoke_udf_reduce time:  0.08664226531982422
+
+---------- degree  tensor(10)
+get ready time :  0.00019669532775878906
+----------- core.py torch.sort() replace to OrderedDict time:  0.08344721794128418
+step:  6
+bucketing time:  0.08405637741088867
+----NodeBatch generation time:  0.0018286705017089844
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.08641862869262695
+
+---------- degree  tensor(10)
+get ready time :  0.0001938343048095703
+----------- core.py torch.sort() replace to OrderedDict time:  0.08397650718688965
+step:  7
+bucketing time:  0.08456897735595703
+----NodeBatch generation time:  0.0018856525421142578
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016379356384277344
+invoke_udf_reduce time:  0.08698582649230957
+
+---------- degree  tensor(10)
+get ready time :  0.00019621849060058594
+----------- core.py torch.sort() replace to OrderedDict time:  0.08349823951721191
+step:  8
+bucketing time:  0.08410310745239258
+----NodeBatch generation time:  0.0018317699432373047
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00016236305236816406
+invoke_udf_reduce time:  0.08646368980407715
+
+---------- degree  tensor(10)
+get ready time :  0.0001957416534423828
+----------- core.py torch.sort() replace to OrderedDict time:  0.08371305465698242
+step:  9
+bucketing time:  0.08431386947631836
+----NodeBatch generation time:  0.0018184185028076172
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016260147094726562
+invoke_udf_reduce time:  0.08667445182800293
+
+---------- degree  tensor(10)
+get ready time :  0.0001933574676513672
+----------- core.py torch.sort() replace to OrderedDict time:  0.08402419090270996
+step:  10
+bucketing time:  0.0846259593963623
+----NodeBatch generation time:  0.0018393993377685547
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.08699679374694824
+
+---------- degree  tensor(10)
+get ready time :  0.00019431114196777344
+----------- core.py torch.sort() replace to OrderedDict time:  0.08658146858215332
+step:  11
+bucketing time:  0.08718752861022949
+----NodeBatch generation time:  0.0018849372863769531
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.0001685619354248047
+invoke_udf_reduce time:  0.08960604667663574
+
+---------- degree  tensor(10)
+get ready time :  0.0002009868621826172
+----------- core.py torch.sort() replace to OrderedDict time:  0.08521747589111328
+step:  12
+bucketing time:  0.08583521842956543
+----NodeBatch generation time:  0.0019369125366210938
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00017023086547851562
+invoke_udf_reduce time:  0.08831453323364258
+
+---------- degree  tensor(10)
+get ready time :  0.0002696514129638672
+----------- core.py torch.sort() replace to OrderedDict time:  0.08523702621459961
+step:  13
+bucketing time:  0.0860450267791748
+----NodeBatch generation time:  0.0021941661834716797
+----Frame generation time:  2.002716064453125e-05
+---- merge nodes time:  0.00019288063049316406
+invoke_udf_reduce time:  0.08889007568359375
+
+---------- degree  tensor(10)
+get ready time :  0.00022268295288085938
+----------- core.py torch.sort() replace to OrderedDict time:  0.08501935005187988
+step:  14
+bucketing time:  0.08571386337280273
+----NodeBatch generation time:  0.0019159317016601562
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.0001742839813232422
+invoke_udf_reduce time:  0.08828091621398926
+
+---------- degree  tensor(10)
+get ready time :  0.00019288063049316406
+----------- core.py torch.sort() replace to OrderedDict time:  0.08577704429626465
+step:  15
+bucketing time:  0.08644556999206543
+----NodeBatch generation time:  0.0018260478973388672
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.08879852294921875
+
+---------- degree  tensor(10)
+get ready time :  0.00019168853759765625
+----------- core.py torch.sort() replace to OrderedDict time:  0.08566951751708984
+step:  16
+bucketing time:  0.08634281158447266
+----NodeBatch generation time:  0.0018215179443359375
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016450881958007812
+invoke_udf_reduce time:  0.08868908882141113
+
+---------- degree  tensor(10)
+get ready time :  0.00019288063049316406
+----------- core.py torch.sort() replace to OrderedDict time:  0.08577299118041992
+step:  17
+bucketing time:  0.08670735359191895
+----NodeBatch generation time:  0.0018320083618164062
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.08906817436218262
+
+---------- degree  tensor(10)
+get ready time :  0.00019407272338867188
+----------- core.py torch.sort() replace to OrderedDict time:  0.08392143249511719
+step:  18
+bucketing time:  0.08460116386413574
+----NodeBatch generation time:  0.0018420219421386719
+----Frame generation time:  2.002716064453125e-05
+---- merge nodes time:  0.00016069412231445312
+invoke_udf_reduce time:  0.08697295188903809
+
+---------- degree  tensor(10)
+get ready time :  0.00019431114196777344
+----------- core.py torch.sort() replace to OrderedDict time:  0.0841219425201416
+step:  19
+bucketing time:  0.08478975296020508
+----NodeBatch generation time:  0.0018537044525146484
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.00016999244689941406
+invoke_udf_reduce time:  0.08718347549438477
+
+---------- degree  tensor(10)
+get ready time :  0.0001938343048095703
+----------- core.py torch.sort() replace to OrderedDict time:  0.08433771133422852
+step:  20
+bucketing time:  0.08501386642456055
+----NodeBatch generation time:  0.0018811225891113281
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.0001690387725830078
+invoke_udf_reduce time:  0.08743166923522949
+
+---------- degree  tensor(10)
+get ready time :  0.00019979476928710938
+----------- core.py torch.sort() replace to OrderedDict time:  0.08461189270019531
+step:  21
+bucketing time:  0.08527660369873047
+----NodeBatch generation time:  0.0018596649169921875
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.08767390251159668
+
+---------- degree  tensor(10)
+get ready time :  0.0002052783966064453
+----------- core.py torch.sort() replace to OrderedDict time:  0.08457517623901367
+step:  22
+bucketing time:  0.08524632453918457
+----NodeBatch generation time:  0.001880645751953125
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016450881958007812
+invoke_udf_reduce time:  0.08767199516296387
+
+---------- degree  tensor(10)
+get ready time :  0.0002014636993408203
+----------- core.py torch.sort() replace to OrderedDict time:  0.08435583114624023
+step:  23
+bucketing time:  0.08502197265625
+----NodeBatch generation time:  0.001863241195678711
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.08744335174560547
+
+---------- degree  tensor(10)
+get ready time :  0.00020265579223632812
+----------- core.py torch.sort() replace to OrderedDict time:  0.0847170352935791
+step:  24
+bucketing time:  0.08539533615112305
+----NodeBatch generation time:  0.001878976821899414
+----Frame generation time:  2.0265579223632812e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.08781599998474121
+
+---------- degree  tensor(10)
+get ready time :  0.0001990795135498047
+----------- core.py torch.sort() replace to OrderedDict time:  0.08508133888244629
+step:  25
+bucketing time:  0.08586692810058594
+----NodeBatch generation time:  0.0020208358764648438
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00018215179443359375
+invoke_udf_reduce time:  0.08844161033630371
+
+---------- degree  tensor(10)
+get ready time :  0.0002129077911376953
+----------- core.py torch.sort() replace to OrderedDict time:  0.08527541160583496
+step:  26
+bucketing time:  0.08594465255737305
+----NodeBatch generation time:  0.0018737316131591797
+----Frame generation time:  2.0265579223632812e-05
+---- merge nodes time:  0.0001823902130126953
+invoke_udf_reduce time:  0.08841109275817871
+
+---------- degree  tensor(10)
+get ready time :  0.0002028942108154297
+----------- core.py torch.sort() replace to OrderedDict time:  0.08517289161682129
+step:  27
+bucketing time:  0.08585166931152344
+----NodeBatch generation time:  0.0018198490142822266
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016450881958007812
+invoke_udf_reduce time:  0.0882117748260498
+
+---------- degree  tensor(10)
+get ready time :  0.00020003318786621094
+----------- core.py torch.sort() replace to OrderedDict time:  0.08538150787353516
+step:  28
+bucketing time:  0.08605265617370605
+----NodeBatch generation time:  0.0018701553344726562
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00015974044799804688
+invoke_udf_reduce time:  0.08845019340515137
+
+---------- degree  tensor(10)
+get ready time :  0.00019168853759765625
+----------- core.py torch.sort() replace to OrderedDict time:  0.08508515357971191
+step:  29
+bucketing time:  0.08574819564819336
+----NodeBatch generation time:  0.0018239021301269531
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.000164031982421875
+invoke_udf_reduce time:  0.08809709548950195
+
+---------- degree  tensor(10)
+get ready time :  0.000194549560546875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08522486686706543
+step:  30
+bucketing time:  0.08590006828308105
+----NodeBatch generation time:  0.0018768310546875
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.0001633167266845703
+invoke_udf_reduce time:  0.08830094337463379
+
+---------- degree  tensor(10)
+get ready time :  0.00019311904907226562
+----------- core.py torch.sort() replace to OrderedDict time:  0.0859823226928711
+step:  31
+bucketing time:  0.08665251731872559
+----NodeBatch generation time:  0.0019059181213378906
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.08908915519714355
+split  buckets total input  1963463
+preparing time:  0.18676400184631348
+model forward time :  2.8382914066314697
+model forward time + loss calculation time:  2.8424205780029297
+loss backward time:  0.16962122917175293
+-------------------------------------------------------------------------------loss_sum  :  tensor(9.4887)
+
+group buckets input  848027
+
+---------- degree  tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10], device='cuda:0',
+       dtype=torch.int32)
+get ready time :  0.0002181529998779297
+----------- core.py torch.sort() replace to OrderedDict time:  0.09079837799072266
+bucketing time:  0.09202194213867188
+----NodeBatch generation time:  0.019995927810668945
+----Frame generation time:  2.0742416381835938e-05
+---- merge nodes time:  0.00017499923706054688
+invoke_udf_reduce time:  0.11792469024658203
+preparing time:  1.1148004531860352
+model forward time:  0.11910319328308105
+loss calculation time:  7.367134094238281e-05
+partial loss calculation time:  0.07117342948913574
+loss backward time:  0.020423412322998047
+
+---------- degree  tensor(10)
+get ready time :  0.00016736984252929688
+----------- core.py torch.sort() replace to OrderedDict time:  0.0818939208984375
+step:  0
+bucketing time:  0.08251237869262695
+----NodeBatch generation time:  0.0018343925476074219
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.08482670783996582
+
+---------- degree  tensor(10)
+get ready time :  0.00020384788513183594
+----------- core.py torch.sort() replace to OrderedDict time:  0.08400321006774902
+step:  1
+bucketing time:  0.08461999893188477
+----NodeBatch generation time:  0.001832723617553711
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.0001614093780517578
+invoke_udf_reduce time:  0.08699250221252441
+
+---------- degree  tensor(10)
+get ready time :  0.00019931793212890625
+----------- core.py torch.sort() replace to OrderedDict time:  0.0838623046875
+step:  2
+bucketing time:  0.08446836471557617
+----NodeBatch generation time:  0.0018057823181152344
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016117095947265625
+invoke_udf_reduce time:  0.08680176734924316
+
+---------- degree  tensor(10)
+get ready time :  0.0002219676971435547
+----------- core.py torch.sort() replace to OrderedDict time:  0.08425235748291016
+step:  3
+bucketing time:  0.08485841751098633
+----NodeBatch generation time:  0.0019114017486572266
+----Frame generation time:  1.6450881958007812e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.08732414245605469
+
+---------- degree  tensor(10)
+get ready time :  0.0001964569091796875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08378434181213379
+step:  4
+bucketing time:  0.08441352844238281
+----NodeBatch generation time:  0.0018203258514404297
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00016379356384277344
+invoke_udf_reduce time:  0.08676671981811523
+
+---------- degree  tensor(10)
+get ready time :  0.0001983642578125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08404827117919922
+step:  5
+bucketing time:  0.08464884757995605
+----NodeBatch generation time:  0.0018184185028076172
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016427040100097656
+invoke_udf_reduce time:  0.08700370788574219
+
+---------- degree  tensor(10)
+get ready time :  0.00019788742065429688
+----------- core.py torch.sort() replace to OrderedDict time:  0.08702540397644043
+step:  6
+bucketing time:  0.0876312255859375
+----NodeBatch generation time:  0.0017921924591064453
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001621246337890625
+invoke_udf_reduce time:  0.08995318412780762
+
+---------- degree  tensor(10)
+get ready time :  0.00020122528076171875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08437585830688477
+step:  7
+bucketing time:  0.0849764347076416
+----NodeBatch generation time:  0.0018076896667480469
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.00016307830810546875
+invoke_udf_reduce time:  0.08732151985168457
+
+---------- degree  tensor(10)
+get ready time :  0.0002040863037109375
+----------- core.py torch.sort() replace to OrderedDict time:  0.08458733558654785
+step:  8
+bucketing time:  0.0851905345916748
+----NodeBatch generation time:  0.0018210411071777344
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00016450881958007812
+invoke_udf_reduce time:  0.08755707740783691
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.0847175121307373
+step:  9
+bucketing time:  0.08532214164733887
+----NodeBatch generation time:  0.001798868179321289
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016164779663085938
+invoke_udf_reduce time:  0.08765459060668945
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.08520197868347168
+step:  10
+bucketing time:  0.0858011245727539
+----NodeBatch generation time:  0.0018146038055419922
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.0881495475769043
+
+---------- degree  tensor(10)
+get ready time :  0.00020074844360351562
+----------- core.py torch.sort() replace to OrderedDict time:  0.08509016036987305
+step:  11
+bucketing time:  0.08569145202636719
+----NodeBatch generation time:  0.0017902851104736328
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.08801770210266113
+
+---------- degree  tensor(10)
+get ready time :  0.0001990795135498047
+----------- core.py torch.sort() replace to OrderedDict time:  0.08500218391418457
+step:  12
+bucketing time:  0.08560371398925781
+----NodeBatch generation time:  0.0017886161804199219
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.0001761913299560547
+invoke_udf_reduce time:  0.08793950080871582
+
+---------- degree  tensor(10)
+get ready time :  0.00019884109497070312
+----------- core.py torch.sort() replace to OrderedDict time:  0.08575916290283203
+step:  13
+bucketing time:  0.08642435073852539
+----NodeBatch generation time:  0.0018203258514404297
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.08878469467163086
+
+---------- degree  tensor(10)
+get ready time :  0.0002014636993408203
+----------- core.py torch.sort() replace to OrderedDict time:  0.08592677116394043
+step:  14
+bucketing time:  0.08659529685974121
+----NodeBatch generation time:  0.0018055438995361328
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00016570091247558594
+invoke_udf_reduce time:  0.08893847465515137
+
+---------- degree  tensor(10)
+get ready time :  0.0002040863037109375
+----------- core.py torch.sort() replace to OrderedDict time:  0.08583211898803711
+step:  15
+bucketing time:  0.08650612831115723
+----NodeBatch generation time:  0.0018107891082763672
+----Frame generation time:  1.6927719116210938e-05
+---- merge nodes time:  0.00016260147094726562
+invoke_udf_reduce time:  0.08885526657104492
+
+---------- degree  tensor(10)
+get ready time :  0.00022220611572265625
+----------- core.py torch.sort() replace to OrderedDict time:  0.08616495132446289
+step:  16
+bucketing time:  0.08683466911315918
+----NodeBatch generation time:  0.0018227100372314453
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.0892171859741211
+
+---------- degree  tensor(10)
+get ready time :  0.0001971721649169922
+----------- core.py torch.sort() replace to OrderedDict time:  0.08657574653625488
+step:  17
+bucketing time:  0.08724045753479004
+----NodeBatch generation time:  0.0017976760864257812
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00016617774963378906
+invoke_udf_reduce time:  0.08957266807556152
+
+---------- degree  tensor(10)
+get ready time :  0.00019979476928710938
+----------- core.py torch.sort() replace to OrderedDict time:  0.08743143081665039
+step:  18
+bucketing time:  0.08810043334960938
+----NodeBatch generation time:  0.0018231868743896484
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016617774963378906
+invoke_udf_reduce time:  0.09046101570129395
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.08743858337402344
+step:  19
+bucketing time:  0.08811783790588379
+----NodeBatch generation time:  0.0018053054809570312
+----Frame generation time:  2.2172927856445312e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.09046244621276855
+
+---------- degree  tensor(10)
+get ready time :  0.00020170211791992188
+----------- core.py torch.sort() replace to OrderedDict time:  0.0870370864868164
+step:  20
+bucketing time:  0.0877077579498291
+----NodeBatch generation time:  0.0018155574798583984
+----Frame generation time:  2.0265579223632812e-05
+---- merge nodes time:  0.00016355514526367188
+invoke_udf_reduce time:  0.09006166458129883
+
+---------- degree  tensor(10)
+get ready time :  0.00020575523376464844
+----------- core.py torch.sort() replace to OrderedDict time:  0.08736395835876465
+step:  21
+bucketing time:  0.08803057670593262
+----NodeBatch generation time:  0.0017974376678466797
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001621246337890625
+invoke_udf_reduce time:  0.09036731719970703
+
+---------- degree  tensor(10)
+get ready time :  0.0002033710479736328
+----------- core.py torch.sort() replace to OrderedDict time:  0.08788871765136719
+step:  22
+bucketing time:  0.08855485916137695
+----NodeBatch generation time:  0.0018067359924316406
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001647472381591797
+invoke_udf_reduce time:  0.09090280532836914
+
+---------- degree  tensor(10)
+get ready time :  0.00019979476928710938
+----------- core.py torch.sort() replace to OrderedDict time:  0.08765602111816406
+step:  23
+bucketing time:  0.08832311630249023
+----NodeBatch generation time:  0.0018160343170166016
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001647472381591797
+invoke_udf_reduce time:  0.09067797660827637
+
+---------- degree  tensor(10)
+get ready time :  0.00019931793212890625
+----------- core.py torch.sort() replace to OrderedDict time:  0.0843498706817627
+step:  24
+bucketing time:  0.08502459526062012
+----NodeBatch generation time:  0.0017976760864257812
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.0001659393310546875
+invoke_udf_reduce time:  0.08804583549499512
+
+---------- degree  tensor(10)
+get ready time :  0.00020432472229003906
+----------- core.py torch.sort() replace to OrderedDict time:  0.08518815040588379
+step:  25
+bucketing time:  0.08585500717163086
+----NodeBatch generation time:  0.0018203258514404297
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00016427040100097656
+invoke_udf_reduce time:  0.08822035789489746
+
+---------- degree  tensor(10)
+get ready time :  0.0002243518829345703
+----------- core.py torch.sort() replace to OrderedDict time:  0.08489227294921875
+step:  26
+bucketing time:  0.08556079864501953
+----NodeBatch generation time:  0.0018076896667480469
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.08792972564697266
+
+---------- degree  tensor(10)
+get ready time :  0.00020051002502441406
+----------- core.py torch.sort() replace to OrderedDict time:  0.0847930908203125
+step:  27
+bucketing time:  0.08546876907348633
+----NodeBatch generation time:  0.0018193721771240234
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00017404556274414062
+invoke_udf_reduce time:  0.08783769607543945
+
+---------- degree  tensor(10)
+get ready time :  0.00020241737365722656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08577513694763184
+step:  28
+bucketing time:  0.08645224571228027
+----NodeBatch generation time:  0.0018219947814941406
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.08881902694702148
+
+---------- degree  tensor(10)
+get ready time :  0.00020074844360351562
+----------- core.py torch.sort() replace to OrderedDict time:  0.0854947566986084
+step:  29
+bucketing time:  0.08616137504577637
+----NodeBatch generation time:  0.0018153190612792969
+----Frame generation time:  2.002716064453125e-05
+---- merge nodes time:  0.0001659393310546875
+invoke_udf_reduce time:  0.08851408958435059
+
+---------- degree  tensor(10)
+get ready time :  0.00020170211791992188
+----------- core.py torch.sort() replace to OrderedDict time:  0.0858609676361084
+step:  30
+bucketing time:  0.08655357360839844
+----NodeBatch generation time:  0.0018315315246582031
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.0001659393310546875
+invoke_udf_reduce time:  0.08893251419067383
+
+---------- degree  tensor(10)
+get ready time :  0.00020551681518554688
+----------- core.py torch.sort() replace to OrderedDict time:  0.0856633186340332
+step:  31
+bucketing time:  0.08634543418884277
+----NodeBatch generation time:  0.0018320083618164062
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.000164031982421875
+invoke_udf_reduce time:  0.08871889114379883
+split  buckets total input  1963927
+preparing time:  0.1956040859222412
+model forward time :  2.864744186401367
+model forward time + loss calculation time:  2.868288516998291
+loss backward time:  0.16977453231811523
+-------------------------------------------------------------------------------loss_sum  :  tensor(9.3609)
+
+group buckets input  848038
+
+---------- degree  tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10], device='cuda:0',
+       dtype=torch.int32)
+get ready time :  0.00023102760314941406
+----------- core.py torch.sort() replace to OrderedDict time:  0.09308815002441406
+bucketing time:  0.09437990188598633
+----NodeBatch generation time:  0.018790483474731445
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00018644332885742188
+invoke_udf_reduce time:  0.1190648078918457
+preparing time:  1.1374092102050781
+model forward time:  0.12028336524963379
+loss calculation time:  6.747245788574219e-05
+partial loss calculation time:  0.07239055633544922
+loss backward time:  0.019730329513549805
+
+---------- degree  tensor(10)
+get ready time :  0.0001666545867919922
+----------- core.py torch.sort() replace to OrderedDict time:  0.08145928382873535
+step:  0
+bucketing time:  0.08212161064147949
+----NodeBatch generation time:  0.0019404888153076172
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.0001633167266845703
+invoke_udf_reduce time:  0.08453583717346191
+
+---------- degree  tensor(10)
+get ready time :  0.00019812583923339844
+----------- core.py torch.sort() replace to OrderedDict time:  0.08507180213928223
+step:  1
+bucketing time:  0.08570432662963867
+----NodeBatch generation time:  0.0018241405487060547
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.08806204795837402
+
+---------- degree  tensor(10)
+get ready time :  0.00020503997802734375
+----------- core.py torch.sort() replace to OrderedDict time:  0.08453774452209473
+step:  2
+bucketing time:  0.08515787124633789
+----NodeBatch generation time:  0.0018405914306640625
+----Frame generation time:  1.71661376953125e-05
+---- merge nodes time:  0.00016808509826660156
+invoke_udf_reduce time:  0.08754467964172363
+
+---------- degree  tensor(10)
+get ready time :  0.00020384788513183594
+----------- core.py torch.sort() replace to OrderedDict time:  0.08466219902038574
+step:  3
+bucketing time:  0.08528709411621094
+----NodeBatch generation time:  0.0018477439880371094
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.08767843246459961
+
+---------- degree  tensor(10)
+get ready time :  0.00020051002502441406
+----------- core.py torch.sort() replace to OrderedDict time:  0.08445906639099121
+step:  4
+bucketing time:  0.08507847785949707
+----NodeBatch generation time:  0.0018506050109863281
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.08747053146362305
+
+---------- degree  tensor(10)
+get ready time :  0.0001983642578125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08455204963684082
+step:  5
+bucketing time:  0.0851747989654541
+----NodeBatch generation time:  0.00189208984375
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.00016617774963378906
+invoke_udf_reduce time:  0.08760499954223633
+
+---------- degree  tensor(10)
+get ready time :  0.000217437744140625
+----------- core.py torch.sort() replace to OrderedDict time:  0.09517669677734375
+step:  6
+bucketing time:  0.09581470489501953
+----NodeBatch generation time:  0.0018818378448486328
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016999244689941406
+invoke_udf_reduce time:  0.09825515747070312
+
+---------- degree  tensor(10)
+get ready time :  0.00019550323486328125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08482718467712402
+step:  7
+bucketing time:  0.08545565605163574
+----NodeBatch generation time:  0.0018892288208007812
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.08788132667541504
+
+---------- degree  tensor(10)
+get ready time :  0.00019240379333496094
+----------- core.py torch.sort() replace to OrderedDict time:  0.08526992797851562
+step:  8
+bucketing time:  0.08590006828308105
+----NodeBatch generation time:  0.001865386962890625
+----Frame generation time:  1.6927719116210938e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.08829236030578613
+
+---------- degree  tensor(10)
+get ready time :  0.00019979476928710938
+----------- core.py torch.sort() replace to OrderedDict time:  0.08560943603515625
+step:  9
+bucketing time:  0.08623433113098145
+----NodeBatch generation time:  0.0018835067749023438
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.0001659393310546875
+invoke_udf_reduce time:  0.08866620063781738
+
+---------- degree  tensor(10)
+get ready time :  0.0001983642578125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08998942375183105
+step:  10
+bucketing time:  0.09063315391540527
+----NodeBatch generation time:  0.0018420219421386719
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.00017118453979492188
+invoke_udf_reduce time:  0.0935823917388916
+
+---------- degree  tensor(10)
+get ready time :  0.00019693374633789062
+----------- core.py torch.sort() replace to OrderedDict time:  0.08440303802490234
+step:  11
+bucketing time:  0.08504509925842285
+----NodeBatch generation time:  0.0018312931060791016
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.08744239807128906
+
+---------- degree  tensor(10)
+get ready time :  0.00020003318786621094
+----------- core.py torch.sort() replace to OrderedDict time:  0.0845637321472168
+step:  12
+bucketing time:  0.08519124984741211
+----NodeBatch generation time:  0.001840353012084961
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.08757328987121582
+
+---------- degree  tensor(10)
+get ready time :  0.0001938343048095703
+----------- core.py torch.sort() replace to OrderedDict time:  0.0869748592376709
+step:  13
+bucketing time:  0.08767414093017578
+----NodeBatch generation time:  0.0018246173858642578
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.09003114700317383
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.0854346752166748
+step:  14
+bucketing time:  0.08614158630371094
+----NodeBatch generation time:  0.0018317699432373047
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.08851504325866699
+
+---------- degree  tensor(10)
+get ready time :  0.0001964569091796875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08568358421325684
+step:  15
+bucketing time:  0.08638381958007812
+----NodeBatch generation time:  0.0018482208251953125
+----Frame generation time:  2.0503997802734375e-05
+---- merge nodes time:  0.00017142295837402344
+invoke_udf_reduce time:  0.0887749195098877
+
+---------- degree  tensor(10)
+get ready time :  0.00019359588623046875
+----------- core.py torch.sort() replace to OrderedDict time:  0.0858767032623291
+step:  16
+bucketing time:  0.08657646179199219
+----NodeBatch generation time:  0.001861572265625
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.0001685619354248047
+invoke_udf_reduce time:  0.08897614479064941
+
+---------- degree  tensor(10)
+get ready time :  0.0002090930938720703
+----------- core.py torch.sort() replace to OrderedDict time:  0.08685135841369629
+step:  17
+bucketing time:  0.08755159378051758
+----NodeBatch generation time:  0.0018916130065917969
+----Frame generation time:  1.71661376953125e-05
+---- merge nodes time:  0.0001742839813232422
+invoke_udf_reduce time:  0.09002065658569336
+
+---------- degree  tensor(10)
+get ready time :  0.00019979476928710938
+----------- core.py torch.sort() replace to OrderedDict time:  0.08569765090942383
+step:  18
+bucketing time:  0.08638143539428711
+----NodeBatch generation time:  0.001889944076538086
+----Frame generation time:  2.0265579223632812e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.08881282806396484
+
+---------- degree  tensor(10)
+get ready time :  0.00019979476928710938
+----------- core.py torch.sort() replace to OrderedDict time:  0.0860738754272461
+step:  19
+bucketing time:  0.08676528930664062
+----NodeBatch generation time:  0.001873016357421875
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001647472381591797
+invoke_udf_reduce time:  0.08917999267578125
+
+---------- degree  tensor(10)
+get ready time :  0.0001983642578125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08686637878417969
+step:  20
+bucketing time:  0.0877072811126709
+----NodeBatch generation time:  0.002283811569213867
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.0001888275146484375
+invoke_udf_reduce time:  0.09055328369140625
+
+---------- degree  tensor(10)
+get ready time :  0.00021505355834960938
+----------- core.py torch.sort() replace to OrderedDict time:  0.08832001686096191
+step:  21
+bucketing time:  0.08909130096435547
+----NodeBatch generation time:  0.002089262008666992
+----Frame generation time:  2.002716064453125e-05
+---- merge nodes time:  0.0001780986785888672
+invoke_udf_reduce time:  0.09182453155517578
+
+---------- degree  tensor(10)
+get ready time :  0.0002079010009765625
+----------- core.py torch.sort() replace to OrderedDict time:  0.0867924690246582
+step:  22
+bucketing time:  0.08748364448547363
+----NodeBatch generation time:  0.00186920166015625
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.00016808509826660156
+invoke_udf_reduce time:  0.08990812301635742
+
+---------- degree  tensor(10)
+get ready time :  0.00020003318786621094
+----------- core.py torch.sort() replace to OrderedDict time:  0.08712530136108398
+step:  23
+bucketing time:  0.08782029151916504
+----NodeBatch generation time:  0.0018908977508544922
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016736984252929688
+invoke_udf_reduce time:  0.09025073051452637
+
+---------- degree  tensor(10)
+get ready time :  0.00020265579223632812
+----------- core.py torch.sort() replace to OrderedDict time:  0.08730649948120117
+step:  24
+bucketing time:  0.08800125122070312
+----NodeBatch generation time:  0.0018687248229980469
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016379356384277344
+invoke_udf_reduce time:  0.09041023254394531
+
+---------- degree  tensor(10)
+get ready time :  0.0002002716064453125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08705258369445801
+step:  25
+bucketing time:  0.08774185180664062
+----NodeBatch generation time:  0.001886129379272461
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00016570091247558594
+invoke_udf_reduce time:  0.0901646614074707
+
+---------- degree  tensor(10)
+get ready time :  0.0001957416534423828
+----------- core.py torch.sort() replace to OrderedDict time:  0.08776307106018066
+step:  26
+bucketing time:  0.08846116065979004
+----NodeBatch generation time:  0.0018849372863769531
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.09087920188903809
+
+---------- degree  tensor(10)
+get ready time :  0.00020122528076171875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08682608604431152
+step:  27
+bucketing time:  0.08751463890075684
+----NodeBatch generation time:  0.0018792152404785156
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.08993816375732422
+
+---------- degree  tensor(10)
+get ready time :  0.0001971721649169922
+----------- core.py torch.sort() replace to OrderedDict time:  0.08720064163208008
+step:  28
+bucketing time:  0.08788943290710449
+----NodeBatch generation time:  0.0018804073333740234
+----Frame generation time:  2.193450927734375e-05
+---- merge nodes time:  0.00016736984252929688
+invoke_udf_reduce time:  0.09030985832214355
+
+---------- degree  tensor(10)
+get ready time :  0.0002033710479736328
+----------- core.py torch.sort() replace to OrderedDict time:  0.08649563789367676
+step:  29
+bucketing time:  0.08718347549438477
+----NodeBatch generation time:  0.0018641948699951172
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.08959364891052246
+
+---------- degree  tensor(10)
+get ready time :  0.00020074844360351562
+----------- core.py torch.sort() replace to OrderedDict time:  0.08646154403686523
+step:  30
+bucketing time:  0.08714842796325684
+----NodeBatch generation time:  0.0018718242645263672
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.0001690387725830078
+invoke_udf_reduce time:  0.09002995491027832
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.08562564849853516
+step:  31
+bucketing time:  0.08632349967956543
+----NodeBatch generation time:  0.0018923282623291016
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016736984252929688
+invoke_udf_reduce time:  0.0887603759765625
+split  buckets total input  1962939
+preparing time:  0.186323881149292
+model forward time :  2.89526104927063
+model forward time + loss calculation time:  2.8989851474761963
+loss backward time:  0.1698145866394043
+-------------------------------------------------------------------------------loss_sum  :  tensor(9.2344)
+
+full batch graph loading time:  0.06438994407653809
+group buckets input  848349
+
+---------- degree  tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10], device='cuda:0',
+       dtype=torch.int32)
+get ready time :  0.0002155303955078125
+----------- core.py torch.sort() replace to OrderedDict time:  0.09890317916870117
+bucketing time:  0.10023140907287598
+----NodeBatch generation time:  0.01887035369873047
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.00019478797912597656
+invoke_udf_reduce time:  0.12656927108764648
+preparing time:  1.1249284744262695
+model forward time:  0.1277620792388916
+loss calculation time:  7.367134094238281e-05
+partial loss calculation time:  0.07219099998474121
+loss backward time:  0.019732952117919922
+
+---------- degree  tensor(10)
+get ready time :  0.00017261505126953125
+----------- core.py torch.sort() replace to OrderedDict time:  0.0857996940612793
+step:  0
+bucketing time:  0.0864410400390625
+----NodeBatch generation time:  0.0018608570098876953
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016307830810546875
+invoke_udf_reduce time:  0.08878970146179199
+
+---------- degree  tensor(10)
+get ready time :  0.00019288063049316406
+----------- core.py torch.sort() replace to OrderedDict time:  0.08780050277709961
+step:  1
+bucketing time:  0.0884239673614502
+----NodeBatch generation time:  0.001847982406616211
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016760826110839844
+invoke_udf_reduce time:  0.09080624580383301
+
+---------- degree  tensor(10)
+get ready time :  0.00019979476928710938
+----------- core.py torch.sort() replace to OrderedDict time:  0.0874474048614502
+step:  2
+bucketing time:  0.08806920051574707
+----NodeBatch generation time:  0.001837015151977539
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.0001678466796875
+invoke_udf_reduce time:  0.09044861793518066
+
+---------- degree  tensor(10)
+get ready time :  0.0002105236053466797
+----------- core.py torch.sort() replace to OrderedDict time:  0.08799362182617188
+step:  3
+bucketing time:  0.08861851692199707
+----NodeBatch generation time:  0.0018267631530761719
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00016617774963378906
+invoke_udf_reduce time:  0.09099602699279785
+
+---------- degree  tensor(10)
+get ready time :  0.00019669532775878906
+----------- core.py torch.sort() replace to OrderedDict time:  0.08782362937927246
+step:  4
+bucketing time:  0.08844733238220215
+----NodeBatch generation time:  0.0018398761749267578
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016236305236816406
+invoke_udf_reduce time:  0.0908193588256836
+
+---------- degree  tensor(10)
+get ready time :  0.00019812583923339844
+----------- core.py torch.sort() replace to OrderedDict time:  0.08795833587646484
+step:  5
+bucketing time:  0.08858060836791992
+----NodeBatch generation time:  0.0018303394317626953
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.09094595909118652
+
+---------- degree  tensor(10)
+get ready time :  0.00019884109497070312
+----------- core.py torch.sort() replace to OrderedDict time:  0.0874626636505127
+step:  6
+bucketing time:  0.08807873725891113
+----NodeBatch generation time:  0.001834869384765625
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.0904550552368164
+
+---------- degree  tensor(10)
+get ready time :  0.00019931793212890625
+----------- core.py torch.sort() replace to OrderedDict time:  0.08731651306152344
+step:  7
+bucketing time:  0.08794522285461426
+----NodeBatch generation time:  0.0018296241760253906
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016570091247558594
+invoke_udf_reduce time:  0.09032392501831055
+
+---------- degree  tensor(10)
+get ready time :  0.00019788742065429688
+----------- core.py torch.sort() replace to OrderedDict time:  0.0870370864868164
+step:  8
+bucketing time:  0.08766031265258789
+----NodeBatch generation time:  0.0018494129180908203
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00016760826110839844
+invoke_udf_reduce time:  0.09004712104797363
+
+---------- degree  tensor(10)
+get ready time :  0.00019550323486328125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08753752708435059
+step:  9
+bucketing time:  0.08815789222717285
+----NodeBatch generation time:  0.0018491744995117188
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.09054255485534668
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.08744573593139648
+step:  10
+bucketing time:  0.08806633949279785
+----NodeBatch generation time:  0.0018317699432373047
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.00016999244689941406
+invoke_udf_reduce time:  0.09044075012207031
+
+---------- degree  tensor(10)
+get ready time :  0.00019240379333496094
+----------- core.py torch.sort() replace to OrderedDict time:  0.08679389953613281
+step:  11
+bucketing time:  0.08741879463195801
+----NodeBatch generation time:  0.0018384456634521484
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016760826110839844
+invoke_udf_reduce time:  0.08978867530822754
+
+---------- degree  tensor(10)
+get ready time :  0.00019931793212890625
+----------- core.py torch.sort() replace to OrderedDict time:  0.08733177185058594
+step:  12
+bucketing time:  0.08795499801635742
+----NodeBatch generation time:  0.0018382072448730469
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.0001697540283203125
+invoke_udf_reduce time:  0.09033441543579102
+
+---------- degree  tensor(10)
+get ready time :  0.00019598007202148438
+----------- core.py torch.sort() replace to OrderedDict time:  0.0867621898651123
+step:  13
+bucketing time:  0.08744955062866211
+----NodeBatch generation time:  0.0018482208251953125
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.08983016014099121
+
+---------- degree  tensor(10)
+get ready time :  0.0002033710479736328
+----------- core.py torch.sort() replace to OrderedDict time:  0.08764195442199707
+step:  14
+bucketing time:  0.08832621574401855
+----NodeBatch generation time:  0.0018453598022460938
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.09071779251098633
+
+---------- degree  tensor(10)
+get ready time :  0.00020074844360351562
+----------- core.py torch.sort() replace to OrderedDict time:  0.08777117729187012
+step:  15
+bucketing time:  0.08846330642700195
+----NodeBatch generation time:  0.001842498779296875
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00016880035400390625
+invoke_udf_reduce time:  0.09086775779724121
+
+---------- degree  tensor(10)
+get ready time :  0.00020170211791992188
+----------- core.py torch.sort() replace to OrderedDict time:  0.08789873123168945
+step:  16
+bucketing time:  0.08858585357666016
+----NodeBatch generation time:  0.0018401145935058594
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00017261505126953125
+invoke_udf_reduce time:  0.09126973152160645
+
+---------- degree  tensor(10)
+get ready time :  0.0001957416534423828
+----------- core.py torch.sort() replace to OrderedDict time:  0.0874016284942627
+step:  17
+bucketing time:  0.0880882740020752
+----NodeBatch generation time:  0.001825571060180664
+----Frame generation time:  1.6927719116210938e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.09044408798217773
+
+---------- degree  tensor(10)
+get ready time :  0.00020122528076171875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08789730072021484
+step:  18
+bucketing time:  0.08858537673950195
+----NodeBatch generation time:  0.0018436908721923828
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.09097743034362793
+
+---------- degree  tensor(10)
+get ready time :  0.0002014636993408203
+----------- core.py torch.sort() replace to OrderedDict time:  0.08807659149169922
+step:  19
+bucketing time:  0.08876729011535645
+----NodeBatch generation time:  0.001842498779296875
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016570091247558594
+invoke_udf_reduce time:  0.09115195274353027
+
+---------- degree  tensor(10)
+get ready time :  0.00019788742065429688
+----------- core.py torch.sort() replace to OrderedDict time:  0.08855652809143066
+step:  20
+bucketing time:  0.0892479419708252
+----NodeBatch generation time:  0.001855611801147461
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.00016570091247558594
+invoke_udf_reduce time:  0.09164142608642578
+
+---------- degree  tensor(10)
+get ready time :  0.00019812583923339844
+----------- core.py torch.sort() replace to OrderedDict time:  0.08802056312561035
+step:  21
+bucketing time:  0.08871054649353027
+----NodeBatch generation time:  0.0018587112426757812
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001811981201171875
+invoke_udf_reduce time:  0.09111976623535156
+
+---------- degree  tensor(10)
+get ready time :  0.00020074844360351562
+----------- core.py torch.sort() replace to OrderedDict time:  0.08825540542602539
+step:  22
+bucketing time:  0.08895397186279297
+----NodeBatch generation time:  0.001852273941040039
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016880035400390625
+invoke_udf_reduce time:  0.09134769439697266
+
+---------- degree  tensor(10)
+get ready time :  0.00019741058349609375
+----------- core.py torch.sort() replace to OrderedDict time:  0.08790874481201172
+step:  23
+bucketing time:  0.08862090110778809
+----NodeBatch generation time:  0.001851797103881836
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016999244689941406
+invoke_udf_reduce time:  0.09101557731628418
+
+---------- degree  tensor(10)
+get ready time :  0.00019693374633789062
+----------- core.py torch.sort() replace to OrderedDict time:  0.08774447441101074
+step:  24
+bucketing time:  0.08845281600952148
+----NodeBatch generation time:  0.001819610595703125
+----Frame generation time:  1.71661376953125e-05
+---- merge nodes time:  0.0001647472381591797
+invoke_udf_reduce time:  0.09081101417541504
+
+---------- degree  tensor(10)
+get ready time :  0.0001990795135498047
+----------- core.py torch.sort() replace to OrderedDict time:  0.08810210227966309
+step:  25
+bucketing time:  0.08878850936889648
+----NodeBatch generation time:  0.0018436908721923828
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.0001685619354248047
+invoke_udf_reduce time:  0.09117507934570312
+
+---------- degree  tensor(10)
+get ready time :  0.00020551681518554688
+----------- core.py torch.sort() replace to OrderedDict time:  0.08771848678588867
+step:  26
+bucketing time:  0.08842134475708008
+----NodeBatch generation time:  0.0018494129180908203
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.09081649780273438
+
+---------- degree  tensor(10)
+get ready time :  0.00020265579223632812
+----------- core.py torch.sort() replace to OrderedDict time:  0.08852934837341309
+step:  27
+bucketing time:  0.08922195434570312
+----NodeBatch generation time:  0.0018422603607177734
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016951560974121094
+invoke_udf_reduce time:  0.09160923957824707
+
+---------- degree  tensor(10)
+get ready time :  0.0002655982971191406
+----------- core.py torch.sort() replace to OrderedDict time:  0.08791851997375488
+step:  28
+bucketing time:  0.08863258361816406
+----NodeBatch generation time:  0.0018544197082519531
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.09111547470092773
+
+---------- degree  tensor(10)
+get ready time :  0.00019884109497070312
+----------- core.py torch.sort() replace to OrderedDict time:  0.08789968490600586
+step:  29
+bucketing time:  0.08859372138977051
+----NodeBatch generation time:  0.0018532276153564453
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016736984252929688
+invoke_udf_reduce time:  0.0909876823425293
+
+---------- degree  tensor(10)
+get ready time :  0.00020360946655273438
+----------- core.py torch.sort() replace to OrderedDict time:  0.08788895606994629
+step:  30
+bucketing time:  0.08857488632202148
+----NodeBatch generation time:  0.0018463134765625
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.09096574783325195
+
+---------- degree  tensor(10)
+get ready time :  0.0001976490020751953
+----------- core.py torch.sort() replace to OrderedDict time:  0.08793473243713379
+step:  31
+bucketing time:  0.08862733840942383
+----NodeBatch generation time:  0.0018544197082519531
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00016736984252929688
+invoke_udf_reduce time:  0.09102630615234375
+split  buckets total input  1963467
+preparing time:  0.1909465789794922
+model forward time :  2.93731689453125
+model forward time + loss calculation time:  2.940988302230835
+loss backward time:  0.16001057624816895
+-------------------------------------------------------------------------------loss_sum  :  tensor(9.1061)
+
+pure train time 3.248567581176758
+full batch graph loading time:  0.04739546775817871
+group buckets input  848190
+
+---------- degree  tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10], device='cuda:0',
+       dtype=torch.int32)
+get ready time :  0.00021505355834960938
+----------- core.py torch.sort() replace to OrderedDict time:  0.09446358680725098
+bucketing time:  0.09570884704589844
+----NodeBatch generation time:  0.01866436004638672
+----Frame generation time:  2.002716064453125e-05
+---- merge nodes time:  0.0002002716064453125
+invoke_udf_reduce time:  0.12027668952941895
+preparing time:  1.126297950744629
+model forward time:  0.12143492698669434
+loss calculation time:  7.009506225585938e-05
+partial loss calculation time:  0.07195830345153809
+loss backward time:  0.019077777862548828
+
+---------- degree  tensor(10)
+get ready time :  0.00017380714416503906
+----------- core.py torch.sort() replace to OrderedDict time:  0.08370375633239746
+step:  0
+bucketing time:  0.08440804481506348
+----NodeBatch generation time:  0.0018448829650878906
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.0001709461212158203
+invoke_udf_reduce time:  0.08674454689025879
+
+---------- degree  tensor(10)
+get ready time :  0.00021839141845703125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08617949485778809
+step:  1
+bucketing time:  0.08679986000061035
+----NodeBatch generation time:  0.0018541812896728516
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.08921337127685547
+
+---------- degree  tensor(10)
+get ready time :  0.0002014636993408203
+----------- core.py torch.sort() replace to OrderedDict time:  0.09422016143798828
+step:  2
+bucketing time:  0.09484434127807617
+----NodeBatch generation time:  0.0019252300262451172
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.0002543926239013672
+invoke_udf_reduce time:  0.09740424156188965
+
+---------- degree  tensor(10)
+get ready time :  0.0002033710479736328
+----------- core.py torch.sort() replace to OrderedDict time:  0.08779311180114746
+step:  3
+bucketing time:  0.08844947814941406
+----NodeBatch generation time:  0.002063274383544922
+----Frame generation time:  1.6689300537109375e-05
+---- merge nodes time:  0.0001697540283203125
+invoke_udf_reduce time:  0.09106040000915527
+
+---------- degree  tensor(10)
+get ready time :  0.0002105236053466797
+----------- core.py torch.sort() replace to OrderedDict time:  0.0871732234954834
+step:  4
+bucketing time:  0.087799072265625
+----NodeBatch generation time:  0.0018832683563232422
+----Frame generation time:  2.0265579223632812e-05
+---- merge nodes time:  0.0001842975616455078
+invoke_udf_reduce time:  0.09025740623474121
+
+---------- degree  tensor(10)
+get ready time :  0.0002052783966064453
+----------- core.py torch.sort() replace to OrderedDict time:  0.0866856575012207
+step:  5
+bucketing time:  0.08730626106262207
+----NodeBatch generation time:  0.0018696784973144531
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.00016736984252929688
+invoke_udf_reduce time:  0.0897223949432373
+
+---------- degree  tensor(10)
+get ready time :  0.00019478797912597656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08663010597229004
+step:  6
+bucketing time:  0.08724713325500488
+----NodeBatch generation time:  0.001874685287475586
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00018215179443359375
+invoke_udf_reduce time:  0.08967423439025879
+
+---------- degree  tensor(10)
+get ready time :  0.00019621849060058594
+----------- core.py torch.sort() replace to OrderedDict time:  0.0866231918334961
+step:  7
+bucketing time:  0.08724570274353027
+----NodeBatch generation time:  0.0018756389617919922
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001647472381591797
+invoke_udf_reduce time:  0.08965468406677246
+
+---------- degree  tensor(10)
+get ready time :  0.0002028942108154297
+----------- core.py torch.sort() replace to OrderedDict time:  0.08610343933105469
+step:  8
+bucketing time:  0.08672380447387695
+----NodeBatch generation time:  0.0018575191497802734
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016617774963378906
+invoke_udf_reduce time:  0.0891265869140625
+
+---------- degree  tensor(10)
+get ready time :  0.00020194053649902344
+----------- core.py torch.sort() replace to OrderedDict time:  0.08596372604370117
+step:  9
+bucketing time:  0.08658790588378906
+----NodeBatch generation time:  0.0018548965454101562
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.0001678466796875
+invoke_udf_reduce time:  0.08899331092834473
+
+---------- degree  tensor(10)
+get ready time :  0.00020933151245117188
+----------- core.py torch.sort() replace to OrderedDict time:  0.08672523498535156
+step:  10
+bucketing time:  0.08734440803527832
+----NodeBatch generation time:  0.0018792152404785156
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.08977127075195312
+
+---------- degree  tensor(10)
+get ready time :  0.00020241737365722656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08679080009460449
+step:  11
+bucketing time:  0.08742594718933105
+----NodeBatch generation time:  0.0018818378448486328
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.08985257148742676
+
+---------- degree  tensor(10)
+get ready time :  0.0002014636993408203
+----------- core.py torch.sort() replace to OrderedDict time:  0.08634757995605469
+step:  12
+bucketing time:  0.08696985244750977
+----NodeBatch generation time:  0.0018334388732910156
+----Frame generation time:  1.6927719116210938e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.08934235572814941
+
+---------- degree  tensor(10)
+get ready time :  0.00020003318786621094
+----------- core.py torch.sort() replace to OrderedDict time:  0.08804488182067871
+step:  13
+bucketing time:  0.08874797821044922
+----NodeBatch generation time:  0.0018601417541503906
+----Frame generation time:  2.7179718017578125e-05
+---- merge nodes time:  0.00017309188842773438
+invoke_udf_reduce time:  0.09116458892822266
+
+---------- degree  tensor(10)
+get ready time :  0.00020503997802734375
+----------- core.py torch.sort() replace to OrderedDict time:  0.08905959129333496
+step:  14
+bucketing time:  0.08976387977600098
+----NodeBatch generation time:  0.0018944740295410156
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00017118453979492188
+invoke_udf_reduce time:  0.09221673011779785
+
+---------- degree  tensor(10)
+get ready time :  0.0002582073211669922
+----------- core.py torch.sort() replace to OrderedDict time:  0.0864715576171875
+step:  15
+bucketing time:  0.08722209930419922
+----NodeBatch generation time:  0.0019800662994384766
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00018548965454101562
+invoke_udf_reduce time:  0.08992171287536621
+
+---------- degree  tensor(10)
+get ready time :  0.00019884109497070312
+----------- core.py torch.sort() replace to OrderedDict time:  0.08705258369445801
+step:  16
+bucketing time:  0.0877382755279541
+----NodeBatch generation time:  0.0018610954284667969
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.09014201164245605
+
+---------- degree  tensor(10)
+get ready time :  0.0002040863037109375
+----------- core.py torch.sort() replace to OrderedDict time:  0.09162402153015137
+step:  17
+bucketing time:  0.09239673614501953
+----NodeBatch generation time:  0.0020225048065185547
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.0001862049102783203
+invoke_udf_reduce time:  0.09498786926269531
+
+---------- degree  tensor(10)
+get ready time :  0.0002052783966064453
+----------- core.py torch.sort() replace to OrderedDict time:  0.08724212646484375
+step:  18
+bucketing time:  0.08792519569396973
+----NodeBatch generation time:  0.0018305778503417969
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001697540283203125
+invoke_udf_reduce time:  0.09031987190246582
+
+---------- degree  tensor(10)
+get ready time :  0.00021696090698242188
+----------- core.py torch.sort() replace to OrderedDict time:  0.0873713493347168
+step:  19
+bucketing time:  0.0880579948425293
+----NodeBatch generation time:  0.0018303394317626953
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.09044361114501953
+
+---------- degree  tensor(10)
+get ready time :  0.00020742416381835938
+----------- core.py torch.sort() replace to OrderedDict time:  0.08728504180908203
+step:  20
+bucketing time:  0.08797192573547363
+----NodeBatch generation time:  0.0018210411071777344
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.09034323692321777
+
+---------- degree  tensor(10)
+get ready time :  0.00020766258239746094
+----------- core.py torch.sort() replace to OrderedDict time:  0.08716249465942383
+step:  21
+bucketing time:  0.08785271644592285
+----NodeBatch generation time:  0.0018434524536132812
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.0001780986785888672
+invoke_udf_reduce time:  0.09026193618774414
+
+---------- degree  tensor(10)
+get ready time :  0.00020265579223632812
+----------- core.py torch.sort() replace to OrderedDict time:  0.08667755126953125
+step:  22
+bucketing time:  0.08736681938171387
+----NodeBatch generation time:  0.0018434524536132812
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.0897531509399414
+
+---------- degree  tensor(10)
+get ready time :  0.00020170211791992188
+----------- core.py torch.sort() replace to OrderedDict time:  0.08709311485290527
+step:  23
+bucketing time:  0.08828496932983398
+----NodeBatch generation time:  0.0018420219421386719
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016570091247558594
+invoke_udf_reduce time:  0.09066939353942871
+
+---------- degree  tensor(10)
+get ready time :  0.00019788742065429688
+----------- core.py torch.sort() replace to OrderedDict time:  0.08692312240600586
+step:  24
+bucketing time:  0.08762168884277344
+----NodeBatch generation time:  0.0018589496612548828
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.09002304077148438
+
+---------- degree  tensor(10)
+get ready time :  0.00020456314086914062
+----------- core.py torch.sort() replace to OrderedDict time:  0.0872199535369873
+step:  25
+bucketing time:  0.08791255950927734
+----NodeBatch generation time:  0.0018494129180908203
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.09030699729919434
+
+---------- degree  tensor(10)
+get ready time :  0.0001995563507080078
+----------- core.py torch.sort() replace to OrderedDict time:  0.08737897872924805
+step:  26
+bucketing time:  0.08806896209716797
+----NodeBatch generation time:  0.0018346309661865234
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.09044075012207031
+
+---------- degree  tensor(10)
+get ready time :  0.0002002716064453125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08700084686279297
+step:  27
+bucketing time:  0.0876917839050293
+----NodeBatch generation time:  0.00185394287109375
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00016427040100097656
+invoke_udf_reduce time:  0.09008669853210449
+
+---------- degree  tensor(10)
+get ready time :  0.0002167224884033203
+----------- core.py torch.sort() replace to OrderedDict time:  0.0866861343383789
+step:  28
+bucketing time:  0.08737492561340332
+----NodeBatch generation time:  0.0018649101257324219
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00017142295837402344
+invoke_udf_reduce time:  0.08980822563171387
+
+---------- degree  tensor(10)
+get ready time :  0.00019979476928710938
+----------- core.py torch.sort() replace to OrderedDict time:  0.08694934844970703
+step:  29
+bucketing time:  0.08774566650390625
+----NodeBatch generation time:  0.0020160675048828125
+----Frame generation time:  2.002716064453125e-05
+---- merge nodes time:  0.00019550323486328125
+invoke_udf_reduce time:  0.09033846855163574
+
+---------- degree  tensor(10)
+get ready time :  0.0002071857452392578
+----------- core.py torch.sort() replace to OrderedDict time:  0.08658790588378906
+step:  30
+bucketing time:  0.08727645874023438
+----NodeBatch generation time:  0.001842498779296875
+----Frame generation time:  2.09808349609375e-05
+---- merge nodes time:  0.00016427040100097656
+invoke_udf_reduce time:  0.08968257904052734
+
+---------- degree  tensor(10)
+get ready time :  0.0001995563507080078
+----------- core.py torch.sort() replace to OrderedDict time:  0.08709025382995605
+step:  31
+bucketing time:  0.08778738975524902
+----NodeBatch generation time:  0.0018515586853027344
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.0001690387725830078
+invoke_udf_reduce time:  0.09018230438232422
+split  buckets total input  1963026
+preparing time:  0.19758844375610352
+model forward time :  2.926456928253174
+model forward time + loss calculation time:  2.9302213191986084
+loss backward time:  0.16950201988220215
+-------------------------------------------------------------------------------loss_sum  :  tensor(8.9802)
+
+pure train time 3.2403061389923096
+full batch graph loading time:  0.06285810470581055
+group buckets input  848325
+
+---------- degree  tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10], device='cuda:0',
+       dtype=torch.int32)
+get ready time :  0.00024509429931640625
+----------- core.py torch.sort() replace to OrderedDict time:  0.09575510025024414
+bucketing time:  0.09702014923095703
+----NodeBatch generation time:  0.018757104873657227
+----Frame generation time:  2.0742416381835938e-05
+---- merge nodes time:  0.0001823902130126953
+invoke_udf_reduce time:  0.12169075012207031
+preparing time:  1.136439561843872
+model forward time:  0.12285447120666504
+loss calculation time:  6.580352783203125e-05
+partial loss calculation time:  0.07217645645141602
+loss backward time:  0.019439697265625
+
+---------- degree  tensor(10)
+get ready time :  0.00016379356384277344
+----------- core.py torch.sort() replace to OrderedDict time:  0.08310389518737793
+step:  0
+bucketing time:  0.08374524116516113
+----NodeBatch generation time:  0.0018756389617919922
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016355514526367188
+invoke_udf_reduce time:  0.08609127998352051
+
+---------- degree  tensor(10)
+get ready time :  0.0002148151397705078
+----------- core.py torch.sort() replace to OrderedDict time:  0.08765625953674316
+step:  1
+bucketing time:  0.08829140663146973
+----NodeBatch generation time:  0.0018236637115478516
+----Frame generation time:  1.6927719116210938e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.09066939353942871
+
+---------- degree  tensor(10)
+get ready time :  0.00020074844360351562
+----------- core.py torch.sort() replace to OrderedDict time:  0.08600759506225586
+step:  2
+bucketing time:  0.08662962913513184
+----NodeBatch generation time:  0.001852273941040039
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001659393310546875
+invoke_udf_reduce time:  0.0890207290649414
+
+---------- degree  tensor(10)
+get ready time :  0.00020051002502441406
+----------- core.py torch.sort() replace to OrderedDict time:  0.08729434013366699
+step:  3
+bucketing time:  0.08791637420654297
+----NodeBatch generation time:  0.0018334388732910156
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.0001678466796875
+invoke_udf_reduce time:  0.09028983116149902
+
+---------- degree  tensor(10)
+get ready time :  0.00021839141845703125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08696651458740234
+step:  4
+bucketing time:  0.08758354187011719
+----NodeBatch generation time:  0.0018415451049804688
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00016617774963378906
+invoke_udf_reduce time:  0.08998346328735352
+
+---------- degree  tensor(10)
+get ready time :  0.00020384788513183594
+----------- core.py torch.sort() replace to OrderedDict time:  0.0872347354888916
+step:  5
+bucketing time:  0.08785724639892578
+----NodeBatch generation time:  0.0018308162689208984
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.09023427963256836
+
+---------- degree  tensor(10)
+get ready time :  0.0002028942108154297
+----------- core.py torch.sort() replace to OrderedDict time:  0.08669257164001465
+step:  6
+bucketing time:  0.08731651306152344
+----NodeBatch generation time:  0.0018260478973388672
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.0001647472381591797
+invoke_udf_reduce time:  0.08968091011047363
+
+---------- degree  tensor(10)
+get ready time :  0.00020194053649902344
+----------- core.py torch.sort() replace to OrderedDict time:  0.08692407608032227
+step:  7
+bucketing time:  0.08754730224609375
+----NodeBatch generation time:  0.0018434524536132812
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.0001842975616455078
+invoke_udf_reduce time:  0.08995604515075684
+
+---------- degree  tensor(10)
+get ready time :  0.00020432472229003906
+----------- core.py torch.sort() replace to OrderedDict time:  0.08667135238647461
+step:  8
+bucketing time:  0.08730077743530273
+----NodeBatch generation time:  0.0018336772918701172
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.0001633167266845703
+invoke_udf_reduce time:  0.0896754264831543
+
+---------- degree  tensor(10)
+get ready time :  0.0002028942108154297
+----------- core.py torch.sort() replace to OrderedDict time:  0.08617186546325684
+step:  9
+bucketing time:  0.08698534965515137
+----NodeBatch generation time:  0.001863241195678711
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.08938860893249512
+
+---------- degree  tensor(10)
+get ready time :  0.00020432472229003906
+----------- core.py torch.sort() replace to OrderedDict time:  0.08501696586608887
+step:  10
+bucketing time:  0.08563828468322754
+----NodeBatch generation time:  0.0018384456634521484
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.0001628398895263672
+invoke_udf_reduce time:  0.08801794052124023
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.08600950241088867
+step:  11
+bucketing time:  0.08662581443786621
+----NodeBatch generation time:  0.001840353012084961
+----Frame generation time:  2.002716064453125e-05
+---- merge nodes time:  0.00017118453979492188
+invoke_udf_reduce time:  0.08901381492614746
+
+---------- degree  tensor(10)
+get ready time :  0.00020170211791992188
+----------- core.py torch.sort() replace to OrderedDict time:  0.08637118339538574
+step:  12
+bucketing time:  0.08699178695678711
+----NodeBatch generation time:  0.0018413066864013672
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.08941960334777832
+
+---------- degree  tensor(10)
+get ready time :  0.0002067089080810547
+----------- core.py torch.sort() replace to OrderedDict time:  0.08648037910461426
+step:  13
+bucketing time:  0.08717679977416992
+----NodeBatch generation time:  0.0018198490142822266
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.08954501152038574
+
+---------- degree  tensor(10)
+get ready time :  0.00020265579223632812
+----------- core.py torch.sort() replace to OrderedDict time:  0.0870058536529541
+step:  14
+bucketing time:  0.08769798278808594
+----NodeBatch generation time:  0.0018453598022460938
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001685619354248047
+invoke_udf_reduce time:  0.0900871753692627
+
+---------- degree  tensor(10)
+get ready time :  0.00020599365234375
+----------- core.py torch.sort() replace to OrderedDict time:  0.08650994300842285
+step:  15
+bucketing time:  0.08719730377197266
+----NodeBatch generation time:  0.0018355846405029297
+----Frame generation time:  2.0265579223632812e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.08957934379577637
+
+---------- degree  tensor(10)
+get ready time :  0.000213623046875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08701586723327637
+step:  16
+bucketing time:  0.08770155906677246
+----NodeBatch generation time:  0.0018465518951416016
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.09009933471679688
+
+---------- degree  tensor(10)
+get ready time :  0.00020360946655273438
+----------- core.py torch.sort() replace to OrderedDict time:  0.0868072509765625
+step:  17
+bucketing time:  0.08750128746032715
+----NodeBatch generation time:  0.0018301010131835938
+----Frame generation time:  2.0503997802734375e-05
+---- merge nodes time:  0.00016355514526367188
+invoke_udf_reduce time:  0.0899205207824707
+
+---------- degree  tensor(10)
+get ready time :  0.00022172927856445312
+----------- core.py torch.sort() replace to OrderedDict time:  0.0874018669128418
+step:  18
+bucketing time:  0.08809423446655273
+----NodeBatch generation time:  0.0018455982208251953
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.0001685619354248047
+invoke_udf_reduce time:  0.09050607681274414
+
+---------- degree  tensor(10)
+get ready time :  0.00021600723266601562
+----------- core.py torch.sort() replace to OrderedDict time:  0.08746695518493652
+step:  19
+bucketing time:  0.08815407752990723
+----NodeBatch generation time:  0.0018315315246582031
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.0001690387725830078
+invoke_udf_reduce time:  0.09054756164550781
+
+---------- degree  tensor(10)
+get ready time :  0.00021696090698242188
+----------- core.py torch.sort() replace to OrderedDict time:  0.08821439743041992
+step:  20
+bucketing time:  0.08890199661254883
+----NodeBatch generation time:  0.0018401145935058594
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.0913078784942627
+
+---------- degree  tensor(10)
+get ready time :  0.0002052783966064453
+----------- core.py torch.sort() replace to OrderedDict time:  0.08762168884277344
+step:  21
+bucketing time:  0.08833742141723633
+----NodeBatch generation time:  0.0018620491027832031
+----Frame generation time:  1.71661376953125e-05
+---- merge nodes time:  0.00017118453979492188
+invoke_udf_reduce time:  0.09074711799621582
+
+---------- degree  tensor(10)
+get ready time :  0.0002040863037109375
+----------- core.py torch.sort() replace to OrderedDict time:  0.08775115013122559
+step:  22
+bucketing time:  0.08843994140625
+----NodeBatch generation time:  0.001840353012084961
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.09082221984863281
+
+---------- degree  tensor(10)
+get ready time :  0.0002086162567138672
+----------- core.py torch.sort() replace to OrderedDict time:  0.08776593208312988
+step:  23
+bucketing time:  0.0884549617767334
+----NodeBatch generation time:  0.001857757568359375
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00017213821411132812
+invoke_udf_reduce time:  0.0908658504486084
+
+---------- degree  tensor(10)
+get ready time :  0.00020074844360351562
+----------- core.py torch.sort() replace to OrderedDict time:  0.0877077579498291
+step:  24
+bucketing time:  0.08839654922485352
+----NodeBatch generation time:  0.0019071102142333984
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.000164031982421875
+invoke_udf_reduce time:  0.09084153175354004
+
+---------- degree  tensor(10)
+get ready time :  0.0002028942108154297
+----------- core.py torch.sort() replace to OrderedDict time:  0.08782553672790527
+step:  25
+bucketing time:  0.08851408958435059
+----NodeBatch generation time:  0.0018711090087890625
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.09093046188354492
+
+---------- degree  tensor(10)
+get ready time :  0.0002009868621826172
+----------- core.py torch.sort() replace to OrderedDict time:  0.08791351318359375
+step:  26
+bucketing time:  0.08860182762145996
+----NodeBatch generation time:  0.001878499984741211
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016808509826660156
+invoke_udf_reduce time:  0.09102034568786621
+
+---------- degree  tensor(10)
+get ready time :  0.0001995563507080078
+----------- core.py torch.sort() replace to OrderedDict time:  0.08808064460754395
+step:  27
+bucketing time:  0.08877301216125488
+----NodeBatch generation time:  0.0018641948699951172
+----Frame generation time:  2.193450927734375e-05
+---- merge nodes time:  0.00017571449279785156
+invoke_udf_reduce time:  0.09119081497192383
+
+---------- degree  tensor(10)
+get ready time :  0.0002040863037109375
+----------- core.py torch.sort() replace to OrderedDict time:  0.08859467506408691
+step:  28
+bucketing time:  0.08928370475769043
+----NodeBatch generation time:  0.001870870590209961
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.09169960021972656
+
+---------- degree  tensor(10)
+get ready time :  0.00020599365234375
+----------- core.py torch.sort() replace to OrderedDict time:  0.08872556686401367
+step:  29
+bucketing time:  0.08941841125488281
+----NodeBatch generation time:  0.0018818378448486328
+----Frame generation time:  1.71661376953125e-05
+---- merge nodes time:  0.00016999244689941406
+invoke_udf_reduce time:  0.09185290336608887
+
+---------- degree  tensor(10)
+get ready time :  0.0002052783966064453
+----------- core.py torch.sort() replace to OrderedDict time:  0.08718156814575195
+step:  30
+bucketing time:  0.08787679672241211
+----NodeBatch generation time:  0.0018994808197021484
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00017404556274414062
+invoke_udf_reduce time:  0.09110546112060547
+
+---------- degree  tensor(10)
+get ready time :  0.0002067089080810547
+----------- core.py torch.sort() replace to OrderedDict time:  0.08616209030151367
+step:  31
+bucketing time:  0.0868525505065918
+----NodeBatch generation time:  0.0018579959869384766
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.0001690387725830078
+invoke_udf_reduce time:  0.08926081657409668
+split  buckets total input  1963094
+preparing time:  0.19093060493469238
+model forward time :  2.9178476333618164
+model forward time + loss calculation time:  2.9215426445007324
+loss backward time:  0.1700880527496338
+-------------------------------------------------------------------------------loss_sum  :  tensor(8.8516)
+
+pure train time 3.2339906692504883
+full batch graph loading time:  0.042433977127075195
+group buckets input  847553
+
+---------- degree  tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10], device='cuda:0',
+       dtype=torch.int32)
+get ready time :  0.00022482872009277344
+----------- core.py torch.sort() replace to OrderedDict time:  0.09666180610656738
+bucketing time:  0.0978994369506836
+----NodeBatch generation time:  0.018668651580810547
+----Frame generation time:  2.09808349609375e-05
+---- merge nodes time:  0.00018906593322753906
+invoke_udf_reduce time:  0.12244176864624023
+preparing time:  1.1171295642852783
+model forward time:  0.12361788749694824
+loss calculation time:  6.794929504394531e-05
+partial loss calculation time:  0.07200431823730469
+loss backward time:  0.01819443702697754
+
+---------- degree  tensor(10)
+get ready time :  0.0001690387725830078
+----------- core.py torch.sort() replace to OrderedDict time:  0.08573102951049805
+step:  0
+bucketing time:  0.08637475967407227
+----NodeBatch generation time:  0.0018570423126220703
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016808509826660156
+invoke_udf_reduce time:  0.08871603012084961
+
+---------- degree  tensor(10)
+get ready time :  0.00019812583923339844
+----------- core.py torch.sort() replace to OrderedDict time:  0.08741617202758789
+step:  1
+bucketing time:  0.08804035186767578
+----NodeBatch generation time:  0.0018253326416015625
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.0001690387725830078
+invoke_udf_reduce time:  0.09040331840515137
+
+---------- degree  tensor(10)
+get ready time :  0.00020360946655273438
+----------- core.py torch.sort() replace to OrderedDict time:  0.08693838119506836
+step:  2
+bucketing time:  0.08756136894226074
+----NodeBatch generation time:  0.0018775463104248047
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.00017142295837402344
+invoke_udf_reduce time:  0.08998775482177734
+
+---------- degree  tensor(10)
+get ready time :  0.0002002716064453125
+----------- core.py torch.sort() replace to OrderedDict time:  0.0874171257019043
+step:  3
+bucketing time:  0.08804583549499512
+----NodeBatch generation time:  0.0018312931060791016
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.09041619300842285
+
+---------- degree  tensor(10)
+get ready time :  0.0001952648162841797
+----------- core.py torch.sort() replace to OrderedDict time:  0.08737516403198242
+step:  4
+bucketing time:  0.08799529075622559
+----NodeBatch generation time:  0.0018439292907714844
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016736984252929688
+invoke_udf_reduce time:  0.09037327766418457
+
+---------- degree  tensor(10)
+get ready time :  0.00020051002502441406
+----------- core.py torch.sort() replace to OrderedDict time:  0.08703422546386719
+step:  5
+bucketing time:  0.08766007423400879
+----NodeBatch generation time:  0.0018410682678222656
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.00016617774963378906
+invoke_udf_reduce time:  0.0900428295135498
+
+---------- degree  tensor(10)
+get ready time :  0.00021767616271972656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08738327026367188
+step:  6
+bucketing time:  0.08801031112670898
+----NodeBatch generation time:  0.001832723617553711
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016736984252929688
+invoke_udf_reduce time:  0.09039855003356934
+
+---------- degree  tensor(10)
+get ready time :  0.00020837783813476562
+----------- core.py torch.sort() replace to OrderedDict time:  0.08752608299255371
+step:  7
+bucketing time:  0.08815288543701172
+----NodeBatch generation time:  0.00183868408203125
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016355514526367188
+invoke_udf_reduce time:  0.09053754806518555
+
+---------- degree  tensor(10)
+get ready time :  0.000202178955078125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08736443519592285
+step:  8
+bucketing time:  0.08798503875732422
+----NodeBatch generation time:  0.0018429756164550781
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016570091247558594
+invoke_udf_reduce time:  0.09036779403686523
+
+---------- degree  tensor(10)
+get ready time :  0.00020194053649902344
+----------- core.py torch.sort() replace to OrderedDict time:  0.08755135536193848
+step:  9
+bucketing time:  0.08816933631896973
+----NodeBatch generation time:  0.0018172264099121094
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.00017642974853515625
+invoke_udf_reduce time:  0.09053826332092285
+
+---------- degree  tensor(10)
+get ready time :  0.0001938343048095703
+----------- core.py torch.sort() replace to OrderedDict time:  0.0873870849609375
+step:  10
+bucketing time:  0.08801150321960449
+----NodeBatch generation time:  0.0018489360809326172
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016379356384277344
+invoke_udf_reduce time:  0.09039115905761719
+
+---------- degree  tensor(10)
+get ready time :  0.0002048015594482422
+----------- core.py torch.sort() replace to OrderedDict time:  0.08755946159362793
+step:  11
+bucketing time:  0.0881807804107666
+----NodeBatch generation time:  0.0018374919891357422
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00017189979553222656
+invoke_udf_reduce time:  0.09057021141052246
+
+---------- degree  tensor(10)
+get ready time :  0.00019931793212890625
+----------- core.py torch.sort() replace to OrderedDict time:  0.08765459060668945
+step:  12
+bucketing time:  0.08827519416809082
+----NodeBatch generation time:  0.0018572807312011719
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.09066462516784668
+
+---------- degree  tensor(10)
+get ready time :  0.00020241737365722656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08781623840332031
+step:  13
+bucketing time:  0.08850646018981934
+----NodeBatch generation time:  0.0018413066864013672
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.09088945388793945
+
+---------- degree  tensor(10)
+get ready time :  0.0002071857452392578
+----------- core.py torch.sort() replace to OrderedDict time:  0.09398007392883301
+step:  14
+bucketing time:  0.09467911720275879
+----NodeBatch generation time:  0.001993894577026367
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.09722495079040527
+
+---------- degree  tensor(10)
+get ready time :  0.00020241737365722656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08903360366821289
+step:  15
+bucketing time:  0.08971905708312988
+----NodeBatch generation time:  0.0018596649169921875
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.09239864349365234
+
+---------- degree  tensor(10)
+get ready time :  0.00019788742065429688
+----------- core.py torch.sort() replace to OrderedDict time:  0.088775634765625
+step:  16
+bucketing time:  0.08949017524719238
+----NodeBatch generation time:  0.0019736289978027344
+----Frame generation time:  1.71661376953125e-05
+---- merge nodes time:  0.00017333030700683594
+invoke_udf_reduce time:  0.09201192855834961
+
+---------- degree  tensor(10)
+get ready time :  0.0002040863037109375
+----------- core.py torch.sort() replace to OrderedDict time:  0.09033751487731934
+step:  17
+bucketing time:  0.09103894233703613
+----NodeBatch generation time:  0.0018334388732910156
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.09341764450073242
+
+---------- degree  tensor(10)
+get ready time :  0.0001919269561767578
+----------- core.py torch.sort() replace to OrderedDict time:  0.08830976486206055
+step:  18
+bucketing time:  0.08900260925292969
+----NodeBatch generation time:  0.0018460750579833984
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016832351684570312
+invoke_udf_reduce time:  0.0913858413696289
+
+---------- degree  tensor(10)
+get ready time :  0.00019884109497070312
+----------- core.py torch.sort() replace to OrderedDict time:  0.0883474349975586
+step:  19
+bucketing time:  0.08903789520263672
+----NodeBatch generation time:  0.0018382072448730469
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.0914149284362793
+
+---------- degree  tensor(10)
+get ready time :  0.00021028518676757812
+----------- core.py torch.sort() replace to OrderedDict time:  0.08866238594055176
+step:  20
+bucketing time:  0.08934640884399414
+----NodeBatch generation time:  0.0018496513366699219
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00016951560974121094
+invoke_udf_reduce time:  0.0917520523071289
+
+---------- degree  tensor(10)
+get ready time :  0.0001976490020751953
+----------- core.py torch.sort() replace to OrderedDict time:  0.08824276924133301
+step:  21
+bucketing time:  0.0889439582824707
+----NodeBatch generation time:  0.0018579959869384766
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016760826110839844
+invoke_udf_reduce time:  0.0913400650024414
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.0880889892578125
+step:  22
+bucketing time:  0.08878040313720703
+----NodeBatch generation time:  0.0018398761749267578
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.09115719795227051
+
+---------- degree  tensor(10)
+get ready time :  0.00020170211791992188
+----------- core.py torch.sort() replace to OrderedDict time:  0.08870816230773926
+step:  23
+bucketing time:  0.08939480781555176
+----NodeBatch generation time:  0.0018506050109863281
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.09178757667541504
+
+---------- degree  tensor(10)
+get ready time :  0.0001957416534423828
+----------- core.py torch.sort() replace to OrderedDict time:  0.08835196495056152
+step:  24
+bucketing time:  0.0890357494354248
+----NodeBatch generation time:  0.0018439292907714844
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.0001811981201171875
+invoke_udf_reduce time:  0.09143280982971191
+
+---------- degree  tensor(10)
+get ready time :  0.00019812583923339844
+----------- core.py torch.sort() replace to OrderedDict time:  0.0887153148651123
+step:  25
+bucketing time:  0.0894155502319336
+----NodeBatch generation time:  0.0018324851989746094
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00016355514526367188
+invoke_udf_reduce time:  0.09178280830383301
+
+---------- degree  tensor(10)
+get ready time :  0.00019979476928710938
+----------- core.py torch.sort() replace to OrderedDict time:  0.0889122486114502
+step:  26
+bucketing time:  0.08959603309631348
+----NodeBatch generation time:  0.0018444061279296875
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016999244689941406
+invoke_udf_reduce time:  0.09198451042175293
+
+---------- degree  tensor(10)
+get ready time :  0.00019884109497070312
+----------- core.py torch.sort() replace to OrderedDict time:  0.0890815258026123
+step:  27
+bucketing time:  0.08976936340332031
+----NodeBatch generation time:  0.0018489360809326172
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.09216046333312988
+
+---------- degree  tensor(10)
+get ready time :  0.00019812583923339844
+----------- core.py torch.sort() replace to OrderedDict time:  0.0888054370880127
+step:  28
+bucketing time:  0.08949828147888184
+----NodeBatch generation time:  0.0018436908721923828
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.00016999244689941406
+invoke_udf_reduce time:  0.09188127517700195
+
+---------- degree  tensor(10)
+get ready time :  0.0002009868621826172
+----------- core.py torch.sort() replace to OrderedDict time:  0.08833646774291992
+step:  29
+bucketing time:  0.08903002738952637
+----NodeBatch generation time:  0.0018579959869384766
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.0001690387725830078
+invoke_udf_reduce time:  0.0914309024810791
+
+---------- degree  tensor(10)
+get ready time :  0.0001983642578125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08884644508361816
+step:  30
+bucketing time:  0.0895376205444336
+----NodeBatch generation time:  0.0018477439880371094
+----Frame generation time:  1.71661376953125e-05
+---- merge nodes time:  0.00016355514526367188
+invoke_udf_reduce time:  0.09192085266113281
+
+---------- degree  tensor(10)
+get ready time :  0.00019931793212890625
+----------- core.py torch.sort() replace to OrderedDict time:  0.09056425094604492
+step:  31
+bucketing time:  0.09125399589538574
+----NodeBatch generation time:  0.0018448829650878906
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.00016880035400390625
+invoke_udf_reduce time:  0.09363937377929688
+split  buckets total input  1963369
+preparing time:  0.19407987594604492
+model forward time :  2.9576735496520996
+model forward time + loss calculation time:  2.961402654647827
+loss backward time:  0.1702437400817871
+-------------------------------------------------------------------------------loss_sum  :  tensor(8.7211)
+
+pure train time 3.273526668548584
+full batch graph loading time:  0.06601738929748535
+group buckets input  848583
+
+---------- degree  tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10], device='cuda:0',
+       dtype=torch.int32)
+get ready time :  0.00027561187744140625
+----------- core.py torch.sort() replace to OrderedDict time:  0.09729647636413574
+bucketing time:  0.0985713005065918
+----NodeBatch generation time:  0.01871323585510254
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.00020456314086914062
+invoke_udf_reduce time:  0.12320256233215332
+preparing time:  1.1692900657653809
+model forward time:  0.12499141693115234
+loss calculation time:  9.036064147949219e-05
+partial loss calculation time:  0.07196521759033203
+loss backward time:  0.02003645896911621
+
+---------- degree  tensor(10)
+get ready time :  0.00016689300537109375
+----------- core.py torch.sort() replace to OrderedDict time:  0.08474087715148926
+step:  0
+bucketing time:  0.08536601066589355
+----NodeBatch generation time:  0.0018901824951171875
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.08773660659790039
+
+---------- degree  tensor(10)
+get ready time :  0.000194549560546875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08647370338439941
+step:  1
+bucketing time:  0.08710455894470215
+----NodeBatch generation time:  0.0018527507781982422
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.0002827644348144531
+invoke_udf_reduce time:  0.08960866928100586
+
+---------- degree  tensor(10)
+get ready time :  0.0001990795135498047
+----------- core.py torch.sort() replace to OrderedDict time:  0.0859835147857666
+step:  2
+bucketing time:  0.08663582801818848
+----NodeBatch generation time:  0.0018775463104248047
+----Frame generation time:  2.4318695068359375e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.08905887603759766
+
+---------- degree  tensor(10)
+get ready time :  0.0001983642578125
+----------- core.py torch.sort() replace to OrderedDict time:  0.0858316421508789
+step:  3
+bucketing time:  0.08645510673522949
+----NodeBatch generation time:  0.0018320083618164062
+----Frame generation time:  2.002716064453125e-05
+---- merge nodes time:  0.00016736984252929688
+invoke_udf_reduce time:  0.08882689476013184
+
+---------- degree  tensor(10)
+get ready time :  0.00019812583923339844
+----------- core.py torch.sort() replace to OrderedDict time:  0.08578372001647949
+step:  4
+bucketing time:  0.08640313148498535
+----NodeBatch generation time:  0.0018444061279296875
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.0001647472381591797
+invoke_udf_reduce time:  0.08878302574157715
+
+---------- degree  tensor(10)
+get ready time :  0.0002002716064453125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08622884750366211
+step:  5
+bucketing time:  0.08685183525085449
+----NodeBatch generation time:  0.0018384456634521484
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016808509826660156
+invoke_udf_reduce time:  0.08923768997192383
+
+---------- degree  tensor(10)
+get ready time :  0.0001971721649169922
+----------- core.py torch.sort() replace to OrderedDict time:  0.08663797378540039
+step:  6
+bucketing time:  0.08733510971069336
+----NodeBatch generation time:  0.0019762516021728516
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00018310546875
+invoke_udf_reduce time:  0.08986806869506836
+
+---------- degree  tensor(10)
+get ready time :  0.00020575523376464844
+----------- core.py torch.sort() replace to OrderedDict time:  0.08666062355041504
+step:  7
+bucketing time:  0.08728337287902832
+----NodeBatch generation time:  0.001833200454711914
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016450881958007812
+invoke_udf_reduce time:  0.08967089653015137
+
+---------- degree  tensor(10)
+get ready time :  0.00019812583923339844
+----------- core.py torch.sort() replace to OrderedDict time:  0.08628487586975098
+step:  8
+bucketing time:  0.0868997573852539
+----NodeBatch generation time:  0.0018568038940429688
+----Frame generation time:  2.0503997802734375e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.08929920196533203
+
+---------- degree  tensor(10)
+get ready time :  0.00020265579223632812
+----------- core.py torch.sort() replace to OrderedDict time:  0.0867154598236084
+step:  9
+bucketing time:  0.08733630180358887
+----NodeBatch generation time:  0.0018262863159179688
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00016355514526367188
+invoke_udf_reduce time:  0.08970236778259277
+
+---------- degree  tensor(10)
+get ready time :  0.00020194053649902344
+----------- core.py torch.sort() replace to OrderedDict time:  0.08741068840026855
+step:  10
+bucketing time:  0.0880289077758789
+----NodeBatch generation time:  0.0018317699432373047
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.0904073715209961
+
+---------- degree  tensor(10)
+get ready time :  0.0001983642578125
+----------- core.py torch.sort() replace to OrderedDict time:  0.0872046947479248
+step:  11
+bucketing time:  0.08782505989074707
+----NodeBatch generation time:  0.0018444061279296875
+----Frame generation time:  2.09808349609375e-05
+---- merge nodes time:  0.00016617774963378906
+invoke_udf_reduce time:  0.0902090072631836
+
+---------- degree  tensor(10)
+get ready time :  0.00021338462829589844
+----------- core.py torch.sort() replace to OrderedDict time:  0.08666062355041504
+step:  12
+bucketing time:  0.0872802734375
+----NodeBatch generation time:  0.0018312931060791016
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.0001742839813232422
+invoke_udf_reduce time:  0.0896756649017334
+
+---------- degree  tensor(10)
+get ready time :  0.0001971721649169922
+----------- core.py torch.sort() replace to OrderedDict time:  0.08683347702026367
+step:  13
+bucketing time:  0.08752226829528809
+----NodeBatch generation time:  0.0018498897552490234
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.08990979194641113
+
+---------- degree  tensor(10)
+get ready time :  0.00019788742065429688
+----------- core.py torch.sort() replace to OrderedDict time:  0.08740973472595215
+step:  14
+bucketing time:  0.08809947967529297
+----NodeBatch generation time:  0.0018458366394042969
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016999244689941406
+invoke_udf_reduce time:  0.09049034118652344
+
+---------- degree  tensor(10)
+get ready time :  0.0001938343048095703
+----------- core.py torch.sort() replace to OrderedDict time:  0.08727264404296875
+step:  15
+bucketing time:  0.08796119689941406
+----NodeBatch generation time:  0.0018358230590820312
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00017333030700683594
+invoke_udf_reduce time:  0.09033703804016113
+
+---------- degree  tensor(10)
+get ready time :  0.00019693374633789062
+----------- core.py torch.sort() replace to OrderedDict time:  0.08710503578186035
+step:  16
+bucketing time:  0.08778834342956543
+----NodeBatch generation time:  0.0018398761749267578
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.0001690387725830078
+invoke_udf_reduce time:  0.09016704559326172
+
+---------- degree  tensor(10)
+get ready time :  0.0001976490020751953
+----------- core.py torch.sort() replace to OrderedDict time:  0.08787107467651367
+step:  17
+bucketing time:  0.08855843544006348
+----NodeBatch generation time:  0.001834869384765625
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016617774963378906
+invoke_udf_reduce time:  0.09093046188354492
+
+---------- degree  tensor(10)
+get ready time :  0.00020194053649902344
+----------- core.py torch.sort() replace to OrderedDict time:  0.0875391960144043
+step:  18
+bucketing time:  0.08822965621948242
+----NodeBatch generation time:  0.0018277168273925781
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016307830810546875
+invoke_udf_reduce time:  0.09059572219848633
+
+---------- degree  tensor(10)
+get ready time :  0.0001990795135498047
+----------- core.py torch.sort() replace to OrderedDict time:  0.08819079399108887
+step:  19
+bucketing time:  0.08887624740600586
+----NodeBatch generation time:  0.0018508434295654297
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.09126567840576172
+
+---------- degree  tensor(10)
+get ready time :  0.000202178955078125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08792495727539062
+step:  20
+bucketing time:  0.08861637115478516
+----NodeBatch generation time:  0.0018885135650634766
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.09105253219604492
+
+---------- degree  tensor(10)
+get ready time :  0.00019979476928710938
+----------- core.py torch.sort() replace to OrderedDict time:  0.08846235275268555
+step:  21
+bucketing time:  0.08915591239929199
+----NodeBatch generation time:  0.0018393993377685547
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.0915384292602539
+
+---------- degree  tensor(10)
+get ready time :  0.0002002716064453125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08812808990478516
+step:  22
+bucketing time:  0.08932948112487793
+----NodeBatch generation time:  0.0018808841705322266
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.0917501449584961
+
+---------- degree  tensor(10)
+get ready time :  0.00019407272338867188
+----------- core.py torch.sort() replace to OrderedDict time:  0.0886836051940918
+step:  23
+bucketing time:  0.08937454223632812
+----NodeBatch generation time:  0.0018763542175292969
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016880035400390625
+invoke_udf_reduce time:  0.09178686141967773
+
+---------- degree  tensor(10)
+get ready time :  0.00019812583923339844
+----------- core.py torch.sort() replace to OrderedDict time:  0.08861684799194336
+step:  24
+bucketing time:  0.08930110931396484
+----NodeBatch generation time:  0.0018925666809082031
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016427040100097656
+invoke_udf_reduce time:  0.09172630310058594
+
+---------- degree  tensor(10)
+get ready time :  0.0001964569091796875
+----------- core.py torch.sort() replace to OrderedDict time:  0.0882718563079834
+step:  25
+bucketing time:  0.0889585018157959
+----NodeBatch generation time:  0.0018720626831054688
+----Frame generation time:  2.0503997802734375e-05
+---- merge nodes time:  0.00016427040100097656
+invoke_udf_reduce time:  0.09136795997619629
+
+---------- degree  tensor(10)
+get ready time :  0.0001964569091796875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08873867988586426
+step:  26
+bucketing time:  0.0894308090209961
+----NodeBatch generation time:  0.0018851757049560547
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.0001659393310546875
+invoke_udf_reduce time:  0.09185242652893066
+
+---------- degree  tensor(10)
+get ready time :  0.00019788742065429688
+----------- core.py torch.sort() replace to OrderedDict time:  0.08869791030883789
+step:  27
+bucketing time:  0.0893864631652832
+----NodeBatch generation time:  0.0018787384033203125
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016379356384277344
+invoke_udf_reduce time:  0.09180712699890137
+
+---------- degree  tensor(10)
+get ready time :  0.00020360946655273438
+----------- core.py torch.sort() replace to OrderedDict time:  0.08829760551452637
+step:  28
+bucketing time:  0.08897638320922852
+----NodeBatch generation time:  0.0018718242645263672
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.0001704692840576172
+invoke_udf_reduce time:  0.09139370918273926
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.0886073112487793
+step:  29
+bucketing time:  0.08929824829101562
+----NodeBatch generation time:  0.0018854141235351562
+----Frame generation time:  2.0742416381835938e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.09172487258911133
+
+---------- degree  tensor(10)
+get ready time :  0.00019884109497070312
+----------- core.py torch.sort() replace to OrderedDict time:  0.08859944343566895
+step:  30
+bucketing time:  0.08939981460571289
+----NodeBatch generation time:  0.0020592212677001953
+----Frame generation time:  2.002716064453125e-05
+---- merge nodes time:  0.00018548965454101562
+invoke_udf_reduce time:  0.09203433990478516
+
+---------- degree  tensor(10)
+get ready time :  0.00020647048950195312
+----------- core.py torch.sort() replace to OrderedDict time:  0.0885767936706543
+step:  31
+bucketing time:  0.08926820755004883
+----NodeBatch generation time:  0.0018768310546875
+----Frame generation time:  2.002716064453125e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.09170675277709961
+split  buckets total input  1962804
+preparing time:  0.18905377388000488
+model forward time :  2.9296646118164062
+model forward time + loss calculation time:  2.933373212814331
+loss backward time:  0.1625981330871582
+-------------------------------------------------------------------------------loss_sum  :  tensor(8.5887)
+
+pure train time 3.2410895824432373
+full batch graph loading time:  0.040438175201416016
+group buckets input  848110
+
+---------- degree  tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10], device='cuda:0',
+       dtype=torch.int32)
+get ready time :  0.0002200603485107422
+----------- core.py torch.sort() replace to OrderedDict time:  0.09382796287536621
+bucketing time:  0.09506702423095703
+----NodeBatch generation time:  0.01854872703552246
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00017452239990234375
+invoke_udf_reduce time:  0.11948347091674805
+preparing time:  1.120614767074585
+model forward time:  0.12065768241882324
+loss calculation time:  6.628036499023438e-05
+partial loss calculation time:  0.07204651832580566
+loss backward time:  0.018037080764770508
+
+---------- degree  tensor(10)
+get ready time :  0.00016880035400390625
+----------- core.py torch.sort() replace to OrderedDict time:  0.08255934715270996
+step:  0
+bucketing time:  0.08319330215454102
+----NodeBatch generation time:  0.0018589496612548828
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016570091247558594
+invoke_udf_reduce time:  0.08553123474121094
+
+---------- degree  tensor(10)
+get ready time :  0.00020241737365722656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08562302589416504
+step:  1
+bucketing time:  0.08624720573425293
+----NodeBatch generation time:  0.0018393993377685547
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.08862662315368652
+
+---------- degree  tensor(10)
+get ready time :  0.00019431114196777344
+----------- core.py torch.sort() replace to OrderedDict time:  0.08551788330078125
+step:  2
+bucketing time:  0.086151123046875
+----NodeBatch generation time:  0.0018463134765625
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.08853602409362793
+
+---------- degree  tensor(10)
+get ready time :  0.00019478797912597656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08571982383728027
+step:  3
+bucketing time:  0.08634471893310547
+----NodeBatch generation time:  0.001825571060180664
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016641616821289062
+invoke_udf_reduce time:  0.08870434761047363
+
+---------- degree  tensor(10)
+get ready time :  0.00020456314086914062
+----------- core.py torch.sort() replace to OrderedDict time:  0.0856773853302002
+step:  4
+bucketing time:  0.08629870414733887
+----NodeBatch generation time:  0.0018458366394042969
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.08868837356567383
+
+---------- degree  tensor(10)
+get ready time :  0.00021958351135253906
+----------- core.py torch.sort() replace to OrderedDict time:  0.08642840385437012
+step:  5
+bucketing time:  0.08704900741577148
+----NodeBatch generation time:  0.0018515586853027344
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.08946418762207031
+
+---------- degree  tensor(10)
+get ready time :  0.0002028942108154297
+----------- core.py torch.sort() replace to OrderedDict time:  0.08720064163208008
+step:  6
+bucketing time:  0.087860107421875
+----NodeBatch generation time:  0.0018243789672851562
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016427040100097656
+invoke_udf_reduce time:  0.09022307395935059
+
+---------- degree  tensor(10)
+get ready time :  0.00020074844360351562
+----------- core.py torch.sort() replace to OrderedDict time:  0.08692789077758789
+step:  7
+bucketing time:  0.08755350112915039
+----NodeBatch generation time:  0.001837015151977539
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016927719116210938
+invoke_udf_reduce time:  0.08993387222290039
+
+---------- degree  tensor(10)
+get ready time :  0.0002009868621826172
+----------- core.py torch.sort() replace to OrderedDict time:  0.08704710006713867
+step:  8
+bucketing time:  0.08786129951477051
+----NodeBatch generation time:  0.00185394287109375
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00017213821411132812
+invoke_udf_reduce time:  0.09025835990905762
+
+---------- degree  tensor(10)
+get ready time :  0.00020003318786621094
+----------- core.py torch.sort() replace to OrderedDict time:  0.08673715591430664
+step:  9
+bucketing time:  0.0873565673828125
+----NodeBatch generation time:  0.0018341541290283203
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00016832351684570312
+invoke_udf_reduce time:  0.08973431587219238
+
+---------- degree  tensor(10)
+get ready time :  0.00020051002502441406
+----------- core.py torch.sort() replace to OrderedDict time:  0.08694195747375488
+step:  10
+bucketing time:  0.08756470680236816
+----NodeBatch generation time:  0.0018382072448730469
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.0001659393310546875
+invoke_udf_reduce time:  0.08994555473327637
+
+---------- degree  tensor(10)
+get ready time :  0.00019884109497070312
+----------- core.py torch.sort() replace to OrderedDict time:  0.08706831932067871
+step:  11
+bucketing time:  0.0876915454864502
+----NodeBatch generation time:  0.0018360614776611328
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.00016379356384277344
+invoke_udf_reduce time:  0.09006404876708984
+
+---------- degree  tensor(10)
+get ready time :  0.00020194053649902344
+----------- core.py torch.sort() replace to OrderedDict time:  0.08712220191955566
+step:  12
+bucketing time:  0.08775091171264648
+----NodeBatch generation time:  0.00183868408203125
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016355514526367188
+invoke_udf_reduce time:  0.09013152122497559
+
+---------- degree  tensor(10)
+get ready time :  0.00019979476928710938
+----------- core.py torch.sort() replace to OrderedDict time:  0.08629465103149414
+step:  13
+bucketing time:  0.08698391914367676
+----NodeBatch generation time:  0.0018410682678222656
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.08936810493469238
+
+---------- degree  tensor(10)
+get ready time :  0.00020003318786621094
+----------- core.py torch.sort() replace to OrderedDict time:  0.08716678619384766
+step:  14
+bucketing time:  0.08784890174865723
+----NodeBatch generation time:  0.0018393993377685547
+----Frame generation time:  2.2649765014648438e-05
+---- merge nodes time:  0.00016760826110839844
+invoke_udf_reduce time:  0.09023165702819824
+
+---------- degree  tensor(10)
+get ready time :  0.00020241737365722656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08755731582641602
+step:  15
+bucketing time:  0.08824586868286133
+----NodeBatch generation time:  0.0018513202667236328
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016927719116210938
+invoke_udf_reduce time:  0.09064173698425293
+
+---------- degree  tensor(10)
+get ready time :  0.00020241737365722656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08792400360107422
+step:  16
+bucketing time:  0.08861422538757324
+----NodeBatch generation time:  0.0019116401672363281
+----Frame generation time:  2.1219253540039062e-05
+---- merge nodes time:  0.00018310546875
+invoke_udf_reduce time:  0.09108543395996094
+
+---------- degree  tensor(10)
+get ready time :  0.00020766258239746094
+----------- core.py torch.sort() replace to OrderedDict time:  0.08784818649291992
+step:  17
+bucketing time:  0.08857512474060059
+----NodeBatch generation time:  0.0018551349639892578
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.09097909927368164
+
+---------- degree  tensor(10)
+get ready time :  0.00020003318786621094
+----------- core.py torch.sort() replace to OrderedDict time:  0.08826255798339844
+step:  18
+bucketing time:  0.08894681930541992
+----NodeBatch generation time:  0.0018422603607177734
+----Frame generation time:  1.9788742065429688e-05
+---- merge nodes time:  0.00017642974853515625
+invoke_udf_reduce time:  0.0913388729095459
+
+---------- degree  tensor(10)
+get ready time :  0.00020456314086914062
+----------- core.py torch.sort() replace to OrderedDict time:  0.08790373802185059
+step:  19
+bucketing time:  0.08859133720397949
+----NodeBatch generation time:  0.0018610954284667969
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.0001659393310546875
+invoke_udf_reduce time:  0.0910024642944336
+
+---------- degree  tensor(10)
+get ready time :  0.00020313262939453125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08815479278564453
+step:  20
+bucketing time:  0.08884310722351074
+----NodeBatch generation time:  0.0018475055694580078
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00017023086547851562
+invoke_udf_reduce time:  0.09123563766479492
+
+---------- degree  tensor(10)
+get ready time :  0.00019884109497070312
+----------- core.py torch.sort() replace to OrderedDict time:  0.08849048614501953
+step:  21
+bucketing time:  0.08918499946594238
+----NodeBatch generation time:  0.001833200454711914
+----Frame generation time:  1.6450881958007812e-05
+---- merge nodes time:  0.0001723766326904297
+invoke_udf_reduce time:  0.09156322479248047
+
+---------- degree  tensor(10)
+get ready time :  0.00020885467529296875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08830809593200684
+step:  22
+bucketing time:  0.08900237083435059
+----NodeBatch generation time:  0.0018432140350341797
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.0001685619354248047
+invoke_udf_reduce time:  0.09139871597290039
+
+---------- degree  tensor(10)
+get ready time :  0.0002014636993408203
+----------- core.py torch.sort() replace to OrderedDict time:  0.08890652656555176
+step:  23
+bucketing time:  0.08959579467773438
+----NodeBatch generation time:  0.0018308162689208984
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016808509826660156
+invoke_udf_reduce time:  0.09197092056274414
+
+---------- degree  tensor(10)
+get ready time :  0.0002009868621826172
+----------- core.py torch.sort() replace to OrderedDict time:  0.08867716789245605
+step:  24
+bucketing time:  0.08936953544616699
+----NodeBatch generation time:  0.0018444061279296875
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.09175348281860352
+
+---------- degree  tensor(10)
+get ready time :  0.0002052783966064453
+----------- core.py torch.sort() replace to OrderedDict time:  0.08870267868041992
+step:  25
+bucketing time:  0.08939623832702637
+----NodeBatch generation time:  0.001847982406616211
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00018334388732910156
+invoke_udf_reduce time:  0.0918111801147461
+
+---------- degree  tensor(10)
+get ready time :  0.0002048015594482422
+----------- core.py torch.sort() replace to OrderedDict time:  0.08874297142028809
+step:  26
+bucketing time:  0.08943462371826172
+----NodeBatch generation time:  0.001859426498413086
+----Frame generation time:  2.09808349609375e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.09184122085571289
+
+---------- degree  tensor(10)
+get ready time :  0.00020313262939453125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08875751495361328
+step:  27
+bucketing time:  0.08944416046142578
+----NodeBatch generation time:  0.0018417835235595703
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.00017070770263671875
+invoke_udf_reduce time:  0.09183430671691895
+
+---------- degree  tensor(10)
+get ready time :  0.00020551681518554688
+----------- core.py torch.sort() replace to OrderedDict time:  0.08865761756896973
+step:  28
+bucketing time:  0.08935070037841797
+----NodeBatch generation time:  0.0018420219421386719
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016617774963378906
+invoke_udf_reduce time:  0.09173703193664551
+
+---------- degree  tensor(10)
+get ready time :  0.00019669532775878906
+----------- core.py torch.sort() replace to OrderedDict time:  0.08858418464660645
+step:  29
+bucketing time:  0.08927321434020996
+----NodeBatch generation time:  0.001840829849243164
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.09164977073669434
+
+---------- degree  tensor(10)
+get ready time :  0.00020265579223632812
+----------- core.py torch.sort() replace to OrderedDict time:  0.08876156806945801
+step:  30
+bucketing time:  0.08945322036743164
+----NodeBatch generation time:  0.0018346309661865234
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016498565673828125
+invoke_udf_reduce time:  0.09182929992675781
+
+---------- degree  tensor(10)
+get ready time :  0.00019884109497070312
+----------- core.py torch.sort() replace to OrderedDict time:  0.088836669921875
+step:  31
+bucketing time:  0.08953142166137695
+----NodeBatch generation time:  0.0018281936645507812
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.000164031982421875
+invoke_udf_reduce time:  0.09189391136169434
+split  buckets total input  1962796
+preparing time:  0.1921074390411377
+model forward time :  2.9295871257781982
+model forward time + loss calculation time:  2.933262586593628
+loss backward time:  0.16234755516052246
+-------------------------------------------------------------------------------loss_sum  :  tensor(8.4548)
+
+pure train time 3.2343711853027344
+full batch graph loading time:  0.039255619049072266
+group buckets input  848411
+
+---------- degree  tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10], device='cuda:0',
+       dtype=torch.int32)
+get ready time :  0.0002110004425048828
+----------- core.py torch.sort() replace to OrderedDict time:  0.09625768661499023
+bucketing time:  0.09751081466674805
+----NodeBatch generation time:  0.018816709518432617
+----Frame generation time:  2.0503997802734375e-05
+---- merge nodes time:  0.00018167495727539062
+invoke_udf_reduce time:  0.12221622467041016
+preparing time:  1.124354600906372
+model forward time:  0.12336087226867676
+loss calculation time:  6.508827209472656e-05
+partial loss calculation time:  0.07189226150512695
+loss backward time:  0.019160747528076172
+
+---------- degree  tensor(10)
+get ready time :  0.00016736984252929688
+----------- core.py torch.sort() replace to OrderedDict time:  0.08471512794494629
+step:  0
+bucketing time:  0.08533453941345215
+----NodeBatch generation time:  0.0018341541290283203
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.08764815330505371
+
+---------- degree  tensor(10)
+get ready time :  0.0001971721649169922
+----------- core.py torch.sort() replace to OrderedDict time:  0.0863800048828125
+step:  1
+bucketing time:  0.08699584007263184
+----NodeBatch generation time:  0.0018281936645507812
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.08936190605163574
+
+---------- degree  tensor(10)
+get ready time :  0.00020241737365722656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08628058433532715
+step:  2
+bucketing time:  0.08691096305847168
+----NodeBatch generation time:  0.0018401145935058594
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.00016379356384277344
+invoke_udf_reduce time:  0.08928894996643066
+
+---------- degree  tensor(10)
+get ready time :  0.00020813941955566406
+----------- core.py torch.sort() replace to OrderedDict time:  0.09140205383300781
+step:  3
+bucketing time:  0.09202003479003906
+----NodeBatch generation time:  0.0018274784088134766
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.09439659118652344
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.0866696834564209
+step:  4
+bucketing time:  0.08728837966918945
+----NodeBatch generation time:  0.0018219947814941406
+----Frame generation time:  1.6927719116210938e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.08964943885803223
+
+---------- degree  tensor(10)
+get ready time :  0.0001976490020751953
+----------- core.py torch.sort() replace to OrderedDict time:  0.08792328834533691
+step:  5
+bucketing time:  0.08854150772094727
+----NodeBatch generation time:  0.001848459243774414
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.0001621246337890625
+invoke_udf_reduce time:  0.09092187881469727
+
+---------- degree  tensor(10)
+get ready time :  0.00020694732666015625
+----------- core.py torch.sort() replace to OrderedDict time:  0.08675408363342285
+step:  6
+bucketing time:  0.08737611770629883
+----NodeBatch generation time:  0.0018355846405029297
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.08975911140441895
+
+---------- degree  tensor(10)
+get ready time :  0.0001971721649169922
+----------- core.py torch.sort() replace to OrderedDict time:  0.08708524703979492
+step:  7
+bucketing time:  0.08770608901977539
+----NodeBatch generation time:  0.001842498779296875
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.0001685619354248047
+invoke_udf_reduce time:  0.09008526802062988
+
+---------- degree  tensor(10)
+get ready time :  0.0001964569091796875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08680391311645508
+step:  8
+bucketing time:  0.08743405342102051
+----NodeBatch generation time:  0.0018367767333984375
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016808509826660156
+invoke_udf_reduce time:  0.08980822563171387
+
+---------- degree  tensor(10)
+get ready time :  0.0002009868621826172
+----------- core.py torch.sort() replace to OrderedDict time:  0.08730340003967285
+step:  9
+bucketing time:  0.0879220962524414
+----NodeBatch generation time:  0.0018358230590820312
+----Frame generation time:  1.9550323486328125e-05
+---- merge nodes time:  0.0001647472381591797
+invoke_udf_reduce time:  0.09029936790466309
+
+---------- degree  tensor(10)
+get ready time :  0.00020313262939453125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08727741241455078
+step:  10
+bucketing time:  0.08789491653442383
+----NodeBatch generation time:  0.001828908920288086
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016427040100097656
+invoke_udf_reduce time:  0.09026479721069336
+
+---------- degree  tensor(10)
+get ready time :  0.00019621849060058594
+----------- core.py torch.sort() replace to OrderedDict time:  0.08742880821228027
+step:  11
+bucketing time:  0.08804965019226074
+----NodeBatch generation time:  0.0018286705017089844
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016379356384277344
+invoke_udf_reduce time:  0.0904090404510498
+
+---------- degree  tensor(10)
+get ready time :  0.00019812583923339844
+----------- core.py torch.sort() replace to OrderedDict time:  0.0873410701751709
+step:  12
+bucketing time:  0.08795714378356934
+----NodeBatch generation time:  0.0018439292907714844
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.0001647472381591797
+invoke_udf_reduce time:  0.09033751487731934
+
+---------- degree  tensor(10)
+get ready time :  0.0002028942108154297
+----------- core.py torch.sort() replace to OrderedDict time:  0.08729124069213867
+step:  13
+bucketing time:  0.08798050880432129
+----NodeBatch generation time:  0.0018312931060791016
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016450881958007812
+invoke_udf_reduce time:  0.09035444259643555
+
+---------- degree  tensor(10)
+get ready time :  0.00020241737365722656
+----------- core.py torch.sort() replace to OrderedDict time:  0.08799481391906738
+step:  14
+bucketing time:  0.08868122100830078
+----NodeBatch generation time:  0.0018291473388671875
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.0001671314239501953
+invoke_udf_reduce time:  0.09147047996520996
+
+---------- degree  tensor(10)
+get ready time :  0.00020360946655273438
+----------- core.py torch.sort() replace to OrderedDict time:  0.08854818344116211
+step:  15
+bucketing time:  0.0892338752746582
+----NodeBatch generation time:  0.0018463134765625
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.0001647472381591797
+invoke_udf_reduce time:  0.09161901473999023
+
+---------- degree  tensor(10)
+get ready time :  0.0002009868621826172
+----------- core.py torch.sort() replace to OrderedDict time:  0.0885157585144043
+step:  16
+bucketing time:  0.08919811248779297
+----NodeBatch generation time:  0.0018482208251953125
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00016832351684570312
+invoke_udf_reduce time:  0.09159088134765625
+
+---------- degree  tensor(10)
+get ready time :  0.00019931793212890625
+----------- core.py torch.sort() replace to OrderedDict time:  0.08920121192932129
+step:  17
+bucketing time:  0.08989715576171875
+----NodeBatch generation time:  0.0018417835235595703
+----Frame generation time:  1.8596649169921875e-05
+---- merge nodes time:  0.00016760826110839844
+invoke_udf_reduce time:  0.09227943420410156
+
+---------- degree  tensor(10)
+get ready time :  0.0002048015594482422
+----------- core.py torch.sort() replace to OrderedDict time:  0.0886240005493164
+step:  18
+bucketing time:  0.08932018280029297
+----NodeBatch generation time:  0.0018413066864013672
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.00016617774963378906
+invoke_udf_reduce time:  0.09171056747436523
+
+---------- degree  tensor(10)
+get ready time :  0.00020003318786621094
+----------- core.py torch.sort() replace to OrderedDict time:  0.08903145790100098
+step:  19
+bucketing time:  0.08971881866455078
+----NodeBatch generation time:  0.0018410682678222656
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016546249389648438
+invoke_udf_reduce time:  0.09209585189819336
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.08916711807250977
+step:  20
+bucketing time:  0.08985495567321777
+----NodeBatch generation time:  0.0018541812896728516
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.00016379356384277344
+invoke_udf_reduce time:  0.09224319458007812
+
+---------- degree  tensor(10)
+get ready time :  0.00019788742065429688
+----------- core.py torch.sort() replace to OrderedDict time:  0.08942222595214844
+step:  21
+bucketing time:  0.09010887145996094
+----NodeBatch generation time:  0.0018181800842285156
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.00016307830810546875
+invoke_udf_reduce time:  0.09246277809143066
+
+---------- degree  tensor(10)
+get ready time :  0.00020265579223632812
+----------- core.py torch.sort() replace to OrderedDict time:  0.08838844299316406
+step:  22
+bucketing time:  0.08907699584960938
+----NodeBatch generation time:  0.0018393993377685547
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.0001678466796875
+invoke_udf_reduce time:  0.09146547317504883
+
+---------- degree  tensor(10)
+get ready time :  0.0002040863037109375
+----------- core.py torch.sort() replace to OrderedDict time:  0.08832693099975586
+step:  23
+bucketing time:  0.08900856971740723
+----NodeBatch generation time:  0.0018451213836669922
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.09140491485595703
+
+---------- degree  tensor(10)
+get ready time :  0.00020074844360351562
+----------- core.py torch.sort() replace to OrderedDict time:  0.08896422386169434
+step:  24
+bucketing time:  0.08965587615966797
+----NodeBatch generation time:  0.001837015151977539
+----Frame generation time:  1.9073486328125e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.09203338623046875
+
+---------- degree  tensor(10)
+get ready time :  0.00019884109497070312
+----------- core.py torch.sort() replace to OrderedDict time:  0.08866429328918457
+step:  25
+bucketing time:  0.08934688568115234
+----NodeBatch generation time:  0.0018482208251953125
+----Frame generation time:  1.8358230590820312e-05
+---- merge nodes time:  0.000171661376953125
+invoke_udf_reduce time:  0.09173798561096191
+
+---------- degree  tensor(10)
+get ready time :  0.00020122528076171875
+----------- core.py torch.sort() replace to OrderedDict time:  0.08875441551208496
+step:  26
+bucketing time:  0.08943939208984375
+----NodeBatch generation time:  0.001851797103881836
+----Frame generation time:  1.7404556274414062e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.09183168411254883
+
+---------- degree  tensor(10)
+get ready time :  0.00022149085998535156
+----------- core.py torch.sort() replace to OrderedDict time:  0.08837556838989258
+step:  27
+bucketing time:  0.08907127380371094
+----NodeBatch generation time:  0.0018379688262939453
+----Frame generation time:  1.9311904907226562e-05
+---- merge nodes time:  0.00016689300537109375
+invoke_udf_reduce time:  0.09147047996520996
+
+---------- degree  tensor(10)
+get ready time :  0.00019860267639160156
+----------- core.py torch.sort() replace to OrderedDict time:  0.08899831771850586
+step:  28
+bucketing time:  0.0896914005279541
+----NodeBatch generation time:  0.0018486976623535156
+----Frame generation time:  1.8835067749023438e-05
+---- merge nodes time:  0.0001666545867919922
+invoke_udf_reduce time:  0.09207844734191895
+
+---------- degree  tensor(10)
+get ready time :  0.00021910667419433594
+----------- core.py torch.sort() replace to OrderedDict time:  0.08857488632202148
+step:  29
+bucketing time:  0.0892641544342041
+----NodeBatch generation time:  0.0018410682678222656
+----Frame generation time:  1.811981201171875e-05
+---- merge nodes time:  0.00016570091247558594
+invoke_udf_reduce time:  0.09166622161865234
+
+---------- degree  tensor(10)
+get ready time :  0.00019931793212890625
+----------- core.py torch.sort() replace to OrderedDict time:  0.08984613418579102
+step:  30
+bucketing time:  0.09054279327392578
+----NodeBatch generation time:  0.0018551349639892578
+----Frame generation time:  1.7881393432617188e-05
+---- merge nodes time:  0.00016355514526367188
+invoke_udf_reduce time:  0.09293198585510254
+
+---------- degree  tensor(10)
+get ready time :  0.00019931793212890625
+----------- core.py torch.sort() replace to OrderedDict time:  0.08860564231872559
+step:  31
+bucketing time:  0.08929157257080078
+----NodeBatch generation time:  0.001857757568359375
+----Frame generation time:  1.7642974853515625e-05
+---- merge nodes time:  0.0001652240753173828
+invoke_udf_reduce time:  0.0916900634765625
+split  buckets total input  1962690
+preparing time:  0.19221711158752441
+model forward time :  2.9495620727539062
+model forward time + loss calculation time:  2.9532573223114014
+loss backward time:  0.11182165145874023
+-------------------------------------------------------------------------------loss_sum  :  tensor(8.3127)
+
+pure train time 3.2076656818389893
+
+avg epoch time:  6.322804689407349
+avg pure train time:  3.2399310725075856
+avg block subtensor loading time:  0.14348738534109934
+avg preparing time:  0.1965466226850237
+avg block to device time:  0.017359086445399692
+avg grouping time:  1.2785277026040214
+avg splitting time:  4.620523657117571
+avg optimizing time:  0.0011276517595563615
+
+avg input nodes number :  2811252.4285714286
+avg real block input nodes number :  848217.2857142857
+avg input nodes number/pure train time :  867688.961788815
+avg input nodes number/avg epoch time :  444621.1083004264

@@ -1,0 +1,283 @@
+main start at this time 1672986424.9433582
+-----------------------------------------before load data 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  100
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+*****F.sort_1d:  0.00018787384033203125
+----------- core.py torch.sort() replace to OrderedDict time:  0.08226370811462402
+bucketing time:  0.0015492439270019531
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0948)
+preparing time:  0.24724769592285156
+model forward time:  0.1133108139038086
+loss calculation time:  0.00015997886657714844
+loss backward time:  0.021231889724731445
+
+---------- degree  tensor(10)
+*****F.sort_1d:  0.00014662742614746094
+----------- core.py torch.sort() replace to OrderedDict time:  0.09006166458129883
+bucketing time:  0.0006387233734130859
+degree: tensor(10) # of output: 192609 ratio: 0.9798444328003623 bucket_loss : tensor(4.6969)
+current  bucket  input  841339
+model forward time:  0.1228492259979248
+loss calculation time:  6.747245788574219e-05
+loss backward time:  0.005220651626586914
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.7917)
+
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+*****F.sort_1d:  8.273124694824219e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.08178138732910156
+bucketing time:  0.0010635852813720703
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0937)
+preparing time:  0.020619869232177734
+model forward time:  0.09680485725402832
+loss calculation time:  6.556510925292969e-05
+loss backward time:  0.015915632247924805
+
+---------- degree  tensor(10)
+*****F.sort_1d:  0.00014710426330566406
+----------- core.py torch.sort() replace to OrderedDict time:  0.08918619155883789
+bucketing time:  0.0005643367767333984
+degree: tensor(10) # of output: 192609 ratio: 0.9798444328003623 bucket_loss : tensor(4.6336)
+current  bucket  input  840466
+model forward time:  0.10535526275634766
+loss calculation time:  6.532669067382812e-05
+loss backward time:  0.005067348480224609
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.7273)
+
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+*****F.sort_1d:  9.274482727050781e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.07648062705993652
+bucketing time:  0.0010647773742675781
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0926)
+preparing time:  0.020896196365356445
+model forward time:  0.09137940406799316
+loss calculation time:  6.532669067382812e-05
+loss backward time:  0.01717376708984375
+
+---------- degree  tensor(10)
+*****F.sort_1d:  0.0001494884490966797
+----------- core.py torch.sort() replace to OrderedDict time:  0.08948087692260742
+bucketing time:  0.0005588531494140625
+degree: tensor(10) # of output: 192609 ratio: 0.9798444328003623 bucket_loss : tensor(4.5709)
+current  bucket  input  840444
+model forward time:  0.10355591773986816
+loss calculation time:  6.556510925292969e-05
+loss backward time:  0.005028486251831055
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.6635)
+
+full batch graph loading time:  0.061765432357788086
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+*****F.sort_1d:  7.081031799316406e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.0776052474975586
+bucketing time:  0.0010638236999511719
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0915)
+preparing time:  0.020451784133911133
+model forward time:  0.09254336357116699
+loss calculation time:  6.556510925292969e-05
+loss backward time:  0.016637086868286133
+
+---------- degree  tensor(10)
+*****F.sort_1d:  0.0001499652862548828
+----------- core.py torch.sort() replace to OrderedDict time:  0.0883636474609375
+bucketing time:  0.0005395412445068359
+degree: tensor(10) # of output: 192609 ratio: 0.9798444328003623 bucket_loss : tensor(4.5073)
+current  bucket  input  840777
+model forward time:  0.10284233093261719
+loss calculation time:  6.4849853515625e-05
+loss backward time:  0.005046844482421875
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.5988)
+
+pure train time 0.21720004081726074
+full batch graph loading time:  0.03638887405395508
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+*****F.sort_1d:  9.179115295410156e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.07805871963500977
+bucketing time:  0.0010943412780761719
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0904)
+preparing time:  0.020853757858276367
+model forward time:  0.09438037872314453
+loss calculation time:  9.799003601074219e-05
+loss backward time:  0.01603984832763672
+
+---------- degree  tensor(10)
+*****F.sort_1d:  0.0001468658447265625
+----------- core.py torch.sort() replace to OrderedDict time:  0.09294724464416504
+bucketing time:  0.0006699562072753906
+degree: tensor(10) # of output: 192609 ratio: 0.9798444328003623 bucket_loss : tensor(4.4450)
+current  bucket  input  840606
+model forward time:  0.10759472846984863
+loss calculation time:  0.00010371208190917969
+loss backward time:  0.005332231521606445
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.5354)
+
+pure train time 0.22354888916015625
+full batch graph loading time:  0.04005932807922363
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+*****F.sort_1d:  7.62939453125e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.07809901237487793
+bucketing time:  0.0010974407196044922
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0893)
+preparing time:  0.02042365074157715
+model forward time:  0.0931847095489502
+loss calculation time:  6.4849853515625e-05
+loss backward time:  0.0160980224609375
+
+---------- degree  tensor(10)
+*****F.sort_1d:  0.00014543533325195312
+----------- core.py torch.sort() replace to OrderedDict time:  0.09367489814758301
+bucketing time:  0.0005583763122558594
+degree: tensor(10) # of output: 192609 ratio: 0.9798444328003623 bucket_loss : tensor(4.3813)
+current  bucket  input  840723
+model forward time:  0.10781574249267578
+loss calculation time:  6.556510925292969e-05
+loss backward time:  0.004410266876220703
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.4706)
+
+pure train time 0.22163915634155273
+full batch graph loading time:  0.037413597106933594
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+*****F.sort_1d:  7.2479248046875e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.07848811149597168
+bucketing time:  0.001074075698852539
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0882)
+preparing time:  0.020699024200439453
+model forward time:  0.09330606460571289
+loss calculation time:  7.367134094238281e-05
+loss backward time:  0.008471250534057617
+
+---------- degree  tensor(10)
+*****F.sort_1d:  6.914138793945312e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.08312606811523438
+bucketing time:  0.0006060600280761719
+degree: tensor(10) # of output: 192609 ratio: 0.9798444328003623 bucket_loss : tensor(4.3166)
+current  bucket  input  839934
+model forward time:  0.09580135345458984
+loss calculation time:  6.651878356933594e-05
+loss backward time:  0.0028221607208251953
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.4048)
+
+pure train time 0.20054101943969727
+full batch graph loading time:  0.03840756416320801
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+*****F.sort_1d:  8.535385131835938e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.0816037654876709
+bucketing time:  0.001081705093383789
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0871)
+preparing time:  0.020830869674682617
+model forward time:  0.09660220146179199
+loss calculation time:  7.104873657226562e-05
+loss backward time:  0.007667064666748047
+
+---------- degree  tensor(10)
+*****F.sort_1d:  7.486343383789062e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.08740663528442383
+bucketing time:  0.0006053447723388672
+degree: tensor(10) # of output: 192609 ratio: 0.9798444328003623 bucket_loss : tensor(4.2510)
+current  bucket  input  840997
+model forward time:  0.1009836196899414
+loss calculation time:  6.747245788574219e-05
+loss backward time:  0.004750728607177734
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.3381)
+
+pure train time 0.2101421356201172
+full batch graph loading time:  0.04947638511657715
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+*****F.sort_1d:  7.2479248046875e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.07992196083068848
+bucketing time:  0.0010640621185302734
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0859)
+preparing time:  0.02091073989868164
+model forward time:  0.09489274024963379
+loss calculation time:  6.318092346191406e-05
+loss backward time:  0.009431600570678711
+
+---------- degree  tensor(10)
+*****F.sort_1d:  6.771087646484375e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.08454275131225586
+bucketing time:  0.0005781650543212891
+degree: tensor(10) # of output: 192609 ratio: 0.9798444328003623 bucket_loss : tensor(4.1847)
+current  bucket  input  840584
+model forward time:  0.09727597236633301
+loss calculation time:  6.651878356933594e-05
+loss backward time:  0.004977226257324219
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.2706)
+
+pure train time 0.20670723915100098
+full batch graph loading time:  0.044242143630981445
+group buckets input  18164
+
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+*****F.sort_1d:  7.033348083496094e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.0793764591217041
+bucketing time:  0.001062631607055664
+degree: tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], dtype=torch.int32) # of output: 3962 ratio: 0.02015556719963779 bucket_loss : tensor(0.0848)
+preparing time:  0.019789695739746094
+model forward time:  0.09422111511230469
+loss calculation time:  0.0014488697052001953
+loss backward time:  0.008123159408569336
+
+---------- degree  tensor(10)
+*****F.sort_1d:  7.2479248046875e-05
+----------- core.py torch.sort() replace to OrderedDict time:  0.08430933952331543
+bucketing time:  0.0005664825439453125
+degree: tensor(10) # of output: 192609 ratio: 0.9798444328003623 bucket_loss : tensor(4.1142)
+current  bucket  input  840877
+model forward time:  0.09780693054199219
+loss calculation time:  6.961822509765625e-05
+loss backward time:  0.004250526428222656
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.1990)
+
+pure train time 0.20592021942138672
+
+avg epoch time:  1.796485424041748
+avg pure train time:  0.21224267142159597
+avg block subtensor loading time:  0.14276960917881557
+avg preparing time:  0.18416128839765275
+avg block to device time:  0.016425473349434987
+avg grouping time:  0.12805659430367605
+avg splitting time:  1.2637034484318324
+avg optimizing time:  0.0012334414890834264
+
+avg input nodes number :  858806.5714285715
+avg input nodes number/pure train time :  4046342.6401312565
+avg input nodes number/avg epoch time :  478048.1711320659

@@ -1,0 +1,974 @@
+main start at this time 1676671354.4233518
+-----------------------------------------before load data 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  100
+EPOCH:  0
+group buckets input  18164
+
+current graph(block) nodes  848910
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0007710456848144531
+len node_bkt:  173
+len eid_bkt:  173
+len node_bkt:  221
+len eid_bkt:  442
+len node_bkt:  374
+len eid_bkt:  1122
+len node_bkt:  456
+len eid_bkt:  1824
+len node_bkt:  445
+len eid_bkt:  2225
+len node_bkt:  550
+len eid_bkt:  3300
+len node_bkt:  655
+len eid_bkt:  4585
+len node_bkt:  512
+len eid_bkt:  4096
+len node_bkt:  576
+len eid_bkt:  5184
+invoke_udf_reduce time:  0.1106419563293457
+preparing time:  0.23401141166687012
+model forward time:  0.11324405670166016
+loss calculation time:  0.0001571178436279297
+partial loss calculation time:  0.0006616115570068359
+loss backward time:  0.0191650390625
+
+current graph(block) nodes  848910
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010561943054199219
+tmp = F.gather_row(idx, eqidx)  2.6464462280273438e-05
+N = math.ceil(len(tmp)/num_split)  1.9788742065429688e-05
+unique_val = np.asarray(list([degree.item()]))  3.457069396972656e-05
+step:  0
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.10949873924255371
+
+current graph(block) nodes  848910
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010228157043457031
+tmp = F.gather_row(idx, eqidx)  2.6464462280273438e-05
+N = math.ceil(len(tmp)/num_split)  1.9788742065429688e-05
+unique_val = np.asarray(list([degree.item()]))  3.147125244140625e-05
+step:  1
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.08994293212890625
+
+current graph(block) nodes  848910
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010132789611816406
+tmp = F.gather_row(idx, eqidx)  2.5510787963867188e-05
+N = math.ceil(len(tmp)/num_split)  2.0265579223632812e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  2
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.08925700187683105
+
+current graph(block) nodes  848910
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00012135505676269531
+tmp = F.gather_row(idx, eqidx)  2.5510787963867188e-05
+N = math.ceil(len(tmp)/num_split)  2.0503997802734375e-05
+unique_val = np.asarray(list([degree.item()]))  3.24249267578125e-05
+step:  3
+len node_bkt:  48150
+len eid_bkt:  481500
+invoke_udf_reduce time:  0.08923935890197754
+split  buckets total input  1442210
+preparing time:  0.07544827461242676
+model forward time :  0.38309574127197266
+loss calculation time:  0.0004432201385498047
+loss backward time:  0.02275824546813965
+partial loss calculation time:  0.06559443473815918
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.7918)
+
+EPOCH:  1
+group buckets input  18164
+
+current graph(block) nodes  848027
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0007114410400390625
+len node_bkt:  173
+len eid_bkt:  173
+len node_bkt:  221
+len eid_bkt:  442
+len node_bkt:  374
+len eid_bkt:  1122
+len node_bkt:  456
+len eid_bkt:  1824
+len node_bkt:  445
+len eid_bkt:  2225
+len node_bkt:  550
+len eid_bkt:  3300
+len node_bkt:  655
+len eid_bkt:  4585
+len node_bkt:  512
+len eid_bkt:  4096
+len node_bkt:  576
+len eid_bkt:  5184
+invoke_udf_reduce time:  0.09426283836364746
+preparing time:  0.023144006729125977
+model forward time:  0.09633517265319824
+loss calculation time:  7.200241088867188e-05
+partial loss calculation time:  0.0010235309600830078
+loss backward time:  0.016947269439697266
+
+current graph(block) nodes  848027
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010132789611816406
+tmp = F.gather_row(idx, eqidx)  2.7418136596679688e-05
+N = math.ceil(len(tmp)/num_split)  2.1457672119140625e-05
+unique_val = np.asarray(list([degree.item()]))  3.266334533691406e-05
+step:  0
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.0968165397644043
+
+current graph(block) nodes  848027
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010323524475097656
+tmp = F.gather_row(idx, eqidx)  2.5987625122070312e-05
+N = math.ceil(len(tmp)/num_split)  2.1696090698242188e-05
+unique_val = np.asarray(list([degree.item()]))  3.0279159545898438e-05
+step:  1
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09010004997253418
+
+current graph(block) nodes  848027
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010013580322265625
+tmp = F.gather_row(idx, eqidx)  3.314018249511719e-05
+N = math.ceil(len(tmp)/num_split)  1.9788742065429688e-05
+unique_val = np.asarray(list([degree.item()]))  3.147125244140625e-05
+step:  2
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09017682075500488
+
+current graph(block) nodes  848027
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010085105895996094
+tmp = F.gather_row(idx, eqidx)  2.5987625122070312e-05
+N = math.ceil(len(tmp)/num_split)  2.0742416381835938e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  3
+len node_bkt:  48150
+len eid_bkt:  481500
+invoke_udf_reduce time:  0.09032106399536133
+split  buckets total input  1440934
+preparing time:  0.0842282772064209
+model forward time :  0.3725128173828125
+loss calculation time:  0.00045180320739746094
+loss backward time:  0.022736787796020508
+partial loss calculation time:  0.07418537139892578
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.7273)
+
+EPOCH:  2
+group buckets input  18164
+
+current graph(block) nodes  848038
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00066375732421875
+len node_bkt:  173
+len eid_bkt:  173
+len node_bkt:  221
+len eid_bkt:  442
+len node_bkt:  374
+len eid_bkt:  1122
+len node_bkt:  456
+len eid_bkt:  1824
+len node_bkt:  445
+len eid_bkt:  2225
+len node_bkt:  550
+len eid_bkt:  3300
+len node_bkt:  655
+len eid_bkt:  4585
+len node_bkt:  512
+len eid_bkt:  4096
+len node_bkt:  576
+len eid_bkt:  5184
+invoke_udf_reduce time:  0.09114599227905273
+preparing time:  0.02344989776611328
+model forward time:  0.09209609031677246
+loss calculation time:  6.389617919921875e-05
+partial loss calculation time:  0.0009899139404296875
+loss backward time:  0.017116785049438477
+
+current graph(block) nodes  848038
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010156631469726562
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  2.0503997802734375e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  0
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09742426872253418
+
+current graph(block) nodes  848038
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010895729064941406
+tmp = F.gather_row(idx, eqidx)  2.6941299438476562e-05
+N = math.ceil(len(tmp)/num_split)  2.09808349609375e-05
+unique_val = np.asarray(list([degree.item()]))  3.218650817871094e-05
+step:  1
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.08975720405578613
+
+current graph(block) nodes  848038
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010228157043457031
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  2.002716064453125e-05
+unique_val = np.asarray(list([degree.item()]))  3.170967102050781e-05
+step:  2
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.08999800682067871
+
+current graph(block) nodes  848038
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010037422180175781
+tmp = F.gather_row(idx, eqidx)  2.5510787963867188e-05
+N = math.ceil(len(tmp)/num_split)  2.0503997802734375e-05
+unique_val = np.asarray(list([degree.item()]))  3.0517578125e-05
+step:  3
+len node_bkt:  48150
+len eid_bkt:  481500
+invoke_udf_reduce time:  0.09057950973510742
+split  buckets total input  1441351
+preparing time:  0.08392453193664551
+model forward time :  0.3728914260864258
+loss calculation time:  0.000453948974609375
+loss backward time:  0.022901296615600586
+partial loss calculation time:  0.07424163818359375
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.6635)
+
+EPOCH:  3
+full batch graph loading time:  0.052248239517211914
+group buckets input  18164
+
+current graph(block) nodes  848349
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0007090568542480469
+len node_bkt:  173
+len eid_bkt:  173
+len node_bkt:  221
+len eid_bkt:  442
+len node_bkt:  374
+len eid_bkt:  1122
+len node_bkt:  456
+len eid_bkt:  1824
+len node_bkt:  445
+len eid_bkt:  2225
+len node_bkt:  550
+len eid_bkt:  3300
+len node_bkt:  655
+len eid_bkt:  4585
+len node_bkt:  512
+len eid_bkt:  4096
+len node_bkt:  576
+len eid_bkt:  5184
+invoke_udf_reduce time:  0.09180903434753418
+preparing time:  0.023163795471191406
+model forward time:  0.0927577018737793
+loss calculation time:  6.198883056640625e-05
+partial loss calculation time:  0.0010313987731933594
+loss backward time:  0.01615762710571289
+
+current graph(block) nodes  848349
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010085105895996094
+tmp = F.gather_row(idx, eqidx)  2.5987625122070312e-05
+N = math.ceil(len(tmp)/num_split)  2.0265579223632812e-05
+unique_val = np.asarray(list([degree.item()]))  3.0279159545898438e-05
+step:  0
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.0985405445098877
+
+current graph(block) nodes  848349
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010085105895996094
+tmp = F.gather_row(idx, eqidx)  2.6464462280273438e-05
+N = math.ceil(len(tmp)/num_split)  2.002716064453125e-05
+unique_val = np.asarray(list([degree.item()]))  3.0040740966796875e-05
+step:  1
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09035062789916992
+
+current graph(block) nodes  848349
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010251998901367188
+tmp = F.gather_row(idx, eqidx)  2.574920654296875e-05
+N = math.ceil(len(tmp)/num_split)  2.0503997802734375e-05
+unique_val = np.asarray(list([degree.item()]))  3.314018249511719e-05
+step:  2
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09085607528686523
+
+current graph(block) nodes  848349
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00011038780212402344
+tmp = F.gather_row(idx, eqidx)  3.361701965332031e-05
+N = math.ceil(len(tmp)/num_split)  2.0265579223632812e-05
+unique_val = np.asarray(list([degree.item()]))  3.337860107421875e-05
+step:  3
+len node_bkt:  48150
+len eid_bkt:  481500
+invoke_udf_reduce time:  0.09145259857177734
+split  buckets total input  1441871
+preparing time:  0.08398056030273438
+model forward time :  0.37632298469543457
+loss calculation time:  0.0004658699035644531
+loss backward time:  0.022835731506347656
+partial loss calculation time:  0.0741121768951416
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.5988)
+
+pure train time 0.4696085453033447
+EPOCH:  4
+full batch graph loading time:  0.035965681076049805
+group buckets input  18164
+
+current graph(block) nodes  848190
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0006830692291259766
+len node_bkt:  173
+len eid_bkt:  173
+len node_bkt:  221
+len eid_bkt:  442
+len node_bkt:  374
+len eid_bkt:  1122
+len node_bkt:  456
+len eid_bkt:  1824
+len node_bkt:  445
+len eid_bkt:  2225
+len node_bkt:  550
+len eid_bkt:  3300
+len node_bkt:  655
+len eid_bkt:  4585
+len node_bkt:  512
+len eid_bkt:  4096
+len node_bkt:  576
+len eid_bkt:  5184
+invoke_udf_reduce time:  0.09390830993652344
+preparing time:  0.0213165283203125
+model forward time:  0.09487199783325195
+loss calculation time:  6.29425048828125e-05
+partial loss calculation time:  0.0010216236114501953
+loss backward time:  0.01572585105895996
+
+current graph(block) nodes  848190
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0001010894775390625
+tmp = F.gather_row(idx, eqidx)  2.5510787963867188e-05
+N = math.ceil(len(tmp)/num_split)  1.8358230590820312e-05
+unique_val = np.asarray(list([degree.item()]))  3.24249267578125e-05
+step:  0
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09724283218383789
+
+current graph(block) nodes  848190
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010228157043457031
+tmp = F.gather_row(idx, eqidx)  2.574920654296875e-05
+N = math.ceil(len(tmp)/num_split)  2.002716064453125e-05
+unique_val = np.asarray(list([degree.item()]))  3.24249267578125e-05
+step:  1
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.08838486671447754
+
+current graph(block) nodes  848190
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010156631469726562
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  1.9788742065429688e-05
+unique_val = np.asarray(list([degree.item()]))  3.075599670410156e-05
+step:  2
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.08905148506164551
+
+current graph(block) nodes  848190
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  9.965896606445312e-05
+tmp = F.gather_row(idx, eqidx)  2.6941299438476562e-05
+N = math.ceil(len(tmp)/num_split)  2.0503997802734375e-05
+unique_val = np.asarray(list([degree.item()]))  3.0994415283203125e-05
+step:  3
+len node_bkt:  48150
+len eid_bkt:  481500
+invoke_udf_reduce time:  0.0890357494354248
+split  buckets total input  1441822
+preparing time:  0.08261513710021973
+model forward time :  0.3683300018310547
+loss calculation time:  0.00045371055603027344
+loss backward time:  0.022881269454956055
+partial loss calculation time:  0.07414722442626953
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.5354)
+
+pure train time 0.4637186527252197
+EPOCH:  5
+full batch graph loading time:  0.06186032295227051
+group buckets input  18164
+
+current graph(block) nodes  848325
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0006656646728515625
+len node_bkt:  173
+len eid_bkt:  173
+len node_bkt:  221
+len eid_bkt:  442
+len node_bkt:  374
+len eid_bkt:  1122
+len node_bkt:  456
+len eid_bkt:  1824
+len node_bkt:  445
+len eid_bkt:  2225
+len node_bkt:  550
+len eid_bkt:  3300
+len node_bkt:  655
+len eid_bkt:  4585
+len node_bkt:  512
+len eid_bkt:  4096
+len node_bkt:  576
+len eid_bkt:  5184
+invoke_udf_reduce time:  0.09422731399536133
+preparing time:  0.020364761352539062
+model forward time:  0.0951535701751709
+loss calculation time:  6.341934204101562e-05
+partial loss calculation time:  0.0010323524475097656
+loss backward time:  0.017725467681884766
+
+current graph(block) nodes  848325
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0001087188720703125
+tmp = F.gather_row(idx, eqidx)  2.574920654296875e-05
+N = math.ceil(len(tmp)/num_split)  2.0503997802734375e-05
+unique_val = np.asarray(list([degree.item()]))  3.24249267578125e-05
+step:  0
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.10164332389831543
+
+current graph(block) nodes  848325
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  9.894371032714844e-05
+tmp = F.gather_row(idx, eqidx)  2.574920654296875e-05
+N = math.ceil(len(tmp)/num_split)  2.09808349609375e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  1
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.08971929550170898
+
+current graph(block) nodes  848325
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010061264038085938
+tmp = F.gather_row(idx, eqidx)  2.5510787963867188e-05
+N = math.ceil(len(tmp)/num_split)  2.0742416381835938e-05
+unique_val = np.asarray(list([degree.item()]))  3.170967102050781e-05
+step:  2
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09037303924560547
+
+current graph(block) nodes  848325
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010228157043457031
+tmp = F.gather_row(idx, eqidx)  2.574920654296875e-05
+N = math.ceil(len(tmp)/num_split)  1.9073486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.24249267578125e-05
+step:  3
+len node_bkt:  48150
+len eid_bkt:  481500
+invoke_udf_reduce time:  0.09046411514282227
+split  buckets total input  1442597
+preparing time:  0.08250093460083008
+model forward time :  0.3767564296722412
+loss calculation time:  0.00044846534729003906
+loss backward time:  0.022835969924926758
+partial loss calculation time:  0.07422137260437012
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.4706)
+
+pure train time 0.47242188453674316
+EPOCH:  6
+full batch graph loading time:  0.05203986167907715
+group buckets input  18164
+
+current graph(block) nodes  847553
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0006880760192871094
+len node_bkt:  173
+len eid_bkt:  173
+len node_bkt:  221
+len eid_bkt:  442
+len node_bkt:  374
+len eid_bkt:  1122
+len node_bkt:  456
+len eid_bkt:  1824
+len node_bkt:  445
+len eid_bkt:  2225
+len node_bkt:  550
+len eid_bkt:  3300
+len node_bkt:  655
+len eid_bkt:  4585
+len node_bkt:  512
+len eid_bkt:  4096
+len node_bkt:  576
+len eid_bkt:  5184
+invoke_udf_reduce time:  0.09340429306030273
+preparing time:  0.020479440689086914
+model forward time:  0.09433913230895996
+loss calculation time:  6.222724914550781e-05
+partial loss calculation time:  0.0010263919830322266
+loss backward time:  0.01744675636291504
+
+current graph(block) nodes  847553
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0001010894775390625
+tmp = F.gather_row(idx, eqidx)  2.6464462280273438e-05
+N = math.ceil(len(tmp)/num_split)  2.2172927856445312e-05
+unique_val = np.asarray(list([degree.item()]))  3.170967102050781e-05
+step:  0
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09901118278503418
+
+current graph(block) nodes  847553
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010967254638671875
+tmp = F.gather_row(idx, eqidx)  2.6226043701171875e-05
+N = math.ceil(len(tmp)/num_split)  2.0265579223632812e-05
+unique_val = np.asarray(list([degree.item()]))  3.0994415283203125e-05
+step:  1
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09002876281738281
+
+current graph(block) nodes  847553
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  9.918212890625e-05
+tmp = F.gather_row(idx, eqidx)  2.6226043701171875e-05
+N = math.ceil(len(tmp)/num_split)  2.0742416381835938e-05
+unique_val = np.asarray(list([degree.item()]))  2.9802322387695312e-05
+step:  2
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09012866020202637
+
+current graph(block) nodes  847553
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010156631469726562
+tmp = F.gather_row(idx, eqidx)  2.6941299438476562e-05
+N = math.ceil(len(tmp)/num_split)  1.9073486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  3
+len node_bkt:  48150
+len eid_bkt:  481500
+invoke_udf_reduce time:  0.09158205986022949
+split  buckets total input  1441226
+preparing time:  0.08255338668823242
+model forward time :  0.3753330707550049
+loss calculation time:  0.00045680999755859375
+loss backward time:  0.022731781005859375
+partial loss calculation time:  0.07415509223937988
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.4048)
+
+pure train time 0.47019124031066895
+EPOCH:  7
+full batch graph loading time:  0.0420989990234375
+group buckets input  18164
+
+current graph(block) nodes  848583
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0006756782531738281
+len node_bkt:  173
+len eid_bkt:  173
+len node_bkt:  221
+len eid_bkt:  442
+len node_bkt:  374
+len eid_bkt:  1122
+len node_bkt:  456
+len eid_bkt:  1824
+len node_bkt:  445
+len eid_bkt:  2225
+len node_bkt:  550
+len eid_bkt:  3300
+len node_bkt:  655
+len eid_bkt:  4585
+len node_bkt:  512
+len eid_bkt:  4096
+len node_bkt:  576
+len eid_bkt:  5184
+invoke_udf_reduce time:  0.09456849098205566
+preparing time:  0.020575284957885742
+model forward time:  0.09549713134765625
+loss calculation time:  6.461143493652344e-05
+partial loss calculation time:  0.0010254383087158203
+loss backward time:  0.016683340072631836
+
+current graph(block) nodes  848583
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010442733764648438
+tmp = F.gather_row(idx, eqidx)  2.6941299438476562e-05
+N = math.ceil(len(tmp)/num_split)  2.1219253540039062e-05
+unique_val = np.asarray(list([degree.item()]))  3.0279159545898438e-05
+step:  0
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09997415542602539
+
+current graph(block) nodes  848583
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010180473327636719
+tmp = F.gather_row(idx, eqidx)  2.5987625122070312e-05
+N = math.ceil(len(tmp)/num_split)  2.0265579223632812e-05
+unique_val = np.asarray(list([degree.item()]))  3.0040740966796875e-05
+step:  1
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09079575538635254
+
+current graph(block) nodes  848583
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010323524475097656
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  2.002716064453125e-05
+unique_val = np.asarray(list([degree.item()]))  3.0994415283203125e-05
+step:  2
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09157729148864746
+
+current graph(block) nodes  848583
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010967254638671875
+tmp = F.gather_row(idx, eqidx)  2.6464462280273438e-05
+N = math.ceil(len(tmp)/num_split)  1.9550323486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.170967102050781e-05
+step:  3
+len node_bkt:  48150
+len eid_bkt:  481500
+invoke_udf_reduce time:  0.09462881088256836
+split  buckets total input  1441628
+preparing time:  0.0822446346282959
+model forward time :  0.38171911239624023
+loss calculation time:  0.0004508495330810547
+loss backward time:  0.022871732711791992
+partial loss calculation time:  0.07401609420776367
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.3381)
+
+pure train time 0.47773170471191406
+EPOCH:  8
+full batch graph loading time:  0.03877091407775879
+group buckets input  18164
+
+current graph(block) nodes  848110
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0006835460662841797
+len node_bkt:  173
+len eid_bkt:  173
+len node_bkt:  221
+len eid_bkt:  442
+len node_bkt:  374
+len eid_bkt:  1122
+len node_bkt:  456
+len eid_bkt:  1824
+len node_bkt:  445
+len eid_bkt:  2225
+len node_bkt:  550
+len eid_bkt:  3300
+len node_bkt:  655
+len eid_bkt:  4585
+len node_bkt:  512
+len eid_bkt:  4096
+len node_bkt:  576
+len eid_bkt:  5184
+invoke_udf_reduce time:  0.09502124786376953
+preparing time:  0.020431995391845703
+model forward time:  0.09595513343811035
+loss calculation time:  6.365776062011719e-05
+partial loss calculation time:  0.001032114028930664
+loss backward time:  0.016571044921875
+
+current graph(block) nodes  848110
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  9.918212890625e-05
+tmp = F.gather_row(idx, eqidx)  2.6941299438476562e-05
+N = math.ceil(len(tmp)/num_split)  1.9550323486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.0040740966796875e-05
+step:  0
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.10459446907043457
+
+current graph(block) nodes  848110
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010180473327636719
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  2.0503997802734375e-05
+unique_val = np.asarray(list([degree.item()]))  3.075599670410156e-05
+step:  1
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09148311614990234
+
+current graph(block) nodes  848110
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0001010894775390625
+tmp = F.gather_row(idx, eqidx)  2.6941299438476562e-05
+N = math.ceil(len(tmp)/num_split)  1.9311904907226562e-05
+unique_val = np.asarray(list([degree.item()]))  3.170967102050781e-05
+step:  2
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09194493293762207
+
+current graph(block) nodes  848110
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010156631469726562
+tmp = F.gather_row(idx, eqidx)  2.6464462280273438e-05
+N = math.ceil(len(tmp)/num_split)  2.0265579223632812e-05
+unique_val = np.asarray(list([degree.item()]))  3.0517578125e-05
+step:  3
+len node_bkt:  48150
+len eid_bkt:  481500
+invoke_udf_reduce time:  0.09201765060424805
+split  buckets total input  1441113
+preparing time:  0.08272933959960938
+model forward time :  0.384598970413208
+loss calculation time:  0.0004551410675048828
+loss backward time:  0.02267313003540039
+partial loss calculation time:  0.07419681549072266
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.2706)
+
+pure train time 0.48107290267944336
+EPOCH:  9
+full batch graph loading time:  0.04036712646484375
+group buckets input  18164
+
+current graph(block) nodes  848411
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor([1, 2, 3, 4, 5, 6, 7, 8, 9], device='cuda:0', dtype=torch.int32)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.0006794929504394531
+len node_bkt:  173
+len eid_bkt:  173
+len node_bkt:  221
+len eid_bkt:  442
+len node_bkt:  374
+len eid_bkt:  1122
+len node_bkt:  456
+len eid_bkt:  1824
+len node_bkt:  445
+len eid_bkt:  2225
+len node_bkt:  550
+len eid_bkt:  3300
+len node_bkt:  655
+len eid_bkt:  4585
+len node_bkt:  512
+len eid_bkt:  4096
+len node_bkt:  576
+len eid_bkt:  5184
+invoke_udf_reduce time:  0.0968775749206543
+preparing time:  0.020524263381958008
+model forward time:  0.09781217575073242
+loss calculation time:  6.318092346191406e-05
+partial loss calculation time:  0.0010223388671875
+loss backward time:  0.01622629165649414
+
+current graph(block) nodes  848411
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010085105895996094
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  2.0742416381835938e-05
+unique_val = np.asarray(list([degree.item()]))  3.0517578125e-05
+step:  0
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09967947006225586
+
+current graph(block) nodes  848411
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010013580322265625
+tmp = F.gather_row(idx, eqidx)  2.7418136596679688e-05
+N = math.ceil(len(tmp)/num_split)  2.002716064453125e-05
+unique_val = np.asarray(list([degree.item()]))  3.123283386230469e-05
+step:  1
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.091827392578125
+
+current graph(block) nodes  848411
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010037422180175781
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  1.9550323486328125e-05
+unique_val = np.asarray(list([degree.item()]))  3.147125244140625e-05
+step:  2
+len node_bkt:  48153
+len eid_bkt:  481530
+invoke_udf_reduce time:  0.09280133247375488
+
+current graph(block) nodes  848411
+current graph(block) dst nodes  196571
+current graph(block) edges  1949041
+---------- degree  tensor(10)
+eqidx = F.nonzero_1d(F.equal(sorted_val, v))  0.00010728836059570312
+tmp = F.gather_row(idx, eqidx)  2.6702880859375e-05
+N = math.ceil(len(tmp)/num_split)  1.9788742065429688e-05
+unique_val = np.asarray(list([degree.item()]))  3.0994415283203125e-05
+step:  3
+len node_bkt:  48150
+len eid_bkt:  481500
+invoke_udf_reduce time:  0.09261631965637207
+split  buckets total input  1441544
+preparing time:  0.08720541000366211
+model forward time :  0.3816208839416504
+loss calculation time:  0.00044846534729003906
+loss backward time:  0.022484302520751953
+partial loss calculation time:  0.07415318489074707
+-------------------------------------------------------------------------------loss_sum  :  tensor(4.1990)
+
+pure train time 0.47994470596313477
+
+avg epoch time:  2.2661442075456892
+avg pure train time:  0.47352709089006695
+avg block subtensor loading time:  0.12493181228637695
+avg preparing time:  0.18587776592799596
+avg block to device time:  0.01648085457938058
+avg grouping time:  0.13447768347603933
+avg splitting time:  1.744379963193621
+avg optimizing time:  0.001046895980834961
+
+avg input nodes number :  1459849.857142857
+avg real block input nodes number :  848217.2857142857
+avg input nodes number/pure train time :  3082927.851918345
+avg input nodes number/avg epoch time :  644199.8934939466
